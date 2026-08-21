@@ -80,6 +80,15 @@ function validate(filePath) {
       }
     }
   }
+
+  if (landingPage.backgroundVideo !== undefined) {
+    const backgroundVideo = landingPage.backgroundVideo;
+    if (!backgroundVideo || typeof backgroundVideo !== 'object') fail('landingPage.backgroundVideo must be an object');
+    if (!backgroundVideo.src || !String(backgroundVideo.src).trim()) fail('landingPage.backgroundVideo.src is required');
+    if (backgroundVideo.poster !== undefined && typeof backgroundVideo.poster !== 'string') {
+      fail('landingPage.backgroundVideo.poster must be a string');
+    }
+  }
 }
 
 const filePath = process.argv[2] || 'assets/landing-page.json';

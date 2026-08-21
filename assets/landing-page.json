@@ -55,7 +55,10 @@
       "heading": "Have a question for the team?",
       "body": "Juno can answer most questions directly in chat — or reach out to us by email.",
       "email": "hello@gabrieloperator.com"
+    },
+    "backgroundVideo": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background.mp4"
     }
   },
-  "commitMessage": "Match hero to the reference landing page and add more configurable fields"
+  "commitMessage": "Add scroll-scrubbed background video"
 }
