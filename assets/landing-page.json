@@ -17,23 +17,47 @@
       { "role": "assistant", "text": "Tell me about yourself and who you're looking for. I'll start with what actually matters." }
     ],
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-mascot.png",
-    "features": [
-      {
-        "icon": "heart",
-        "title": "A person, not a profile",
-        "body": "Every introduction comes with a reason Juno thinks you two should meet — not a mysterious percentage."
-      },
-      {
-        "icon": "shield-check",
-        "title": "Private, always",
-        "body": "No public deck, no strangers browsing you. Names and contact details stay private until you both say yes."
-      },
-      {
-        "icon": "sparkles",
-        "title": "He remembers the details",
-        "body": "Including the ones you only mention once — tell Juno, and he'll keep it in mind for every introduction."
-      }
-    ],
+    "gallery": {
+      "emoji": "🥳",
+      "heading": "Dating apps gave you everyone. Juno introduces you to someone.",
+      "headingAccent": "someone.",
+      "body": "He learns the details that never fit in a bio — the pace of life you want, what makes you laugh, and the ordinary Tuesday you hope to share.",
+      "items": [
+        { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg", "alt": "Amara", "caption": "People with substance" },
+        { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg", "alt": "Malcolm", "caption": "Introductions with context" },
+        { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg", "alt": "Nia", "caption": "Dates worth dressing for" }
+      ]
+    },
+    "bento": {
+      "photoTall": { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg", "alt": "Malcolm smiling", "name": "Malcolm · 34", "meta": "Brooklyn" },
+      "photoWide": { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg", "alt": "Nia smiling outdoors", "name": "Nia · 29", "meta": "London" },
+      "mainCard": { "emoji": "🔮", "title": "Specific beats endless.", "body": "Juno filters for shared values, compatible lives, and the kind of spark you can actually build on.", "tags": ["Kind", "Curious", "Ready"] },
+      "ctaCard": { "emoji": "🏹", "title": "A person, not a profile.", "body": "Every introduction comes with a reason Juno thinks you two should meet — not a mysterious percentage.", "ctaLabel": "Let Juno introduce you" },
+      "smallCardA": { "emoji": "🧠", "title": "He remembers the details.", "body": "Including the ones you only mention once." },
+      "smallCardB": { "emoji": "🫶", "title": "Private, always.", "body": "No public deck. No strangers browsing you." }
+    },
+    "howItWorks": {
+      "kicker": "💌 HOW THE MAGIC HAPPENS",
+      "heading": "From \"tell me about you\" to \"when can we meet?\"",
+      "steps": [
+        { "emoji": "☕️", "title": "Have a real conversation", "body": "Tell Juno what you want, what hasn't worked, and what a good relationship feels like to you." },
+        { "emoji": "🕵️", "title": "Juno does the looking", "body": "He searches the community for compatible people and checks the fit beyond the obvious." },
+        { "emoji": "💘", "title": "Meet one good possibility", "body": "Get a thoughtful introduction with context. You both opt in before anything is shared." },
+        { "emoji": "🥂", "title": "Go on an actual date", "body": "Juno can suggest the place, break the ice, and use your feedback to sharpen the next introduction." }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "JUNO'S LATEST HUNCH",
+      "heading": "Two full lives. One very good reason to meet.",
+      "body": "They both cross town for great bread, call their family on Sundays, and would rather host dinner than shout over a bar.",
+      "checklist": ["Same relationship pace", "Close enough to be spontaneous", "Equally serious about dessert"],
+      "ctaLabel": "Find my kind of person",
+      "badgeLabel": "Juno's hunch",
+      "people": [
+        { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg", "alt": "Amara", "name": "Amara, 31", "meta": "Sunday markets · Big novels" },
+        { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg", "alt": "Leo", "name": "Leo, 33", "meta": "Fresh pasta · Tiny cinemas" }
+      ]
+    },
     "faqs": [
       {
         "question": "Is Juno a dating app?",
