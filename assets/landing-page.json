@@ -36,16 +36,6 @@
       "smallCardA": { "emoji": "🧠", "title": "He remembers the details.", "body": "Including the ones you only mention once." },
       "smallCardB": { "emoji": "🫶", "title": "Private, always.", "body": "No public deck. No strangers browsing you." }
     },
-    "howItWorks": {
-      "kicker": "💌 HOW THE MAGIC HAPPENS",
-      "heading": "From \"tell me about you\" to \"when can we meet?\"",
-      "steps": [
-        { "emoji": "☕️", "title": "Have a real conversation", "body": "Tell Juno what you want, what hasn't worked, and what a good relationship feels like to you." },
-        { "emoji": "🕵️", "title": "Juno does the looking", "body": "He searches the community for compatible people and checks the fit beyond the obvious." },
-        { "emoji": "💘", "title": "Meet one good possibility", "body": "Get a thoughtful introduction with context. You both opt in before anything is shared." },
-        { "emoji": "🥂", "title": "Go on an actual date", "body": "Juno can suggest the place, break the ice, and use your feedback to sharpen the next introduction." }
-      ]
-    },
     "matchPreview": {
       "kicker": "JUNO'S LATEST HUNCH",
       "heading": "Two full lives. One very good reason to meet.",
