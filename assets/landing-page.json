@@ -145,8 +145,9 @@
       "body": "Juno can answer most questions directly in chat — or reach out to us by email.",
       "email": "hello@gabrieloperator.com"
     },
-    "backgroundVideo": {
-      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background.mp4"
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
     },
     "closing": {
       "kicker": "Ready when you are",
@@ -155,5 +156,5 @@
       "ctaLabel": "Talk to Juno"
     }
   },
-  "commitMessage": "Restore How It Works and replace landing page emoji with icons"
+  "commitMessage": "Replace the scrubbed background video with its opening frame"
 }

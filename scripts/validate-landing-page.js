@@ -239,6 +239,19 @@ function validate(filePath) {
     }
   }
 
+  if (landingPage.backgroundImage !== undefined) {
+    const backgroundImage = landingPage.backgroundImage;
+    if (!backgroundImage || typeof backgroundImage !== 'object') fail('landingPage.backgroundImage must be an object');
+    if (!backgroundImage.src || !String(backgroundImage.src).trim()) fail('landingPage.backgroundImage.src is required');
+    if (backgroundImage.alt !== undefined && typeof backgroundImage.alt !== 'string') {
+      fail('landingPage.backgroundImage.alt must be a string');
+    }
+  }
+
+  if (landingPage.backgroundVideo !== undefined && landingPage.backgroundImage !== undefined) {
+    fail('landingPage must use either backgroundVideo or backgroundImage, not both');
+  }
+
   if (landingPage.closing !== undefined) {
     const closing = landingPage.closing;
     if (!closing || typeof closing !== 'object') fail('landingPage.closing must be an object');

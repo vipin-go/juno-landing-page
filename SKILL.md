@@ -122,7 +122,9 @@ Only `headline` is required — everything else is optional and falls back to a 
 - Do not put emoji characters anywhere in `landingPage`. Use a supported icon key instead; the validator rejects emoji characters and legacy `emoji` fields.
 - `landingPage.faqs` (optional, array) — rendered as an accordion; adds a "FAQ" header nav link. Omit to leave both out. Each entry: `question`, `answer` (both required).
 - `landingPage.contact` (optional, object) — adds a Contact section + "Contact" header nav link. Omit to leave both out. Fields: `heading`, `body`, `email` (all optional strings; `email` renders a mailto button).
+- `landingPage.backgroundImage` (optional, object) — static hero background with required `src` and optional `alt`. Use an empty `alt` for a decorative image.
 - `landingPage.backgroundVideo` (optional, object) — full-page video background scrubbed by scroll position (never autoplayed). `src` (required) must be a publicly reachable URL — this repo is public, so `assets/media/<file>.mp4` can be referenced as `https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/<file>.mp4`. `poster` (optional) is shown before enough video has loaded to scrub. When set, every section becomes translucent automatically so the video shows through.
+- `backgroundImage` and `backgroundVideo` are mutually exclusive; choose one.
 
 The only non-configurable thing on the page is the "Made using Gabriel Operator" footer — that's hardcoded in the source, not this file.
 
