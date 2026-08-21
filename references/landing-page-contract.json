@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "target": "landing_page_definition",
+  "definitionFile": "assets/landing-page.json",
+  "landingPage": {
+    "fields": [
+      { "key": "headline", "type": "text", "required": true },
+      { "key": "subheadline", "type": "text", "required": false },
+      { "key": "ctaLabel", "type": "text", "required": false }
+    ],
+    "featureItem": {
+      "fields": [
+        { "key": "icon", "type": "text", "required": false, "description": "One of the allowed icon tokens — see SKILL.md" },
+        { "key": "title", "type": "text", "required": true },
+        { "key": "body", "type": "text", "required": true }
+      ]
+    }
+  }
+}

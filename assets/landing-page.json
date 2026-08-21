@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 2,
+  "resourceKey": "landing_page.juno",
+  "runtimeDataPolicy": "definitions_only",
+  "landingPage": {
+    "headline": "Meet someone worth meeting",
+    "subheadline": "Juno introduces you to one real person at a time — never a list, never both sides at once, and only once you both say yes.",
+    "features": [
+      {
+        "icon": "heart",
+        "title": "One introduction at a time",
+        "body": "No swiping, no browsing profiles. Juno finds one person who's actually a fit and introduces just them."
+      },
+      {
+        "icon": "shield-check",
+        "title": "Nothing shared without consent",
+        "body": "Names, photos, and contact details stay private until both sides say yes."
+      },
+      {
+        "icon": "sparkles",
+        "title": "A real conversation, not a form",
+        "body": "Tell Juno about yourself in chat. It asks the right questions and remembers what matters."
+      }
+    ],
+    "ctaLabel": "Talk to Juno"
+  },
+  "commitMessage": "Initial landing page content"
+}

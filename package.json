@@ -1,0 +1,19 @@
+{
+  "name": "juno-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Git-backed marketing landing page content for the Juno persona",
+  "keywords": [
+    "gabriel-operator",
+    "persona",
+    "landing-page",
+    "skills"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "validate": "node scripts/validate-landing-page.js assets/landing-page.json"
+  }
+}
