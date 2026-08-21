@@ -3,6 +3,23 @@
   "resourceKey": "landing_page.juno",
   "runtimeDataPolicy": "definitions_only",
   "landingPage": {
+    "design": {
+      "variant": "signature",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        { "label": "Meet Juno", "target": "meet" },
+        { "label": "FAQ", "target": "faq" },
+        { "label": "Contact", "target": "contact" }
+      ]
+    },
     "badge": "Matchmaking, done thoughtfully",
     "headline": "Real introductions",
     "headlineAccent": "Real",
@@ -16,7 +33,12 @@
       { "role": "user", "text": "How does that work?" },
       { "role": "assistant", "text": "Tell me about yourself and who you're looking for. I'll start with what actually matters." }
     ],
-    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-mascot.png",
+    "heroChat": {
+      "statusLabel": "Online · usually replies instantly",
+      "inputPlaceholder": "Ask Juno anything…",
+      "suggestedPrompts": ["How does matching work?", "Is my profile private?", "Help me get started"]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
     "gallery": {
       "emoji": "🥳",
       "heading": "Dating apps gave you everyone. Juno introduces you to someone.",
@@ -66,6 +88,10 @@
         "answer": "Yes, chatting with Juno and getting introductions is free."
       }
     ],
+    "faqIntro": {
+      "kicker": "🤔 Good questions",
+      "heading": "Before Juno\nplays cupid."
+    },
     "contact": {
       "heading": "Have a question for the team?",
       "body": "Juno can answer most questions directly in chat — or reach out to us by email.",
@@ -73,7 +99,13 @@
     },
     "backgroundVideo": {
       "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background.mp4"
+    },
+    "closing": {
+      "kicker": "Ready when you are",
+      "heading": "Real introductions.\none person at a time.",
+      "body": "Tell Juno what matters to you. He'll take it from there — thoughtfully, privately, and one real person at a time.",
+      "ctaLabel": "Talk to Juno"
     }
   },
-  "commitMessage": "Restore hero background video, scoped to the hero section with no tint overlay"
+  "commitMessage": "Use model-driven green signature design, header, and cupid artwork"
 }
