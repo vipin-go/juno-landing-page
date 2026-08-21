@@ -3,48 +3,49 @@
   "resourceKey": "landing_page.juno",
   "runtimeDataPolicy": "definitions_only",
   "landingPage": {
-    "badge": "AI matchmaking, done right",
+    "badge": "Matchmaking, done thoughtfully",
     "headline": "Real introductions",
     "headlineAccent": "Real",
     "headlineLine2": "one person at a time",
-    "subheadline": "Juno introduces you to one real person at a time — never a list, never both sides at once, and only once you both say yes.",
+    "subheadline": "Talk to Juno like you would a brilliant friend. He'll learn what matters, make one thoughtful introduction, and only connect you when you both say yes.",
     "ctaLabel": "Talk to Juno",
-    "secondaryCtaLabel": "How it works",
+    "secondaryCtaLabel": "See how it works",
     "featureTags": ["No swiping", "Mutual consent only", "Real conversations", "Private until you say yes"],
     "demoConversation": [
-      { "role": "assistant", "text": "Hi, I'm Juno. I introduce one real person at a time, never a list." },
+      { "role": "assistant", "text": "Hi, I'm Juno. I introduce one real person at a time — never a list." },
       { "role": "user", "text": "How does that work?" },
-      { "role": "assistant", "text": "Tell me about yourself and who you're looking for — I'll find one great match and ask if you're both interested." }
+      { "role": "assistant", "text": "Tell me about yourself and who you're looking for. I'll start with what actually matters." }
     ],
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-mascot.png",
     "features": [
       {
         "icon": "heart",
-        "title": "One introduction at a time",
-        "body": "No swiping, no browsing profiles. Juno finds one person who's actually a fit and introduces just them."
+        "title": "A person, not a profile",
+        "body": "Every introduction comes with a reason Juno thinks you two should meet — not a mysterious percentage."
       },
       {
         "icon": "shield-check",
-        "title": "Nothing shared without consent",
-        "body": "Names, photos, and contact details stay private until both sides say yes."
+        "title": "Private, always",
+        "body": "No public deck, no strangers browsing you. Names and contact details stay private until you both say yes."
       },
       {
         "icon": "sparkles",
-        "title": "A real conversation, not a form",
-        "body": "Tell Juno about yourself in chat. It asks the right questions and remembers what matters."
+        "title": "He remembers the details",
+        "body": "Including the ones you only mention once — tell Juno, and he'll keep it in mind for every introduction."
       }
     ],
     "faqs": [
       {
-        "question": "How is this different from a dating app?",
-        "answer": "There's no browsing or swiping. Juno introduces you to one person at a time, based on an actual conversation about who you are and who you're looking for."
+        "question": "Is Juno a dating app?",
+        "answer": "Not really — there's no swipe deck or public profile. You tell Juno who you are and what you want, and he makes one thoughtful introduction at a time."
       },
       {
-        "question": "Will my details be shared right away?",
-        "answer": "No. Your name, photo, and contact details stay private until both you and the other person say yes to an introduction."
+        "question": "Will everyone see my profile?",
+        "answer": "No. Your profile is private by default. Juno only shares an approved introduction with someone he thinks could be a fit — never in a public or searchable feed."
       },
       {
-        "question": "What if I'm not interested in a suggestion?",
-        "answer": "Just tell Juno. It'll keep looking — there's no pressure to say yes to any introduction."
+        "question": "What if I'm not interested in a match?",
+        "answer": "Just tell Juno. Declining never penalizes you or the other person, and he'll keep looking until it's right."
       },
       {
         "question": "Is Juno free to use?",
@@ -55,10 +56,7 @@
       "heading": "Have a question for the team?",
       "body": "Juno can answer most questions directly in chat — or reach out to us by email.",
       "email": "hello@gabrieloperator.com"
-    },
-    "backgroundVideo": {
-      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background.mp4"
     }
   },
-  "commitMessage": "Add scroll-scrubbed background video"
+  "commitMessage": "Merge hero content and mascot artwork from the Codex reference site"
 }
