@@ -16,6 +16,7 @@
       "brandMark": "heart",
       "navItems": [
         { "label": "About", "target": "about" },
+        { "label": "How it works", "target": "how-it-works" },
         { "label": "Stories", "target": "stories" },
         { "label": "FAQs", "target": "faq" }
       ],
@@ -27,6 +28,7 @@
     "headlineLine2": "one person at a time",
     "subheadline": "Talk to Juno like you would a brilliant friend. He'll learn what matters, make one thoughtful introduction, and only connect you when you both say yes.",
     "ctaLabel": "Talk to Juno",
+    "secondaryCtaLabel": "See how it works",
     "featureTags": ["No swiping", "Mutual consent only", "Real conversations", "Private until you say yes"],
     "demoConversation": [
       { "role": "assistant", "text": "Hi, I'm Juno. I introduce one real person at a time — never a list." },
@@ -40,7 +42,7 @@
     },
     "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
     "gallery": {
-      "emoji": "🥳",
+      "icon": "users",
       "heading": "Dating apps gave you everyone. Juno introduces you to someone.",
       "headingAccent": "someone.",
       "body": "He learns the details that never fit in a bio — the pace of life you want, what makes you laugh, and the ordinary Tuesday you hope to share.",
@@ -53,10 +55,38 @@
     "bento": {
       "photoTall": { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg", "alt": "Malcolm smiling", "name": "Malcolm · 34", "meta": "Brooklyn" },
       "photoWide": { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg", "alt": "Nia smiling outdoors", "name": "Nia · 29", "meta": "London" },
-      "mainCard": { "emoji": "🔮", "title": "Specific beats endless.", "body": "Juno filters for shared values, compatible lives, and the kind of spark you can actually build on.", "tags": ["Kind", "Curious", "Ready"] },
-      "ctaCard": { "emoji": "🏹", "title": "A person, not a profile.", "body": "Every introduction comes with a reason Juno thinks you two should meet — not a mysterious percentage.", "ctaLabel": "Let Juno introduce you" },
-      "smallCardA": { "emoji": "🧠", "title": "He remembers the details.", "body": "Including the ones you only mention once." },
-      "smallCardB": { "emoji": "🫶", "title": "Private, always.", "body": "No public deck. No strangers browsing you." }
+      "mainCard": { "icon": "search", "title": "Specific beats endless.", "body": "Juno filters for shared values, compatible lives, and the kind of spark you can actually build on.", "tags": ["Kind", "Curious", "Ready"] },
+      "ctaCard": { "icon": "user-plus", "title": "A person, not a profile.", "body": "Every introduction comes with a reason Juno thinks you two should meet — not a mysterious percentage.", "ctaLabel": "Let Juno introduce you" },
+      "smallCardA": { "icon": "lightbulb", "title": "He remembers the details.", "body": "Including the ones you only mention once." },
+      "smallCardB": { "icon": "lock", "title": "Private, always.", "body": "No public deck. No strangers browsing you." }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "How the magic happens",
+      "heading": "From \"tell me about you\" to \"when can we meet?\"",
+      "headingAccent": "when can we meet?",
+      "steps": [
+        {
+          "icon": "chat",
+          "title": "Have a real conversation",
+          "body": "Tell Juno what you want, what has not worked, and what a good relationship feels like to you."
+        },
+        {
+          "icon": "search",
+          "title": "Juno does the looking",
+          "body": "He searches the private community for compatible people and checks the fit beyond the obvious."
+        },
+        {
+          "icon": "user-plus",
+          "title": "Meet one good possibility",
+          "body": "Get a thoughtful introduction with context. You both opt in before anything is shared."
+        },
+        {
+          "icon": "calendar",
+          "title": "Go on an actual date",
+          "body": "Juno can suggest the place, break the ice, and use your feedback to make the next introduction even sharper."
+        }
+      ]
     },
     "matchPreview": {
       "kicker": "JUNO'S LATEST HUNCH",
@@ -71,7 +101,8 @@
       ]
     },
     "stories": {
-      "kicker": "🤩 FROM THE GROUP CHAT",
+      "icon": "chat",
+      "kicker": "From the group chat",
       "heading": "Dates people text\ntheir friends about.",
       "quote": "Juno skipped the small talk. Our first date lasted four hours, and our second happened two days later.",
       "people": [
@@ -81,9 +112,9 @@
       "attribution": "Nia + Malcolm",
       "meta": "Introduced in London · 11 months together",
       "stats": [
-        { "emoji": "💘", "value": "12.4K", "label": "thoughtful introductions" },
-        { "emoji": "🥂", "value": "68%", "label": "turn into a first date" },
-        { "emoji": "🫶", "value": "4.9/5", "label": "average member rating" }
+        { "icon": "heart", "value": "12.4K", "label": "thoughtful introductions" },
+        { "icon": "calendar", "value": "68%", "label": "turn into a first date" },
+        { "icon": "star", "value": "4.9/5", "label": "average member rating" }
       ]
     },
     "faqs": [
@@ -105,7 +136,8 @@
       }
     ],
     "faqIntro": {
-      "kicker": "🤔 Good questions",
+      "icon": "question-mark",
+      "kicker": "Good questions",
       "heading": "Before Juno\nplays cupid."
     },
     "contact": {
@@ -123,5 +155,5 @@
       "ctaLabel": "Talk to Juno"
     }
   },
-  "commitMessage": "Match the model-driven menu and Stories section to Juno Matchmaker"
+  "commitMessage": "Restore How It Works and replace landing page emoji with icons"
 }

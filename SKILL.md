@@ -21,11 +21,38 @@ metadata:
   "resourceKey": "landing_page.example",
   "runtimeDataPolicy": "definitions_only",
   "landingPage": {
+    "header": {
+      "navItems": [
+        { "label": "About", "target": "about" },
+        { "label": "How it works", "target": "how-it-works" },
+        { "label": "Stories", "target": "stories" },
+        { "label": "FAQs", "target": "faq" }
+      ]
+    },
     "headline": "One line, the whole pitch",
     "subheadline": "One or two sentences of supporting context",
     "features": [
       { "icon": "heart", "title": "Feature title", "body": "One or two sentences." }
     ],
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "How it works",
+      "heading": "A clear path from start to finish.",
+      "steps": [
+        { "icon": "chat", "title": "Start a conversation", "body": "Describe the first step." },
+        { "icon": "search", "title": "Review the possibilities", "body": "Describe the second step." },
+        { "icon": "user-plus", "title": "Make the connection", "body": "Describe the third step." }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "heading": "A social-proof heading.",
+      "quote": "A concise testimonial.",
+      "attribution": "A person or couple",
+      "stats": [
+        { "icon": "star", "value": "A value", "label": "A short metric label" }
+      ]
+    },
     "ctaLabel": "Talk to the persona"
   },
   "commitMessage": "Update landing page content"
@@ -63,8 +90,8 @@ Two consequences:
 
 ## Mental model
 
-- One repo is one persona's landing page copy — headline, a short supporting
-  line, a small list of feature highlights, and one call-to-action label.
+- One repo is one persona's landing page model — header, hero, feature
+  highlights, process, testimonials, FAQs, contact, and conversion copy.
 - This is presentation copy, not behavior. It does not affect chat logic,
   matching, or tools — only what's shown on `/chat/:agentId` before the
   visitor starts chatting.
@@ -87,7 +114,12 @@ Only `headline` is required — everything else is optional and falls back to a 
 - `landingPage.features` (optional, array) — each entry:
   - `title` (required, string)
   - `body` (required, string)
-  - `icon` (optional, one of: `heart`, `shield-check`, `sparkles`, `chat`, `users`, `lock`, `check`, `star`)
+  - `icon` (optional, one of: `heart`, `shield-check`, `sparkles`, `chat`, `users`, `lock`, `check`, `star`, `search`, `lightbulb`, `user-plus`, `calendar`, `question-mark`, `envelope`)
+- `landingPage.gallery.icon` (optional) and each `landingPage.bento.*Card.icon` (required when the bento section is present) use the same icon-library keys.
+- `landingPage.howItWorks` (optional, object) — renders the numbered process section. Requires `kicker`, `heading`, and a non-empty `steps` array; each step requires `icon`, `title`, and `body`.
+- `landingPage.stories` (optional, object) — renders the testimonial section. Requires `heading`, `quote`, and `attribution`; optional `icon`, `kicker`, `people`, `meta`, and `stats` use model-authored content.
+- `landingPage.faqIntro.icon` (optional) uses the same icon-library keys.
+- Do not put emoji characters anywhere in `landingPage`. Use a supported icon key instead; the validator rejects emoji characters and legacy `emoji` fields.
 - `landingPage.faqs` (optional, array) — rendered as an accordion; adds a "FAQ" header nav link. Omit to leave both out. Each entry: `question`, `answer` (both required).
 - `landingPage.contact` (optional, object) — adds a Contact section + "Contact" header nav link. Omit to leave both out. Fields: `heading`, `body`, `email` (all optional strings; `email` renders a mailto button).
 - `landingPage.backgroundVideo` (optional, object) — full-page video background scrubbed by scroll position (never autoplayed). `src` (required) must be a publicly reachable URL — this repo is public, so `assets/media/<file>.mp4` can be referenced as `https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/<file>.mp4`. `poster` (optional) is shown before enough video has loaded to scrub. When set, every section becomes translucent automatically so the video shows through.
