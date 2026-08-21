@@ -60,6 +60,26 @@ function validate(filePath) {
       }
     });
   }
+
+  if (landingPage.faqs !== undefined) {
+    if (!Array.isArray(landingPage.faqs)) fail('landingPage.faqs must be an array');
+    landingPage.faqs.forEach((faq, index) => {
+      const label = `landingPage.faqs[${index}]`;
+      if (!faq || typeof faq !== 'object') fail(`${label} must be an object`);
+      if (!faq.question || !String(faq.question).trim()) fail(`${label}.question is required`);
+      if (!faq.answer || !String(faq.answer).trim()) fail(`${label}.answer is required`);
+    });
+  }
+
+  if (landingPage.contact !== undefined) {
+    const contact = landingPage.contact;
+    if (!contact || typeof contact !== 'object') fail('landingPage.contact must be an object');
+    for (const key of ['heading', 'body', 'email']) {
+      if (contact[key] !== undefined && typeof contact[key] !== 'string') {
+        fail(`landingPage.contact.${key} must be a string`);
+      }
+    }
+  }
 }
 
 const filePath = process.argv[2] || 'assets/landing-page.json';

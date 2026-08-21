@@ -88,6 +88,10 @@ Only `headline` is required — everything else is optional and falls back to a 
   - `title` (required, string)
   - `body` (required, string)
   - `icon` (optional, one of: `heart`, `shield-check`, `sparkles`, `chat`, `users`, `lock`, `check`, `star`)
+- `landingPage.faqs` (optional, array) — rendered as an accordion; adds a "FAQ" header nav link. Omit to leave both out. Each entry: `question`, `answer` (both required).
+- `landingPage.contact` (optional, object) — adds a Contact section + "Contact" header nav link. Omit to leave both out. Fields: `heading`, `body`, `email` (all optional strings; `email` renders a mailto button).
+
+The only non-configurable thing on the page is the "Made using Gabriel Operator" footer — that's hardcoded in the source, not this file.
 
 ## Common edits
 

@@ -32,7 +32,30 @@
         "title": "A real conversation, not a form",
         "body": "Tell Juno about yourself in chat. It asks the right questions and remembers what matters."
       }
-    ]
+    ],
+    "faqs": [
+      {
+        "question": "How is this different from a dating app?",
+        "answer": "There's no browsing or swiping. Juno introduces you to one person at a time, based on an actual conversation about who you are and who you're looking for."
+      },
+      {
+        "question": "Will my details be shared right away?",
+        "answer": "No. Your name, photo, and contact details stay private until both you and the other person say yes to an introduction."
+      },
+      {
+        "question": "What if I'm not interested in a suggestion?",
+        "answer": "Just tell Juno. It'll keep looking — there's no pressure to say yes to any introduction."
+      },
+      {
+        "question": "Is Juno free to use?",
+        "answer": "Yes, chatting with Juno and getting introductions is free."
+      }
+    ],
+    "contact": {
+      "heading": "Have a question for the team?",
+      "body": "Juno can answer most questions directly in chat — or reach out to us by email.",
+      "email": "hello@gabrieloperator.com"
+    }
   },
   "commitMessage": "Match hero to the reference landing page and add more configurable fields"
 }
