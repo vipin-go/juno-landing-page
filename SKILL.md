@@ -73,13 +73,21 @@ Two consequences:
 
 ## Fields
 
-- `landingPage.headline` (required, string) — the hero headline.
+Only `headline` is required — everything else is optional and falls back to a sensible default.
+
+- `landingPage.headline` (required, string) — the hero headline (first line).
+- `landingPage.headlineAccent` (optional, string) — a substring of `headline`, rendered in the persona's accent color.
+- `landingPage.headlineLine2` (optional, string) — a plain second headline line.
+- `landingPage.badge` (optional, string) — small pill above the headline.
 - `landingPage.subheadline` (optional, string) — one or two supporting sentences.
+- `landingPage.ctaLabel` (optional, string) — primary button label (hero, closing CTA, floating widget launcher).
+- `landingPage.secondaryCtaLabel` (optional, string) — outlined second hero button.
+- `landingPage.featureTags` (optional, string array) — short caption line under the hero buttons.
+- `landingPage.demoConversation` (optional, array of `{role, text}`) — scripted messages shown in the hero chat mockup above the real input.
 - `landingPage.features` (optional, array) — each entry:
   - `title` (required, string)
   - `body` (required, string)
   - `icon` (optional, one of: `heart`, `shield-check`, `sparkles`, `chat`, `users`, `lock`, `check`, `star`)
-- `landingPage.ctaLabel` (optional, string) — label on the hero chat box's send button and the floating widget's launcher, e.g. "Talk to Juno".
 
 ## Common edits
 

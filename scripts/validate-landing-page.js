@@ -4,6 +4,7 @@ const fs = require('fs');
 const ALLOWED_ICONS = new Set([
   'heart', 'shield-check', 'sparkles', 'chat', 'users', 'lock', 'check', 'star',
 ]);
+const ALLOWED_ROLES = new Set(['user', 'assistant']);
 
 function fail(message) {
   throw new Error(message);
@@ -20,11 +21,30 @@ function validate(filePath) {
   if (!landingPage || typeof landingPage !== 'object') fail('landingPage object is required');
   if (!landingPage.headline || !String(landingPage.headline).trim()) fail('landingPage.headline is required');
 
-  if (landingPage.subheadline !== undefined && typeof landingPage.subheadline !== 'string') {
-    fail('landingPage.subheadline must be a string');
+  for (const key of ['badge', 'headlineAccent', 'headlineLine2', 'subheadline', 'ctaLabel', 'secondaryCtaLabel']) {
+    if (landingPage[key] !== undefined && typeof landingPage[key] !== 'string') {
+      fail(`landingPage.${key} must be a string`);
+    }
   }
-  if (landingPage.ctaLabel !== undefined && typeof landingPage.ctaLabel !== 'string') {
-    fail('landingPage.ctaLabel must be a string');
+  if (landingPage.headlineAccent && !landingPage.headline.includes(landingPage.headlineAccent)) {
+    fail('landingPage.headlineAccent must be a substring of landingPage.headline');
+  }
+
+  if (landingPage.featureTags !== undefined) {
+    if (!Array.isArray(landingPage.featureTags)) fail('landingPage.featureTags must be an array');
+    landingPage.featureTags.forEach((tag, index) => {
+      if (typeof tag !== 'string' || !tag.trim()) fail(`landingPage.featureTags[${index}] must be a non-empty string`);
+    });
+  }
+
+  if (landingPage.demoConversation !== undefined) {
+    if (!Array.isArray(landingPage.demoConversation)) fail('landingPage.demoConversation must be an array');
+    landingPage.demoConversation.forEach((message, index) => {
+      const label = `landingPage.demoConversation[${index}]`;
+      if (!message || typeof message !== 'object') fail(`${label} must be an object`);
+      if (!ALLOWED_ROLES.has(message.role)) fail(`${label}.role must be "user" or "assistant"`);
+      if (!message.text || !String(message.text).trim()) fail(`${label}.text is required`);
+    });
   }
 
   const features = landingPage.features;

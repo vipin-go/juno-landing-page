@@ -3,8 +3,19 @@
   "resourceKey": "landing_page.juno",
   "runtimeDataPolicy": "definitions_only",
   "landingPage": {
-    "headline": "Meet someone worth meeting",
+    "badge": "AI matchmaking, done right",
+    "headline": "Real introductions",
+    "headlineAccent": "Real",
+    "headlineLine2": "one person at a time",
     "subheadline": "Juno introduces you to one real person at a time — never a list, never both sides at once, and only once you both say yes.",
+    "ctaLabel": "Talk to Juno",
+    "secondaryCtaLabel": "How it works",
+    "featureTags": ["No swiping", "Mutual consent only", "Real conversations", "Private until you say yes"],
+    "demoConversation": [
+      { "role": "assistant", "text": "Hi, I'm Juno. I introduce one real person at a time, never a list." },
+      { "role": "user", "text": "How does that work?" },
+      { "role": "assistant", "text": "Tell me about yourself and who you're looking for — I'll find one great match and ask if you're both interested." }
+    ],
     "features": [
       {
         "icon": "heart",
@@ -21,8 +32,7 @@
         "title": "A real conversation, not a form",
         "body": "Tell Juno about yourself in chat. It asks the right questions and remembers what matters."
       }
-    ],
-    "ctaLabel": "Talk to Juno"
+    ]
   },
-  "commitMessage": "Initial landing page content"
+  "commitMessage": "Match hero to the reference landing page and add more configurable fields"
 }
