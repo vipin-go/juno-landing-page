@@ -15,10 +15,11 @@
     "header": {
       "brandMark": "heart",
       "navItems": [
-        { "label": "Meet Juno", "target": "meet" },
-        { "label": "FAQ", "target": "faq" },
-        { "label": "Contact", "target": "contact" }
-      ]
+        { "label": "About", "target": "about" },
+        { "label": "Stories", "target": "stories" },
+        { "label": "FAQs", "target": "faq" }
+      ],
+      "ctaLabel": "Meet Juno"
     },
     "badge": "Matchmaking, done thoughtfully",
     "headline": "Real introductions",
@@ -26,7 +27,6 @@
     "headlineLine2": "one person at a time",
     "subheadline": "Talk to Juno like you would a brilliant friend. He'll learn what matters, make one thoughtful introduction, and only connect you when you both say yes.",
     "ctaLabel": "Talk to Juno",
-    "secondaryCtaLabel": "See how it works",
     "featureTags": ["No swiping", "Mutual consent only", "Real conversations", "Private until you say yes"],
     "demoConversation": [
       { "role": "assistant", "text": "Hi, I'm Juno. I introduce one real person at a time — never a list." },
@@ -70,6 +70,22 @@
         { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg", "alt": "Leo", "name": "Leo, 33", "meta": "Fresh pasta · Tiny cinemas" }
       ]
     },
+    "stories": {
+      "kicker": "🤩 FROM THE GROUP CHAT",
+      "heading": "Dates people text\ntheir friends about.",
+      "quote": "Juno skipped the small talk. Our first date lasted four hours, and our second happened two days later.",
+      "people": [
+        { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg", "alt": "Nia" },
+        { "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg", "alt": "Malcolm" }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Introduced in London · 11 months together",
+      "stats": [
+        { "emoji": "💘", "value": "12.4K", "label": "thoughtful introductions" },
+        { "emoji": "🥂", "value": "68%", "label": "turn into a first date" },
+        { "emoji": "🫶", "value": "4.9/5", "label": "average member rating" }
+      ]
+    },
     "faqs": [
       {
         "question": "Is Juno a dating app?",
@@ -107,5 +123,5 @@
       "ctaLabel": "Talk to Juno"
     }
   },
-  "commitMessage": "Use model-driven green signature design, header, and cupid artwork"
+  "commitMessage": "Match the model-driven menu and Stories section to Juno Matchmaker"
 }
