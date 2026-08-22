@@ -68,15 +68,15 @@
       "steps": [
         {
           "icon": "chat",
-          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation.webp",
-          "alt": "A thoughtful conversation with a personal matchmaker in a welcoming cafe",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno listening closely during a private matchmaking conversation",
           "title": "Have a real conversation",
           "body": "Tell Juno what you want, what has not worked, and what a good relationship feels like to you."
         },
         {
           "icon": "search",
-          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search.webp",
-          "alt": "A matchmaker carefully reviewing compatibility notes in a private workspace",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno searching a private database of profiles for compatible people",
           "title": "Juno does the looking",
           "body": "He searches the private community for compatible people and checks the fit beyond the obvious."
         },
