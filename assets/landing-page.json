@@ -68,21 +68,29 @@
       "steps": [
         {
           "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation.webp",
+          "alt": "A thoughtful conversation with a personal matchmaker in a welcoming cafe",
           "title": "Have a real conversation",
           "body": "Tell Juno what you want, what has not worked, and what a good relationship feels like to you."
         },
         {
           "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search.webp",
+          "alt": "A matchmaker carefully reviewing compatibility notes in a private workspace",
           "title": "Juno does the looking",
           "body": "He searches the private community for compatible people and checks the fit beyond the obvious."
         },
         {
           "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Two people sharing a warm first introduction at a cafe",
           "title": "Meet one good possibility",
           "body": "Get a thoughtful introduction with context. You both opt in before anything is shared."
         },
         {
           "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Two people enjoying an easy conversation while walking after a first date",
           "title": "Go on an actual date",
           "body": "Juno can suggest the place, break the ice, and use your feedback to make the next introduction even sharper."
         }

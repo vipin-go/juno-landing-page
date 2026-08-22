@@ -14,6 +14,15 @@
         { "key": "title", "type": "text", "required": true },
         { "key": "body", "type": "text", "required": true }
       ]
+    },
+    "howItWorksStep": {
+      "fields": [
+        { "key": "icon", "type": "text", "required": true, "description": "One of the allowed icon tokens — rendered over the supporting image when present" },
+        { "key": "image", "type": "image", "required": false, "description": "Optional durable public image URL for real-world supporting photography" },
+        { "key": "alt", "type": "text", "required": false, "description": "Required descriptive alt text when image is set" },
+        { "key": "title", "type": "text", "required": true },
+        { "key": "body", "type": "text", "required": true }
+      ]
     }
   }
 }

@@ -164,6 +164,15 @@ function validate(filePath) {
       for (const key of ['title', 'body']) {
         if (!step[key] || !String(step[key]).trim()) fail(`${label}.${key} is required`);
       }
+      if (step.image !== undefined && (typeof step.image !== 'string' || !step.image.trim())) {
+        fail(`${label}.image must be a non-empty string when provided`);
+      }
+      if (step.image && (!step.alt || typeof step.alt !== 'string' || !step.alt.trim())) {
+        fail(`${label}.alt is required when ${label}.image is provided`);
+      }
+      if (step.alt !== undefined && typeof step.alt !== 'string') {
+        fail(`${label}.alt must be a string`);
+      }
     });
   }
 
