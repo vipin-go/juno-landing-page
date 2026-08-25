@@ -5,11 +5,38 @@
   "landingPage": {
     "design": {
       "variant": "signature",
+      "defaultThemeMode": "light",
       "theme": {
         "palette": "forest",
         "primaryColor": "green",
         "secondaryColor": "teal",
         "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": { "source": "builtin", "family": "dm-sans" },
+          "display": { "source": "builtin", "family": "dm-sans" },
+          "label": { "source": "builtin", "family": "dm-sans" }
+        }
       }
     },
     "header": {
