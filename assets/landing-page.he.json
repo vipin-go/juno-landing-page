@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "language": "he",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "על אודות",
+          "target": "about"
+        },
+        {
+          "label": "איך זה עובד",
+          "target": "how-it-works"
+        },
+        {
+          "label": "סיפורים",
+          "target": "stories"
+        },
+        {
+          "label": "שאלות נפוצות",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "הכירו את ג'ונו"
+    },
+    "badge": "שידוכים, נעשה מתוך מחשבה",
+    "headline": "הקדמות אמיתיות",
+    "headlineAccent": "אמיתי",
+    "headlineLine2": "אדם אחד בכל פעם",
+    "subheadline": "דבר עם ג'ונו כמו חבר מבריק. הוא ילמד מה שחשוב, יעשה הקדמה אחת מהורהרת, ויחבר אותך רק כששניכם תגידו כן.",
+    "ctaLabel": "דבר עם ג'ונו",
+    "secondaryCtaLabel": "תראה איך זה עובד",
+    "featureTags": [
+      "ללא החלקה",
+      "הסכמה הדדית בלבד",
+      "שיחות אמיתיות",
+      "פרטי עד שאתה אומר כן"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "היי, אני ג'ונו. אני מציג אדם אמיתי אחד בכל פעם - אף פעם לא רשימה."
+      },
+      {
+        "role": "user",
+        "text": "איך זה עובד?"
+      },
+      {
+        "role": "assistant",
+        "text": "ספר לי על עצמך ועל מי אתה מחפש. אני אתחיל במה שחשוב באמת."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "מקוון · בדרך כלל עונה באופן מיידי",
+      "inputPlaceholder": "תשאל את ג'ונו כל דבר…",
+      "suggestedPrompts": [
+        "איך עובדת התאמה?",
+        "האם הפרופיל שלי פרטי?",
+        "עזור לי להתחיל"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "אפליקציות היכרויות נתנו לך את כולם. ג'ונו מציגה אותך למישהו.",
+      "headingAccent": "מישהו.",
+      "body": "הוא לומד את הפרטים שלעולם לא מתאימים לביוגרפיה - קצב החיים שאתה רוצה, מה מצחיק אותך ויום שלישי הרגיל שאתה מקווה לחלוק.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "אמארה",
+          "caption": "אנשים עם חומר"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "מלקולם",
+          "caption": "מבואות עם הקשר"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "ניה",
+          "caption": "תאריכים ששווה להתלבש עבורם"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "מלקולם מחייך",
+        "name": "מלקולם · 34",
+        "meta": "ברוקלין"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "ניה מחייכת בחוץ",
+        "name": "ניה · 29",
+        "meta": "לונדון"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "פעימות ספציפיות אינסופיות.",
+        "body": "מסנני Juno עבור ערכים משותפים, חיים תואמים וסוג הניצוץ שאתה באמת יכול לבנות עליו.",
+        "tags": [
+          "סוּג",
+          "סַקרָן",
+          "מוּכָן"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "אדם, לא פרופיל.",
+        "body": "כל הקדמה באה עם סיבה שג'ונו חושב ששניכם צריכים להיפגש - לא אחוז מסתורי.",
+        "ctaLabel": "תן לג'ונו להציג אותך"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "הוא זוכר את הפרטים.",
+        "body": "כולל אלה שאתה מזכיר רק פעם אחת."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "פרטי, תמיד.",
+        "body": "אין סיפון ציבורי. אין זרים שגולשים בך."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "איך הקסם קורה",
+      "heading": "מ\"ספר לי עליך\" ועד \"מתי נוכל להיפגש?\"",
+      "headingAccent": "מתי נוכל להיפגש?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "ג'ונו מקשיבה היטב במהלך שיחת שידוכים פרטית",
+          "title": "לנהל שיחה אמיתית",
+          "body": "ספר לג'ונו מה אתה רוצה, מה לא עבד, ואיך מרגישה לך מערכת יחסים טובה."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno מחפש במסד נתונים פרטי של פרופילים עבור אנשים תואמים",
+          "title": "ג'ונו עושה את המראה",
+          "body": "הוא מחפש בקהילה הפרטית אנשים תואמים ובודק את ההתאמה מעבר למובן מאליו."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "שני אנשים חולקים היכרות ראשונה חמה בבית קפה",
+          "title": "לעמוד באפשרות אחת טובה",
+          "body": "קבל הקדמה מתחשבת עם ההקשר. שניכם מצטרפים לפני שמשהו משותף."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "שני אנשים נהנים משיחה קלה תוך כדי הליכה אחרי דייט ראשון",
+          "title": "צא לדייט אמיתי",
+          "body": "ג'ונו יכולה להציע את המקום, לשבור את הקרח ולהשתמש במשוב שלך כדי להפוך את ההקדמה הבאה לחדה עוד יותר."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "התחושה האחרונה של ג'ונו",
+      "heading": "שני חיים מלאים. סיבה אחת טובה מאוד להיפגש.",
+      "body": "שניהם חוצים את העיר בשביל לחם נהדר, מתקשרים למשפחתם בימי ראשון, ומעדיפים לארח ארוחת ערב מאשר לצעוק על בר.",
+      "checklist": [
+        "אותו קצב מערכת יחסים",
+        "קרוב מספיק כדי להיות ספונטני",
+        "רציני לא פחות לגבי קינוח"
+      ],
+      "ctaLabel": "מצא את סוג האדם שלי",
+      "badgeLabel": "התחושה של ג'ונו",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "אמארה",
+          "name": "אמארה, 31",
+          "meta": "שווקי יום ראשון · רומנים גדולים"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "מַזַל אַריֵה",
+          "name": "ליאו, 33",
+          "meta": "פסטה טרייה · בתי קולנוע זעירים"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "מהצ'אט הקבוצתי",
+      "heading": "דייטים שאנשים שולחים להם הודעות לחברים שלהם.",
+      "quote": "ג'ונו דילג על שיחת החולין. הדייט הראשון שלנו נמשך ארבע שעות, והשני שלנו קרה יומיים לאחר מכן.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "ניה"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "מלקולם"
+        }
+      ],
+      "attribution": "ניה + מלקולם",
+      "meta": "הוצג בלונדון · 11 חודשים ביחד",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "הקדמות מתחשבות"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "להפוך לדייט ראשון"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "דירוג חבר ממוצע"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "האם Juno היא אפליקציית היכרויות?",
+        "answer": "לא ממש - אין סיפון החלקה או פרופיל ציבורי. אתה אומר לג'ונו מי אתה ומה אתה רוצה, והוא עושה הקדמה מתחשבת בכל פעם."
+      },
+      {
+        "question": "האם כולם יראו את הפרופיל שלי?",
+        "answer": "לא. הפרופיל שלך פרטי כברירת מחדל. ג'ונו חולקת רק היכרות מאושרת עם מישהו שלדעתו יכול להתאים - אף פעם לא בפיד ציבורי או ניתן לחיפוש."
+      },
+      {
+        "question": "מה אם אני לא מעוניין במשחק?",
+        "answer": "פשוט תגיד לג'ונו. הדחייה אף פעם לא מענישה אותך או את האדם האחר, והוא ימשיך לחפש עד שזה יהיה נכון."
+      },
+      {
+        "question": "האם Juno חופשי לשימוש?",
+        "answer": "כן, לשוחח עם ג'ונו ולקבל היכרות זה בחינם."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "שאלות טובות",
+      "heading": "לפני שג'ונו משחקת קופידון."
+    },
+    "contact": {
+      "heading": "יש לך שאלה לצוות?",
+      "body": "Juno יכולה לענות על רוב השאלות ישירות בצ'אט - או לפנות אלינו בדוא\"ל.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "מוכן כשאתה",
+      "heading": "הקדמות אמיתיות. אדם אחד בכל פעם.",
+      "body": "ספר לג'ונו מה חשוב לך. הוא ייקח את זה משם - מתוך מחשבה, באופן פרטי ואדם אמיתי אחד בכל פעם.",
+      "ctaLabel": "דבר עם ג'ונו"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

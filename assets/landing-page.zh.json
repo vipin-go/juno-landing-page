@@ -1,0 +1,311 @@
+{
+  "schemaVersion": 1,
+  "language": "zh",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "关于",
+          "target": "about"
+        },
+        {
+          "label": "这个怎么运作",
+          "target": "how-it-works"
+        },
+        {
+          "label": "故事",
+          "target": "stories"
+        },
+        {
+          "label": "常见问题解答",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "认识朱诺"
+    },
+    "badge": "配对，深思熟虑",
+    "headline": "真实的介绍",
+    "headlineAccent": "真实",
+    "headlineLine2": "一次一个人",
+    "subheadline": "与朱诺交谈，就像你是一个出色的朋友一样。 他会了解重要的事情，进行一份深思熟虑的介绍，并且只有在你们俩都说“是”的时候才会联系你们。",
+    "ctaLabel": "与朱诺交谈",
+    "secondaryCtaLabel": "看看它是如何工作的",
+    "featureTags": [
+      "没有滑动",
+      "仅相互同意",
+      "真实的对话",
+      "私有，直到你说是"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "嗨，我是朱诺。 我一次介绍一个真人——从来没有一份清单。"
+      },
+      {
+        "role": "user",
+        "text": "那是如何工作的？"
+      },
+      {
+        "role": "assistant",
+        "text": "告诉我你自己和你要找的人。 我将从真正重要的事情开始。"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "在线 · 通常会立即回复",
+      "inputPlaceholder": "问朱诺什么……",
+      "suggestedPrompts": [
+        "匹配如何工作？",
+        "我的个人资料是私密的吗？",
+        "帮助我开始"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "约会应用程序为您提供了每个人。 朱诺把你介绍给某人。",
+      "headingAccent": "某人。",
+      "body": "他学习了一些不适合简历的细节——你想要的生活节奏、是什么让你发笑，以及你希望分享的普通星期二。",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "阿马拉",
+          "caption": "有物质的人"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "马尔科姆",
+          "caption": "介绍与上下文"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "尼亚",
+          "caption": "值得穿的日期"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "马尔科姆微笑",
+        "name": "马尔科姆·34",
+        "meta": "布鲁克林"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "尼亚微笑户外",
+        "name": "尼亚·29",
+        "meta": "伦敦"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "具体节拍无止境。",
+        "body": "Juno 过滤共享价值观、兼容的生活以及您可以实际构建的火花。",
+        "tags": [
+          "种类",
+          "好奇",
+          "准备"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "一个人，而不是个人资料。",
+        "body": "每次介绍都带有朱诺认为你们两个应该见面的原因——而不是神秘的百分比。",
+        "ctaLabel": "让朱诺介绍你"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "他记得细节。",
+        "body": "包括你只提到一次的那些。"
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "私密，永远。",
+        "body": "没有公共甲板。 没有陌生人浏览你。"
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "魔法是如何发生的",
+      "heading": "从“告诉我关于你”到“我们什么时候可以见面？”",
+      "headingAccent": "我们什么时候可以见面？",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "朱诺在私人婚介对话中仔细聆听",
+          "title": "进行真正的对话",
+          "body": "告诉朱诺你想要什么，什么没有奏效，以及良好的关系对你来说是什么感觉。"
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno 为兼容的人搜索个人资料的私人数据库",
+          "title": "朱诺在看",
+          "body": "他在私人社区中寻找兼容的人，并检查了超出显而易见的适合性。"
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "两个人在咖啡馆分享温暖的第一次介绍",
+          "title": "遇到一种好可能性",
+          "body": "用上下文进行深思熟虑的介绍。 你们都在共享任何东西之前选择加入。"
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "两个人在第一次约会后散步时享受轻松的交谈",
+          "title": "去一个实际的日期",
+          "body": "Juno 可以建议这个地方，打破僵局，并使用您的反馈使下一个介绍更加清晰。"
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "朱诺的最新预感",
+      "heading": "两个充实的生命。 见面的一个很好的理由之一。",
+      "body": "他们都穿越城里吃大面包，周日给家人打电话，宁愿举办晚餐也不愿在酒吧大喊大叫。",
+      "checklist": [
+        "相同的关系节奏",
+        "足够近到可以自发",
+        "同样认真对待甜点"
+      ],
+      "ctaLabel": "找到我喜欢的人",
+      "badgeLabel": "朱诺的预感",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "阿马拉",
+          "name": "阿马拉，31 岁",
+          "meta": "周日市场·大小说"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "狮子座",
+          "name": "狮子座，33 岁",
+          "meta": "新鲜的意大利面 · 小电影院"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "从群聊",
+      "heading": "约会人们给他们的朋友发短信。",
+      "quote": "朱诺跳过了闲聊。 我们的第一次约会持续了四个小时，第二次约会发生在两天后。",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "尼亚"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "马尔科姆"
+        }
+      ],
+      "attribution": "尼亚 + 马尔科姆",
+      "meta": "在伦敦推出 · 11 个月",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "周到的介绍"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "变成第一次约会"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "平均会员评级"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "朱诺是一个约会应用程序吗？",
+        "answer": "不是真的——没有滑动甲板或公众档案。 你告诉朱诺你是谁，你想要什么，他一次做一个深思熟虑的介绍。"
+      },
+      {
+        "question": "每个人都会看到我的个人资料吗？",
+        "answer": "不会。默认情况下，您的个人资料是私密的。 Juno 只与他认为可能适合的人分享批准的介绍——永远不会在公开或可搜索的提要中。"
+      },
+      {
+        "question": "如果我对比赛不感兴趣怎么办？",
+        "answer": "只是告诉朱诺。 拒绝永远不会惩罚你或另一个人，他会一直看着，直到它是正确的。"
+      },
+      {
+        "question": "朱诺可以免费使用吗？",
+        "answer": "是的，与朱诺聊天并获得介绍是免费的。"
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "好问题",
+      "heading": "在朱诺打丘比特之前。"
+    },
+    "contact": {
+      "heading": "对团队有疑问吗？",
+      "body": "Juno 可以直接在聊天中回答大多数问题——或通过电子邮件与我们联系。",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "当你准备好时准备好",
+      "heading": "真实的介绍。 一次一个人。",
+      "body": "告诉朱诺什么对你很重要。 他会从那里拿走它——深思熟虑、私下和一次真正的人。",
+      "ctaLabel": "与朱诺交谈"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

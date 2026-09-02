@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "fa",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "درباره",
+          "target": "about"
+        },
+        {
+          "label": "نحوه کار",
+          "target": "how-it-works"
+        },
+        {
+          "label": "داستان‌ها",
+          "target": "stories"
+        },
+        {
+          "label": "سؤالات متداول",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "جونو را ملاقات کنید"
+    },
+    "badge": "آشنایی‌سازی با تأمل انجام شده",
+    "headline": "معرفی‌های واقعی",
+    "headlineAccent": "واقعی",
+    "headlineLine2": "یک نفر در یک زمان",
+    "subheadline": "مانند یک دوست باهوش با جونو صحبت کنید. او یاد می‌گیرد چه چیزی مهم است، یک معرفی متفکرانه انجام می‌دهد، و فقط زمانی شما را به هم متصل می‌کند که هر دو بله بگویید.",
+    "ctaLabel": "با جونو صحبت کنید",
+    "secondaryCtaLabel": "نحوه کار را ببینید",
+    "featureTags": [
+      "بدون کشیدن انگشت",
+      "فقط رضایت متقابل",
+      "مکالمات واقعی",
+      "خصوصی تا زمانی که نگویید بله"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "سلام، من جونو هستم. من یک نفر واقعی را در یک زمان معرفی می‌کنم — هرگز یک لیست نه."
+      },
+      {
+        "role": "user",
+        "text": "این چگونه کار می‌کند؟"
+      },
+      {
+        "role": "assistant",
+        "text": "درباره خودتان و اینکه به دنبال چه کسی هستید بگویید. من با چیزی که واقعاً مهم است شروع می‌کنم."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "آنلاین · معمولاً فوراً پاسخ می‌دهد",
+      "inputPlaceholder": "از جونو هر چیزی بپرسید…",
+      "suggestedPrompts": [
+        "تطابق چگونه کار می‌کند؟",
+        "پروفایل من خصوصی است؟",
+        "کمکم کنید شروع کنم"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "اپلیکیشن‌های دوست‌یابی همه را به شما دادند. جونو شما را به کسی معرفی می‌کند.",
+      "body": "او جزئیاتی را یاد می‌گیرد که هرگز در یک بیوگرافی جا نمی‌شوند — سرعت زندگی که می‌خواهید، چه چیزی شما را می‌خنداند، و سه‌شنبه معمولی که امیدوارید به اشتراک بگذارید.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "آمارا",
+          "caption": "افراد با عمق"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "مالکوم",
+          "caption": "معرفی‌ها با زمینه"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "نیا",
+          "caption": "قرارهایی که ارزش لباس پوشیدن دارند"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "مالکوم لبخند می‌زند",
+        "name": "مالکوم · 34",
+        "meta": "بروکلین"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "نیا در فضای باز لبخند می‌زند",
+        "name": "نیا · 29",
+        "meta": "لندن"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "مشخص Beats بی‌پایان.",
+        "body": "جونو برای ارزش‌های مشترک، زندگی‌های سازگار، و نوع جرقه‌ای که واقعاً می‌توانید روی آن بسازید فیلتر می‌کند.",
+        "tags": [
+          "مهربان",
+          "کنجکاو",
+          "آماده"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "یک شخص، نه یک پروفایل.",
+        "body": "هر معرفی با دلیلی همراه است که چرا جونو فکر می‌کند شما دو نفر باید ملاقات کنید — نه یک درصد مرموز.",
+        "ctaLabel": "بگذارید جونو شما را معرفی کند"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "او جزئیات را به خاطر می‌سپارد.",
+        "body": "از جمله مواردی که فقط یک بار ذکر می‌کنید."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "خصوصی، همیشه.",
+        "body": "بدون عرشه عمومی. بدون غریبه‌ها که شما را مرور کنند."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "نحوه عملی شدن جادو",
+      "heading": "از \"درباره خودتان بگویید\" تا \"کی می‌توانیم ملاقات کنیم؟\"",
+      "headingAccent": "کی می‌توانیم ملاقات کنیم؟",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "جونو در حین یک مکالمه خصوصی آشنایی‌سازی گوش می‌دهد",
+          "title": "یک مکالمه واقعی داشته باشید",
+          "body": "به جونو بگویید چه می‌خواهید، چه چیزی کار نکرده، و یک رابطه خوب برای شما چگونه احساس می‌شود."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "جونو در حال جستجوی یک پایگاه داده خصوصی از پروفایل‌ها برای افراد سازگار",
+          "title": "جونو جستجو انجام می‌دهد",
+          "body": "او جامعه خصوصی را برای افراد سازگار جستجو می‌کند و تناسب فراتر از موارد آشکار را بررسی می‌کند."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "دو نفر که یک اولین معرفی گرم را در کافه به اشتراک می‌گذارند",
+          "title": "با یک امکان خوب ملاقات کنید",
+          "body": "یک معرفی متفکرانه با زمینه دریافت کنید. هر دو قبل از اشتراک‌گذاری هر چیزی، پذیرش می‌دهید."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "دو نفر که پس از اولین قرار به راحتی در حال قدم زدن گفتگو می‌کنند",
+          "title": "به یک قرار واقعی بروید",
+          "body": "جونو می‌تواند مکان را پیشنهاد دهد، یخ را بشکند، و از بازخورد شما برای تیزتر کردن معرفی بعدی استفاده کند."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "آخرین حدس جونو",
+      "heading": "دو زندگی کامل. یک دلیل بسیار خوب برای ملاقات.",
+      "body": "هر دو برای نان عالی از این طرف شهر می‌آیند، آخر هر هفته با خانواده‌شان تماس می‌گیرند، و ترجیح می‌دهند شام بگیرند تا اینکه در یک بار داد بزنند.",
+      "checklist": [
+        "همان سرعت رابطه",
+        "به اندازه کافی نزدیک برای بداهه‌سازی",
+        "به همان اندازه جدی درباره دسر"
+      ],
+      "ctaLabel": "شخص مورد نظر مرا پیدا کنید",
+      "badgeLabel": "حدس جونو",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "آمارا",
+          "name": "آمارا، 31",
+          "meta": "بازارهای یکشنبه · رمان‌های بزرگ"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "لئو",
+          "name": "لئو، 33",
+          "meta": "پاستای تازه · سینماهای کوچک"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "از گروه چت",
+      "heading": "قرارهایی که مردم\nبه دوستانشان پیام می‌دهند.",
+      "quote": "جونو از صحبت‌های کوچک رد شد. اولین قرار ما چهار ساعت طول کشید و دومی دو روز بعد اتفاق افتاد.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "نیا"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "مالکوم"
+        }
+      ],
+      "attribution": "نیا + مالکوم",
+      "meta": "معرفی‌شده در لندن · 11 ماه در کنار هم",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "معرفی‌های متفکرانه"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "به اولین قرار تبدیل می‌شوند"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "امتیاز میانگین عضو"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "آیا جونو یک اپلیکیشن دوست‌یابی است؟",
+        "answer": "در واقع نه — هیچ عرشه کشیدنی یا پروفایل عمومی وجود ندارد. شما به جونو می‌گویید که هستید و چه می‌خواهید، و او یک معرفی متفکرانه در یک زمان انجام می‌دهد."
+      },
+      {
+        "question": "آیا همه پروفایل من را می‌بینند؟",
+        "answer": "نه. پروفایل شما به‌طور پیش‌فرض خصوصی است. جونو فقط یک معرفی تأیید‌شده را با کسی که فکر می‌کند می‌تواند مناسب باشد به اشتراک می‌گذارد — هرگز در یک فید عمومی یا قابل جستجو."
+      },
+      {
+        "question": "اگر به یک تطابق علاقه‌مند نیستم چه؟",
+        "answer": "فقط به جونو بگویید. رد کردن هرگز جریمه‌ای برای شما یا شخص دیگر ندارد، و او به جستجو ادامه می‌دهد تا درست باشد."
+      },
+      {
+        "question": "آیا استفاده از جونو رایگان است؟",
+        "answer": "بله، چت کردن با جونو و دریافت معرفی‌ها رایگان است."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "سؤالات خوب",
+      "heading": "قبل از اینکه جونو کاپید شود."
+    },
+    "contact": {
+      "heading": "سؤالی برای تیم دارید؟",
+      "body": "جونو می‌تواند بیشتر سؤالات را مستقیماً در چت پاسخ دهد — یا از طریق ایمیل با ما تماس بگیرید.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "وقتی آماده هستید",
+      "heading": "معرفی‌های واقعی.\nیک نفر در یک زمان.",
+      "body": "به جونو بگویید چه برای شما مهم است. او از آنجا ادامه می‌دهد — با تأمل، خصوصی، و یک نفر واقعی در یک زمان.",
+      "ctaLabel": "با جونو صحبت کنید"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "language": "et",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Teave",
+          "target": "about"
+        },
+        {
+          "label": "Kuidas see toimib",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Lood",
+          "target": "stories"
+        },
+        {
+          "label": "KKK",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Tutvuge Junoga"
+    },
+    "badge": "Tutvustamine, hoolikalt tehtud",
+    "headline": "Tõelised tutvustused",
+    "headlineLine2": "Üks inimene korraga",
+    "subheadline": "Rääkige Junoga nagu targa sõbraga. Ta õpib, mis on oluline, teeb ühe läbimõeldud tutvustuse ja ühendab teid ainult siis, kui mõlemad ütlete jah.",
+    "ctaLabel": "Rääkige Junoga",
+    "secondaryCtaLabel": "Vaadake, kuidas see toimib",
+    "featureTags": [
+      "Ilma libistamata",
+      "Ainult vastastikune nõusolek",
+      "Tõelised vestlused",
+      "Privaatne, kuni ütlete jah"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Tere, olen Juno. Tutvustan ühte tõelist inimest korraga — kunagi mitte nimekirja."
+      },
+      {
+        "role": "user",
+        "text": "Kuidas see töötab?"
+      },
+      {
+        "role": "assistant",
+        "text": "Räägi mulle endast ja kellele otsid. Alustan sellest, mis tõesti tähtis on."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Veebis · tavaliselt vastab kohe",
+      "inputPlaceholder": "Küsi Junolt mis tahes…",
+      "suggestedPrompts": [
+        "Kuidas sobivus töötab?",
+        "Kas mu profiil on privaatne?",
+        "Aita mul alustada"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Kohtingurakendused andsid teile kõik. Juno tutvustab teid kellelegi.",
+      "body": "Ta õpib üksikasju, mis kunagi bio-sse ei mahu — elutempot, mida soovid, mis sind naerutab ja tavalist teisipäeva, mida loodad jagada.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Inimesed sügavusega"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Tutvustused koos kontekstiga"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia",
+          "caption": "Kohtingud, millega väärt riietuda"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm naeratab",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia naeratab vabas õhus",
+        "name": "Nia · 29",
+        "meta": "London"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Spetsiifiline võidab lõputu.",
+        "body": "Juno filtreerib ühiseid väärtusi, ühilduvaid elusid ja seda tüüpi sädemeid, millele saab tõesti ehitada.",
+        "tags": [
+          "Lahke",
+          "Uudishimulik",
+          "Valmis"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Inimene, mitte profiil.",
+        "body": "Iga tutvustusega kaasneb põhjus, miks Juno arvab, et teie kaks peaksite kohtuma — mitte salapärane protsent.",
+        "ctaLabel": "Laske Junol teid tutvustada"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Ta mäletab üksikasju.",
+        "body": "Ka need, mida mainite ainult üks kord."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Privaatne, alati.",
+        "body": "Avalikku pilti pole. Võõrad teid ei sirvigi."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Kuidas maagia juhtub",
+      "heading": "\"Räägi mulle endast\" kuni \"millal saame kohtuda?\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno kuulab tähelepanelikult era-vestluse ajal",
+          "title": "Pea tõeline vestlus",
+          "body": "Räägi Junole, mida soovid, mis pole toiminud ja kuidas tunneb hea suhe sinu jaoks."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno otsib ühilduvate inimeste leidmiseks eraandmebaasi",
+          "title": "Juno otsib",
+          "body": "Ta otsib ühilduvaid inimesi era-kogukonnast ja kontrollib sobivust ilmsest kaugemale."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Kaks inimest jagavad sooja esimest tutvust kohvikus",
+          "title": "Kohtu ühe hea võimalusega",
+          "body": "Saage läbimõeldud tutvustus koos kontekstiga. Mõlemad nõustuvad enne midagi jagatakse."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Kaks inimest naudivad kerget vestlust kõndides pärast esimest kohtingut",
+          "title": "Mine päris kohtingule",
+          "body": "Juno saab soovitada kohta, jääd murda ja kasutada teie tagasisidet, et järgmine tutvustus oleks teravam."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Juno viimane aimamine",
+      "heading": "Kaks täielikku elu. Üks väga hea põhjus kohtuda.",
+      "body": "Mõlemad tulevad linna teisest otsast suurepärase leiva pärast, helistavad perele pühapäeviti ja eelistaksid pidada õhtusööki kui karjuda üle baari.",
+      "checklist": [
+        "Sama suhte tempo",
+        "Piisavalt lähedal, et spontaanne olla",
+        "Võrdselt tõsised desserti suhtes"
+      ],
+      "ctaLabel": "Leia mu tüüpi inimene",
+      "badgeLabel": "Juno aimamine",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31",
+          "meta": "Pühapäevaturud · Suured romaanid"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leo",
+          "name": "Leo, 33",
+          "meta": "Värske pasta · Väikesed kinod"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Grupi vestlusest",
+      "heading": "Kohtingud, millest inimesed\nsõpradele kirjutavad.",
+      "quote": "Juno jättis väikese jutu vahele. Meie esimene kohting kestis neli tundi ja teine toimus kaks päeva hiljem.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Tutvustatud Londonis · 11 kuud koos",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "läbimõeldud tutvustust"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "muutuvad esimeseks kohtinguks"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "keskmine liikme hinnang"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Kas Juno on kohtingurakendus?",
+        "answer": "Tegelikult mitte — tõmbešpilja ega avalikku profiili pole. Te ütlete Junole, kes olete ja mida soovite, ning ta teeb ühe läbimõeldud tutvustuse korraga."
+      },
+      {
+        "question": "Kas kõik näevad mu profiili?",
+        "answer": "Ei. Teie profiil on vaikimisi privaatne. Juno jagab kinnitatud tutvustust ainult kellegagi, keda ta arvab sobivat — kunagi avalikus või otsitavas voos."
+      },
+      {
+        "question": "Mis siis, kui ma ei ole huvitatud matchist?",
+        "answer": "Lihtsalt ütle Junole. Keeldumine ei karista sind kunagi ega ka teist inimest ning ta jätkab otsimist, kuni on õige."
+      },
+      {
+        "question": "Kas Juno on tasuta kasutada?",
+        "answer": "Jah, Junoga vestlemine ja tutvustuste saamine on tasuta."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Head küsimused",
+      "heading": "Enne kui Juno"
+    },
+    "contact": {
+      "heading": "Kas teil on meeskonnale küsimus?",
+      "body": "Juno saab vastata enamikule küsimustele otse vestluses — või võtke meiega ühendust e-posti teel.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Kui olete valmis",
+      "heading": "Tõelised tutvustused.\nÜks inimene korraga.",
+      "body": "Räägi Junole, mis on sinu jaoks oluline. Ta võtab seda sealt edasi — läbimõeldult, privaatselt ja üks tõeline inimene korraga.",
+      "ctaLabel": "Rääkige Junoga"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

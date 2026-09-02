@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "tr",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Hakkında",
+          "target": "about"
+        },
+        {
+          "label": "Nasıl çalışır",
+          "target": "how-it-works"
+        },
+        {
+          "label": "hikayeler",
+          "target": "stories"
+        },
+        {
+          "label": "SSS",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Juno ile tanışın"
+    },
+    "badge": "Çöpçatanlık, düşünceli bir şekilde yapıldı",
+    "headline": "Gerçek Tanıtımlar",
+    "headlineAccent": "Gerçek",
+    "headlineLine2": "Her seferinde bir kişi",
+    "subheadline": "Juno ile harika bir arkadaş gibi konuş. Neyin önemli olduğunu öğrenecek, düşünceli bir giriş yapacak ve yalnızca ikiniz de evet dediğinizde sizi bağlayacaktır.",
+    "ctaLabel": "Juno ile konuş",
+    "secondaryCtaLabel": "Nasıl çalıştığını görün",
+    "featureTags": [
+      "kaydırma yok",
+      "Sadece karşılıklı rıza",
+      "gerçek konuşmalar",
+      "sen evet diyene kadar özel"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Merhaba, ben Juno. Her seferinde bir gerçek kişiyi tanıtıyorum - asla bir liste."
+      },
+      {
+        "role": "user",
+        "text": "Bu nasıl çalışır?"
+      },
+      {
+        "role": "assistant",
+        "text": "Bana kendinden ve kimi aradığından bahset. Gerçekten önemli olanla başlayacağım."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Çevrimiçi · Genellikle anında yanıt verir",
+      "inputPlaceholder": "Juno'ya bir şey sor…",
+      "suggestedPrompts": [
+        "Eşleştirme nasıl çalışır?",
+        "Profilim gizli mi?",
+        "Başlamama yardım et"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Flört uygulamaları size herkese verdi. Juno seni biriyle tanıştırır.",
+      "body": "Bir biyografiye asla uymayan ayrıntıları - istediğiniz hayatın hızını, sizi güldüren şeyi ve paylaşmayı umduğunuz sıradan Salı'yı öğrenir.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "nişasta",
+          "caption": "maddesi olan insanlar"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "merhem",
+          "caption": "Bağlamla Tanıtımlar"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "çabucak",
+          "caption": "Giyinmeye değer tarihler"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm gülümseyerek",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "açık havada gülümseyen nia",
+        "name": "nia · 29",
+        "meta": "Londra"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "belirli vuruşlar sonsuz.",
+        "body": "Paylaşılan değerler, uyumlu yaşamlar ve üzerine inşa edebileceğiniz kıvılcım türü için Juno filtreleri.",
+        "tags": [
+          "Tür",
+          "Meraklı",
+          "Hazır"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Bir profil değil, bir kişi.",
+        "body": "Her tanıtım, Juno'nun ikinizin tanışmanız gerektiğini düşündüğü bir nedenle gelir - gizemli bir yüzde değil.",
+        "ctaLabel": "Juno'nun seni tanıştırmasına izin ver"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Detayları hatırlıyor.",
+        "body": "sadece bir kez bahsettiğinizler dahil."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Özel, her zaman.",
+        "body": "halka açık güverte yok. Sana göz atmayan yabancı yok."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "sihir nasıl olur",
+      "heading": "\"Bana kendinden bahset\"ten \"Ne zaman buluşabiliriz?\"",
+      "headingAccent": "Ne zaman buluşabiliriz?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno özel bir çöpçatan sohbeti sırasında yakından dinliyor",
+          "title": "gerçek bir konuşma yapmak",
+          "body": "Juno'ya ne istediğinizi, neyin işe yaramadığını ve iyi bir ilişkinin size nasıl bir his olduğunu söyleyin."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno, uyumlu kişiler için özel bir profil veritabanında arama yapıyor",
+          "title": "Juno bakıyor",
+          "body": "Özel topluluğu uyumlu insanlar için arar ve bariz olanın ötesinde uyumu kontrol eder."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Bir kafede sıcak bir ilk girişi paylaşan iki kişi",
+          "title": "iyi bir olasılıkla tanışın",
+          "body": "Bağlam ile düşünceli bir giriş yapın. Her ikiniz de herhangi bir şey paylaşılmadan önce katılıyorsunuz."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "İlk randevudan sonra yürürken kolay bir sohbetin tadını çıkaran iki kişi",
+          "title": "Gerçek bir randevuya git",
+          "body": "Juno, yeri önerebilir, buzu kırabilir ve bir sonraki tanıtımı daha da keskinleştirmek için geri bildiriminizi kullanabilir."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Juno'nun son önsezisi",
+      "heading": "İki dolu hayat. tanışmak için çok iyi bir sebep.",
+      "body": "İkisi de harika ekmek için kasabayı aşıyorlar, pazar günleri ailelerini arıyorlar ve bir barda bağırmaktansa akşam yemeğine ev sahipliği yapmayı tercih ediyorlar.",
+      "checklist": [
+        "Aynı ilişki hızı",
+        "kendiliğinden olacak kadar yakın",
+        "tatlı konusunda eşit derecede ciddi"
+      ],
+      "ctaLabel": "benim tür bir insanı bul",
+      "badgeLabel": "Juno'nun Önsezi",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "nişasta",
+          "name": "Amara, 31",
+          "meta": "Pazar Pazarları · Büyük Romanlar"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Aslan burcu",
+          "name": "Aslan, 33",
+          "meta": "Taze Makarna · Küçük Sinemalar"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "grup sohbetinden",
+      "heading": "insanların arkadaşlarına mesaj attığı tarihler.",
+      "quote": "Juno küçük konuşmayı atladı. İlk randevumuz dört saat sürdü ve ikincimiz iki gün sonra oldu.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "çabucak"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "merhem"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Londra'da tanıtıldı · Birlikte 11 ay",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4k",
+          "label": "Düşünceli Tanıtımlar"
+        },
+        {
+          "icon": "calendar",
+          "value": "%68",
+          "label": "İlk Randevuya Dönüştürün"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "Ortalama Üye Puanı"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Juno bir flört uygulaması mı?",
+        "answer": "Gerçekten değil - kaydırma destesi veya genel profil yok. Juno'ya kim olduğunu ve ne istediğini söylersin ve o her seferinde düşünceli bir giriş yapar."
+      },
+      {
+        "question": "Herkes profilimi görecek mi?",
+        "answer": "Hayır. Profiliniz varsayılan olarak özeldir. Juno, yalnızca uygun olabileceğini düşündüğü biriyle onaylanmış bir girişi paylaşır - asla halka açık veya aranabilir bir beslemede."
+      },
+      {
+        "question": "Ya bir maçla ilgilenmiyorsam?",
+        "answer": "Sadece Juno'ya söyle. Düşmek asla sizi veya diğer kişiyi cezalandırmaz ve doğru olana kadar aramaya devam eder."
+      },
+      {
+        "question": "Juno'yu kullanmak ücretsiz mi?",
+        "answer": "Evet, Juno ile sohbet etmek ve tanıtım almak ücretsizdir."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "güzel sorular",
+      "heading": "Juno Cupid oynamadan önce."
+    },
+    "contact": {
+      "heading": "Takıma bir sorunuz mu var?",
+      "body": "Juno, çoğu soruyu doğrudan sohbette yanıtlayabilir veya bize e-posta ile ulaşabilir.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "sen olduğunda hazır",
+      "heading": "Gerçek tanıtımlar. her seferinde bir kişi.",
+      "body": "Juno'ya senin için neyin önemli olduğunu söyle. Onu oradan alacak - düşünceli, özel ve her seferinde bir gerçek kişi.",
+      "ctaLabel": "Juno ile konuş"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

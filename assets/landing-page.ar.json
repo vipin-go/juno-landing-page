@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "ar",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "عن",
+          "target": "about"
+        },
+        {
+          "label": "كيف يعمل",
+          "target": "how-it-works"
+        },
+        {
+          "label": "قصص",
+          "target": "stories"
+        },
+        {
+          "label": "الأسئلة الشائعة",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "قابل جونو"
+    },
+    "badge": "التوفيق ، تم بشكل مدروس",
+    "headline": "مقدمات حقيقية",
+    "headlineLine2": "شخص واحد في كل مرة",
+    "subheadline": "تحدث إلى جونو كما لو كنت صديقًا لامعًا. سيتعلم ما يهم ، ويقدم مقدمة واحدة مدروسة ، ويربطك فقط عندما يقول كلاكما نعم.",
+    "ctaLabel": "تحدث إلى جونو",
+    "secondaryCtaLabel": "انظر كيف يعمل",
+    "featureTags": [
+      "لا السحب",
+      "توافق متبادل فقط",
+      "محادثات حقيقية",
+      "خاص حتى تقول نعم"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "مرحبًا ، أنا جونو. أقدم شخصًا حقيقيًا في كل مرة - لا توجد قائمة أبدًا."
+      },
+      {
+        "role": "user",
+        "text": "كيف يعمل ذلك؟"
+      },
+      {
+        "role": "assistant",
+        "text": "أخبرني عن نفسك ومن تبحث عنه. سأبدأ بما يهم بالفعل."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "عبر الإنترنت · عادة ما يتم الرد على الفور",
+      "inputPlaceholder": "اسأل جونو أي شيء ...",
+      "suggestedPrompts": [
+        "كيف تعمل المطابقة؟",
+        "هل ملفي الشخصي خاص؟",
+        "ساعدني في البدء"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "أعطتك تطبيقات المواعدة الجميع. جونو يعرّفك على شخص ما.",
+      "headingAccent": "شخص ما.",
+      "body": "يتعلم التفاصيل التي لا تتناسب أبدًا مع السيرة الذاتية - وتيرة الحياة التي تريدها ، وما الذي يجعلك تضحك ، والثلاثاء العادي الذي تأمل في مشاركته.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "العمارة",
+          "caption": "الناس مع الجوهر"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "مالكولم",
+          "caption": "مقدمات مع السياق"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "نيا",
+          "caption": "التمر يستحق ارتداء الملابس"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "مالكولم يبتسم",
+        "name": "مالكولم 34",
+        "meta": "بروكلين"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "نيا تبتسم في الهواء الطلق",
+        "name": "نيا 29",
+        "meta": "لندن"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "دقات محددة لا نهاية لها.",
+        "body": "مرشحات Juno للقيم المشتركة والحياة المتوافقة ونوع الشرارة التي يمكنك البناء عليها بالفعل.",
+        "tags": [
+          "نوع",
+          "فضولي",
+          "استعداد"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "شخص وليس ملف تعريف.",
+        "body": "تأتي كل مقدمة لسبب يعتقد جونو أنه يجب أن تلتقي به - وليس نسبة غامضة.",
+        "ctaLabel": "دع جونو يقدمك"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "يتذكر التفاصيل.",
+        "body": "بما في ذلك تلك التي ذكرتها مرة واحدة فقط."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "خاص دائما.",
+        "body": "لا يوجد سطح عام. لا غرباء يتصفحونك."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "كيف يحدث السحر",
+      "heading": "من \"أخبرني عنك\" إلى \"متى يمكننا أن نلتقي؟\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "جونو يستمع عن كثب خلال محادثة خاصة",
+          "title": "إجراء محادثة حقيقية",
+          "body": "أخبر جونو بما تريده وما لم ينجح وما هو شعورك بالعلاقة الجيدة."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno يبحث في قاعدة بيانات خاصة للملفات الشخصية للأشخاص المتوافقين",
+          "title": "جونو يقوم بالبحث",
+          "body": "يبحث في المجتمع الخاص عن أشخاص متوافقين ويتحقق من الملاءمة التي تتجاوز ما هو واضح."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "شخصان يتشاركان أول مقدمة دافئة في مقهى",
+          "title": "تلبية احتمال واحد جيد",
+          "body": "احصل على مقدمة مدروسة مع السياق. كلاكما الاشتراك قبل مشاركة أي شيء."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "شخصان يستمتعان بمحادثة سهلة أثناء المشي بعد الموعد الأول",
+          "title": "اذهب في تاريخ فعلي",
+          "body": "يمكن لـ Juno اقتراح المكان وكسر الجليد واستخدام ملاحظاتك لجعل المقدمة التالية أكثر وضوحًا."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "أحدث حدس جونو",
+      "heading": "حياة كاملة. سبب وجيه للقاء.",
+      "body": "كلاهما يعبران المدينة للحصول على خبز رائع ، ويتصلان بأسرتهما أيام الأحد ، ويفضلان استضافة العشاء بدلاً من الصراخ فوق البار.",
+      "checklist": [
+        "نفس وتيرة العلاقة",
+        "قريب بما يكفي ليكون عفويًا",
+        "بنفس القدر من الجدية حول الحلوى"
+      ],
+      "ctaLabel": "ابحث عن نوع الشخص الخاص بي",
+      "badgeLabel": "حدس جونو",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "العمارة",
+          "name": "عمارة ، 31",
+          "meta": "أسواق الأحد · روايات كبيرة"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "الأسد",
+          "name": "ليو ، 33",
+          "meta": "معكرونة طازجة · سينما صغيرة"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "من الدردشة الجماعية",
+      "heading": "تواريخ الناس يرسلون رسالة نصية إلى أصدقائهم.",
+      "quote": "تخطى جونو الحديث الصغير. استمر موعدنا الأول أربع ساعات ، وحدثنا الثاني بعد يومين.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "نيا"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "مالكولم"
+        }
+      ],
+      "attribution": "نيا + مالكولم",
+      "meta": "تم تقديمه في لندن · 11 شهرًا معًا",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4 كيلو",
+          "label": "مقدمات مدروسة"
+        },
+        {
+          "icon": "calendar",
+          "value": "68٪",
+          "label": "تتحول إلى تاريخ أول"
+        },
+        {
+          "icon": "star",
+          "value": "4.9 / 5",
+          "label": "متوسط تصنيف الأعضاء"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "هل جونو تطبيق مواعدة؟",
+        "answer": "ليس حقًا - لا توجد مجموعة تمرير أو ملف تعريف عام. أنت تخبر جونو من أنت وماذا تريد ، ويقدم مقدمة مدروسة في كل مرة."
+      },
+      {
+        "question": "هل سيرى الجميع ملف التعريف الخاص بي؟",
+        "answer": "لا. ملفك الشخصي خاص بشكل افتراضي. يشارك Juno فقط مقدمة معتمدة مع شخص يعتقد أنه يمكن أن يكون مناسبًا - ليس في خلاصة عامة أو قابلة للبحث."
+      },
+      {
+        "question": "ماذا لو لم أكن مهتمًا بالمباراة؟",
+        "answer": "فقط أخبر جونو. لا يعاقبك الرفض أبدًا أو على الشخص الآخر ، وسيستمر في البحث حتى يصبح صحيحًا."
+      },
+      {
+        "question": "هل جونو مجاني للاستخدام؟",
+        "answer": "نعم ، الدردشة مع Juno والحصول على مقدمات مجانية."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "أسئلة جيدة",
+      "heading": "قبل أن يلعب جونو كيوبيد."
+    },
+    "contact": {
+      "heading": "هل لديك سؤال للفريق؟",
+      "body": "يمكن لـ Juno الإجابة على معظم الأسئلة مباشرة في الدردشة - أو التواصل معنا عبر البريد الإلكتروني.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "جاهز عندما تكون",
+      "heading": "مقدمات حقيقية. شخص واحد في كل مرة.",
+      "body": "أخبر جونو ما يهمك. سيأخذها من هناك - بشكل مدروس ، على انفراد ، وشخص حقيقي واحد في كل مرة.",
+      "ctaLabel": "تحدث إلى جونو"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

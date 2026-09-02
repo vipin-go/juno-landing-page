@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "language": "cs",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "O",
+          "target": "about"
+        },
+        {
+          "label": "Jak to funguje",
+          "target": "how-it-works"
+        },
+        {
+          "label": "příběhy",
+          "target": "stories"
+        },
+        {
+          "label": "Časté dotazy",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Seznamte se s Juno"
+    },
+    "badge": "Matchmaking, provedeno promyšleně",
+    "headline": "Skutečné úvody",
+    "headlineLine2": "Jedna osoba po druhé",
+    "subheadline": "Mluvte s Juno jako skvělý přítel. Naučí se, na čem záleží, udělá jeden promyšlený úvod a spojí vás pouze tehdy, když oba řeknete ano.",
+    "ctaLabel": "Promluvte si s Juno",
+    "secondaryCtaLabel": "Podívejte se, jak to funguje",
+    "featureTags": [
+      "Žádné přejetí",
+      "pouze vzájemný souhlas",
+      "Skutečné rozhovory",
+      "Soukromé, dokud neřeknete ano"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Ahoj, já jsem Juno. Představuji jednu skutečnou osobu najednou – nikdy seznam."
+      },
+      {
+        "role": "user",
+        "text": "Jak to funguje?"
+      },
+      {
+        "role": "assistant",
+        "text": "Řekněte mi o sobě a o tom, koho hledáte. Začnu tím, na čem vlastně záleží."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Obvykle odpovídá okamžitě",
+      "inputPlaceholder": "Zeptejte se Juno na cokoliv…",
+      "suggestedPrompts": [
+        "Jak párování funguje?",
+        "Je můj profil soukromý?",
+        "Pomozte mi začít"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Seznamovací aplikace vám daly všechny. Juno vás s někým seznámí.",
+      "body": "Dozví se detaily, které se nikdy nevejdou do životopisu – tempo života, které chcete, co vás rozesměje, a obyčejné úterý, o které doufáte, že je sdílíte.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "caption": "lidé s podstatou"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Úvody s kontextem"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "datle, pro které stojí za to obléknout"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm se usmívá",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia s úsměvem venku",
+        "name": "nia · 29",
+        "meta": "Londýn"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Specifické beaty nekonečné.",
+        "body": "Juno filtruje pro sdílené hodnoty, kompatibilní životy a druh jiskry, na které můžete skutečně stavět.",
+        "tags": [
+          "Druh",
+          "Zvědavý",
+          "Připravený"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "osoba, ne profil.",
+        "body": "Každý úvod přichází s důvodem, proč si Juno myslí, že byste se vy dva měli setkat – ne s tajemným procentem.",
+        "ctaLabel": "Nechte Juno představit vás"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Pamatuje si detaily.",
+        "body": "Včetně těch, které zmiňujete pouze jednou."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Soukromé, vždy.",
+        "body": "Žádná veřejná paluba. Neprohlížejí si vás žádní cizinci."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Jak se kouzlo děje",
+      "heading": "Od \"Řekni mi o sobě\" po \"Kdy se můžeme potkat?\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno pozorně poslouchá během soukromého konverzace o dohazování",
+          "title": "mít opravdovou konverzaci",
+          "body": "Řekněte Juno, co chcete, co nefungovalo a jaký je pro vás dobrý vztah."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno hledá soukromou databázi profilů pro kompatibilní lidi",
+          "title": "Juno hledá",
+          "body": "Hledá v soukromé komunitě kompatibilní lidi a kontroluje, jak se hodí nad rámec toho, co je zřejmé."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Dva lidé sdílejí vřelý první úvod v kavárně",
+          "title": "splnit jednu dobrou možnost",
+          "body": "Získejte promyšlený úvod s kontextem. Oba se přihlásíte, než bude cokoli sdíleno."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Dva lidé si užívají snadný rozhovor při procházce po prvním rande",
+          "title": "Jděte na skutečné rande",
+          "body": "Juno může navrhnout místo, prolomit ledy a využít vaši zpětnou vazbu, aby byl další úvod ještě ostřejší."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Juno nejnovější tušení",
+      "heading": "dva plné životy. Jeden velmi dobrý důvod k setkání.",
+      "body": "Oba přecházejí město pro skvělý chléb, v neděli volají své rodině a raději uspořádají večeři, než aby křičeli nad barem.",
+      "checklist": [
+        "Stejné tempo vztahu",
+        "dostatečně blízko, aby to bylo spontánní",
+        "stejně vážně dezert"
+      ],
+      "ctaLabel": "najít můj typ člověka",
+      "badgeLabel": "Juno's tušení",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "name": "Amara, 31",
+          "meta": "Nedělní trhy · Velké romány"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Lev",
+          "name": "Lev, 33",
+          "meta": "Čerstvé těstoviny · Malá kina"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Ze skupinového chatu",
+      "heading": "Data, o kterých lidé píšou svým přátelům.",
+      "quote": "Juno přeskočila řeč. Naše první rande trvalo čtyři hodiny a druhé se stalo o dva dny později.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "představeno v Londýně · 11 spolu",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4k",
+          "label": "promyšlené úvody"
+        },
+        {
+          "icon": "calendar",
+          "value": "68 %",
+          "label": "proměnit v první rande"
+        },
+        {
+          "icon": "star",
+          "value": "4,9/5",
+          "label": "Průměrné hodnocení členů"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Je Juno seznamovací aplikace?",
+        "answer": "Vlastně ne – neexistuje žádný přetahovací balíček ani veřejný profil. Řeknete Juno, kdo jste a co chcete, a on udělá jeden promyšlený úvod po druhém."
+      },
+      {
+        "question": "Uvidí všichni můj profil?",
+        "answer": "Ne. Váš profil je ve výchozím nastavení soukromý. Juno sdílí pouze schválený úvod s někým, o kom si myslí, že by mohl být vhodný – nikdy ve veřejném nebo prohledávatelném zdroji."
+      },
+      {
+        "question": "Co když nemám zájem o zápas?",
+        "answer": "jen řekni Juno. Odmítnutí nikdy nepenalizuje vás ani toho druhého a bude hledat, dokud to nebude správné."
+      },
+      {
+        "question": "Je Juno zdarma k použití?",
+        "answer": "Ano, chatování s Juno a představování je zdarma."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "dobré otázky",
+      "heading": "Než si Juno zahraje Cupid."
+    },
+    "contact": {
+      "heading": "Máte dotaz na tým?",
+      "body": "Juno může odpovědět na většinu otázek přímo v chatu – nebo nás kontaktovat e-mailem.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Připraveno, když jste",
+      "heading": "Skutečné úvody. jedna osoba po druhé.",
+      "body": "Řekněte Juno, na čem vám záleží. Vezme to odtamtud – promyšleně, soukromě a po jedné skutečné osobě.",
+      "ctaLabel": "Promluvte si s Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "th",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "ประมาณ",
+          "target": "about"
+        },
+        {
+          "label": "มันทำงานอย่างไร",
+          "target": "how-it-works"
+        },
+        {
+          "label": "เรื่องราว",
+          "target": "stories"
+        },
+        {
+          "label": "คำถามที่พบบ่อย",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "พบกับจูโน่"
+    },
+    "badge": "การจับคู่ทำอย่างรอบคอบ",
+    "headline": "การแนะนำตัวจริง",
+    "headlineAccent": "จริง",
+    "headlineLine2": "ทีละคน",
+    "subheadline": "คุยกับจูโน่เหมือนคุณเป็นเพื่อนที่เก่งกาจ เขาจะเรียนรู้สิ่งที่สำคัญ แนะนำอย่างรอบคอบ และเชื่อมโยงคุณเมื่อคุณทั้งคู่ตอบว่าใช่เท่านั้น",
+    "ctaLabel": "คุยกับจูโน่",
+    "secondaryCtaLabel": "ดูว่ามันทำงานอย่างไร",
+    "featureTags": [
+      "ไม่มีการรูด",
+      "ความยินยอมร่วมกันเท่านั้น",
+      "บทสนทนาจริง",
+      "ส่วนตัวจนกว่าคุณจะตอบว่าใช่"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "สวัสดี ฉันชื่อจูโน ฉันแนะนำคนจริงทีละคน - ไม่เคยมีรายการ"
+      },
+      {
+        "role": "user",
+        "text": "มันทำงานอย่างไร?"
+      },
+      {
+        "role": "assistant",
+        "text": "บอกฉันเกี่ยวกับตัวคุณและคนที่คุณกำลังมองหา ฉันจะเริ่มต้นด้วยสิ่งที่สำคัญจริงๆ"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "ออนไลน์ · มักจะตอบกลับทันที",
+      "inputPlaceholder": "ถามจูโนอะไรก็ได้…",
+      "suggestedPrompts": [
+        "การจับคู่ทำงานอย่างไร?",
+        "โปรไฟล์ของฉันเป็นส่วนตัวหรือไม่?",
+        "ช่วยฉันเริ่มต้น"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "แอพหาคู่ให้คุณทุกคน จูโนแนะนำคุณให้รู้จักกับใครบางคน",
+      "headingAccent": "ใครบางคน",
+      "body": "เขาเรียนรู้รายละเอียดที่ไม่เคยเข้ากับชีวประวัติ — จังหวะชีวิตที่คุณต้องการ สิ่งที่ทำให้คุณหัวเราะ และวันอังคารธรรมดาที่คุณหวังว่าจะแบ่งปัน",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "อมรอ",
+          "caption": "คนที่มีสาร"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "มัลคอล์ม",
+          "caption": "บทนำพร้อมบริบท"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "สำนักข่าวกรองแห่งชาติ",
+          "caption": "วันที่ควรค่าแก่การแต่งตัวสำหรับ"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "มัลคอล์มยิ้ม",
+        "name": "มัลคอล์ม · 34",
+        "meta": "บรู๊คลิน"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "เนียยิ้มกลางแจ้ง",
+        "name": "สนช. · 29",
+        "meta": "ลอนดอน"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "จังหวะเฉพาะไม่มีที่สิ้นสุด",
+        "body": "ตัวกรอง Juno สำหรับค่าที่ใช้ร่วมกัน ชีวิตที่เข้ากันได้ และประเภทของจุดประกายที่คุณสามารถสร้างได้จริง",
+        "tags": [
+          "ชนิด",
+          "ประหลาด",
+          "พร้อมแล้ว"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "คน ไม่ใช่โปรไฟล์",
+        "body": "การแนะนำทุกครั้งมาพร้อมกับเหตุผลที่ Juno คิดว่าคุณสองคนควรพบกัน ไม่ใช่เปอร์เซ็นต์ที่ลึกลับ",
+        "ctaLabel": "ให้จูโน่แนะนำคุณ"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "เขาจำรายละเอียดได้",
+        "body": "รวมถึงสิ่งที่คุณพูดถึงเพียงครั้งเดียว"
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "ส่วนตัวเสมอ",
+        "body": "ไม่มีดาดฟ้าสาธารณะ ไม่มีคนแปลกหน้าเรียกดูคุณ"
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "เวทมนตร์เกิดขึ้นได้อย่างไร",
+      "heading": "จาก \"บอกฉันเกี่ยวกับคุณ\" ถึง \"เราจะได้พบกันเมื่อไหร่\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno ฟังอย่างใกล้ชิดระหว่างการสนทนาหาคู่ส่วนตัว",
+          "title": "มีบทสนทนาจริง",
+          "body": "บอก Juno ว่าคุณต้องการอะไร อะไรไม่ได้ผล และความสัมพันธ์ที่ดีรู้สึกอย่างไรกับคุณ"
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno ค้นหาฐานข้อมูลส่วนตัวของโปรไฟล์สำหรับคนที่เข้ากันได้",
+          "title": "จูโน่มอง",
+          "body": "เขาค้นหาชุมชนส่วนตัวเพื่อหาคนที่เข้ากันได้และตรวจสอบความเหมาะสมเกินกว่าที่เห็นได้ชัด"
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "คนสองคนแบ่งปันการแนะนำครั้งแรกที่อบอุ่นที่ร้านกาแฟ",
+          "title": "พบกับความเป็นไปได้ที่ดีอย่างหนึ่ง",
+          "body": "รับการแนะนำอย่างรอบคอบพร้อมบริบท คุณทั้งคู่เลือกใช้ก่อนที่จะมีการแชร์อะไร"
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "คนสองคนเพลิดเพลินกับการสนทนาง่ายๆ ขณะเดินหลังจากออกเดทครั้งแรก",
+          "title": "ไปเดทจริง",
+          "body": "Juno สามารถแนะนำสถานที่ ทำลายน้ำแข็ง และใช้ความคิดเห็นของคุณเพื่อทำให้การแนะนำครั้งต่อไปคมชัดยิ่งขึ้น"
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "ลางสังหรณ์ล่าสุดของจูโน",
+      "heading": "สองชีวิตเต็ม เหตุผลหนึ่งที่ดีมากที่จะพบ",
+      "body": "พวกเขาทั้งคู่ข้ามเมืองเพื่อซื้อขนมปังดีๆ โทรหาครอบครัวในวันอาทิตย์ และอยากจะเป็นเจ้าภาพเลี้ยงอาหารค่ำมากกว่าตะโกนใส่บาร์",
+      "checklist": [
+        "ก้าวเดียวกัน",
+        "ใกล้พอที่จะเกิดขึ้นเอง",
+        "จริงจังกับของหวานไม่แพ้กัน"
+      ],
+      "ctaLabel": "หาคนแบบฉัน",
+      "badgeLabel": "ลางสังหรณ์ของจูโน",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "อมรอ",
+          "name": "อมรา, 31",
+          "meta": "ตลาดวันอาทิตย์ · นวนิยายเรื่องใหญ่"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "สิงห์",
+          "name": "ลีโอ, 33",
+          "meta": "พาสต้าสด · โรงภาพยนตร์ขนาดเล็ก"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "จากการแชทกลุ่ม",
+      "heading": "วันที่ผู้คนส่งข้อความถึงเพื่อนของพวกเขา",
+      "quote": "จูโนข้ามการพูดคุยเล็กๆ วันแรกของเรากินเวลาสี่ชั่วโมง และครั้งที่สองของเราเกิดขึ้นในอีกสองวันต่อมา",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "สำนักข่าวกรองแห่งชาติ"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "มัลคอล์ม"
+        }
+      ],
+      "attribution": "สนช.+มัลคอล์ม",
+      "meta": "แนะนำในลอนดอน · 11 เดือนด้วยกัน",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4k",
+          "label": "บทนำอย่างรอบคอบ"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "กลายเป็นเดทแรก"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "คะแนนเฉลี่ยของสมาชิก"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Juno เป็นแอพหาคู่หรือไม่?",
+        "answer": "ไม่ได้จริงๆ — ไม่มีสำรับรูดหรือโปรไฟล์สาธารณะ คุณบอก Juno ว่าคุณเป็นใครและต้องการอะไร และเขาแนะนำอย่างรอบคอบในแต่ละครั้ง"
+      },
+      {
+        "question": "ทุกคนจะเห็นโปรไฟล์ของฉันไหม",
+        "answer": "ไม่ได้ โปรไฟล์ของคุณเป็นแบบส่วนตัวโดยค่าเริ่มต้น Juno แบ่งปันการแนะนำที่ได้รับอนุมัติกับคนที่เขาคิดว่าเหมาะสมเท่านั้น ไม่เคยอยู่ในฟีดสาธารณะหรือในฟีดที่ค้นหาได้"
+      },
+      {
+        "question": "ถ้าฉันไม่สนใจการแข่งขันล่ะ?",
+        "answer": "แค่บอกจูโน่ การปฏิเสธไม่เคยลงโทษคุณหรือบุคคลอื่น และเขาจะคอยดูต่อไปจนกว่าจะถูกต้อง"
+      },
+      {
+        "question": "Juno ใช้ฟรีหรือไม่?",
+        "answer": "ใช่ การพูดคุยกับ Juno และการแนะนำตัวนั้นฟรี"
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "คำถามดีๆ",
+      "heading": "ก่อนที่จูโนจะเล่นกามเทพ"
+    },
+    "contact": {
+      "heading": "มีคำถามสำหรับทีม?",
+      "body": "Juno สามารถตอบคำถามส่วนใหญ่ได้โดยตรงในแชท หรือติดต่อเราทางอีเมล",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "พร้อมเมื่อคุณอยู่",
+      "heading": "แนะนำตัวจริง. ทีละคน",
+      "body": "บอก Juno ว่าอะไรสำคัญกับคุณ เขาจะเอามันจากที่นั่น — อย่างรอบคอบ เป็นการส่วนตัว และคนจริงทีละคน",
+      "ctaLabel": "คุยกับจูโน่"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

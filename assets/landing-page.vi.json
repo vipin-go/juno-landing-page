@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "vi",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Đây đó",
+          "target": "about"
+        },
+        {
+          "label": "Làm thế nào nó hoạt động",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Những câu chuyện",
+          "target": "stories"
+        },
+        {
+          "label": "Câu hỏi thường gặp",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Gặp Juno"
+    },
+    "badge": "mai mối, thực hiện một cách chu đáo",
+    "headline": "giới thiệu thực sự",
+    "headlineLine2": "Một người tại một thời điểm",
+    "subheadline": "Nói chuyện với Juno giống như bạn là một người bạn tuyệt vời. Anh ấy sẽ tìm hiểu những gì quan trọng, giới thiệu một cách chu đáo và chỉ kết nối bạn khi cả hai đều đồng ý.",
+    "ctaLabel": "Nói chuyện với Juno",
+    "secondaryCtaLabel": "Xem nó hoạt động như thế nào",
+    "featureTags": [
+      "Không vuốt",
+      "Chỉ sự đồng ý lẫn nhau",
+      "cuộc trò chuyện thực sự",
+      "riêng tư cho đến khi bạn nói có"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Xin chào, tôi là Juno. Tôi giới thiệu một người thực tại một thời điểm - không bao giờ là một danh sách."
+      },
+      {
+        "role": "user",
+        "text": "Làm thế nào để nó hoạt động?"
+      },
+      {
+        "role": "assistant",
+        "text": "Hãy cho tôi biết về bản thân bạn và người bạn đang tìm kiếm. Tôi sẽ bắt đầu với những gì thực sự quan trọng."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "trực tuyến · thường trả lời ngay lập tức",
+      "inputPlaceholder": "Hỏi Juno bất cứ điều gì…",
+      "suggestedPrompts": [
+        "Làm thế nào để phù hợp hoạt động?",
+        "Hồ sơ của tôi có riêng tư không?",
+        "Giúp tôi bắt đầu"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Ứng dụng hẹn hò đã cho bạn tất cả mọi người. Juno giới thiệu bạn với ai đó.",
+      "headingAccent": "ai đó.",
+      "body": "Anh ấy tìm hiểu những chi tiết không bao giờ phù hợp với tiểu sử - nhịp sống bạn muốn, điều gì khiến bạn cười và ngày thứ Ba bình thường mà bạn hy vọng sẽ chia sẻ.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Những người có chất"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Giới thiệu với ngữ cảnh"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "Những ngày đáng để mặc quần áo"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm mỉm cười",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia mỉm cười ngoài trời",
+        "name": "Nia · 29",
+        "meta": "London"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "nhịp đập cụ thể vô tận.",
+        "body": "Juno bộ lọc cho các giá trị được chia sẻ, cuộc sống tương thích và loại tia lửa mà bạn thực sự có thể xây dựng.",
+        "tags": [
+          "Đàng hoàng",
+          "Tò mò",
+          "Sẳn sàng"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "một người, không phải một hồ sơ.",
+        "body": "Mỗi lời giới thiệu đều đi kèm với lý do Juno nghĩ rằng hai bạn nên gặp nhau - không phải là một tỷ lệ phần trăm bí ẩn.",
+        "ctaLabel": "Hãy để Juno giới thiệu bạn"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Anh ấy nhớ chi tiết.",
+        "body": "kể cả những cái bạn chỉ đề cập một lần."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Riêng tư, luôn luôn.",
+        "body": "Không có boong công cộng. Không có người lạ duyệt bạn."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Điều kỳ diệu xảy ra như thế nào",
+      "heading": "Từ \"Tell Me About You\" đến \"Khi nào chúng ta có thể gặp nhau?\"",
+      "headingAccent": "Khi nào chúng ta có thể gặp nhau?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno lắng nghe chặt chẽ trong một cuộc trò chuyện mai mối riêng tư",
+          "title": "có một cuộc trò chuyện thực sự",
+          "body": "Nói với Juno những gì bạn muốn, những gì chưa hiệu quả và một mối quan hệ tốt với bạn cảm thấy như thế nào."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno tìm kiếm cơ sở dữ liệu riêng về hồ sơ cho những người tương thích",
+          "title": "Juno có nhìn không",
+          "body": "Anh ta tìm kiếm cộng đồng tư nhân cho những người tương thích và kiểm tra sự phù hợp ngoài điều hiển nhiên."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Hai người chia sẻ lời giới thiệu đầu tiên nồng nhiệt tại một quán cà phê",
+          "title": "Gặp một khả năng tốt",
+          "body": "Nhận phần giới thiệu chu đáo với ngữ cảnh. Cả hai bạn đều chọn tham gia trước khi bất cứ điều gì được chia sẻ."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Hai người tận hưởng một cuộc trò chuyện dễ dàng khi đi dạo sau buổi hẹn hò đầu tiên",
+          "title": "đi vào một ngày thực tế",
+          "body": "Juno có thể đề xuất địa điểm, phá băng và sử dụng phản hồi của bạn để làm cho phần giới thiệu tiếp theo trở nên sắc nét hơn."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Linh cảm mới nhất của Juno",
+      "heading": "Hai cuộc đời đầy đủ. Một lý do rất tốt để gặp gỡ.",
+      "body": "Cả hai đều băng qua thị trấn để thưởng thức món bánh mì tuyệt vời, gọi cho gia đình vào Chủ nhật, và thà tổ chức bữa tối hơn là hét lên trong quán bar.",
+      "checklist": [
+        "cùng một tốc độ mối quan hệ",
+        "đủ gần để tự phát",
+        "nghiêm túc không kém về món tráng miệng"
+      ],
+      "ctaLabel": "Tìm loại người của tôi",
+      "badgeLabel": "linh cảm của Juno",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31 tuổi",
+          "meta": "Chợ chủ nhật · Tiểu thuyết lớn"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Sư Tử",
+          "name": "Leo, 33 tuổi",
+          "meta": "mì ống tươi · rạp chiếu phim nhỏ"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "từ cuộc trò chuyện nhóm",
+      "heading": "ngày mọi người nhắn tin cho bạn bè của họ về.",
+      "quote": "Juno bỏ qua cuộc nói chuyện nhỏ. Buổi hẹn hò đầu tiên của chúng tôi kéo dài bốn giờ, và lần thứ hai của chúng tôi xảy ra hai ngày sau đó.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Được giới thiệu ở London · 11 tháng cùng nhau",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4k",
+          "label": "giới thiệu chu đáo"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "Biến thành buổi hẹn hò đầu tiên"
+        },
+        {
+          "icon": "star",
+          "value": "4,9 / 5",
+          "label": "Xếp hạng thành viên trung bình"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Juno có phải là một ứng dụng hẹn hò không?",
+        "answer": "Không thực sự - không có boong vuốt hoặc hồ sơ công khai. Bạn nói cho Juno biết bạn là ai và bạn muốn gì, và anh ấy sẽ giới thiệu một cách chu đáo tại một thời điểm."
+      },
+      {
+        "question": "Mọi người sẽ xem hồ sơ của tôi chứ?",
+        "answer": "Không. Hồ sơ của bạn là riêng tư theo mặc định. Juno chỉ chia sẻ phần giới thiệu đã được phê duyệt với người mà anh ấy nghĩ có thể phù hợp - không bao giờ có trong nguồn cấp dữ liệu công khai hoặc có thể tìm kiếm được."
+      },
+      {
+        "question": "Điều gì sẽ xảy ra nếu tôi không quan tâm đến một trận đấu?",
+        "answer": "Chỉ cần nói với Juno. Từ chối không bao giờ phạt bạn hoặc người khác, và anh ta sẽ tiếp tục tìm kiếm cho đến khi điều đó đúng."
+      },
+      {
+        "question": "Juno có miễn phí để sử dụng không?",
+        "answer": "Có, trò chuyện với Juno và nhận giới thiệu là miễn phí."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "câu hỏi hay",
+      "heading": "Trước khi Juno đóng vai Cupid."
+    },
+    "contact": {
+      "heading": "Có một câu hỏi cho nhóm?",
+      "body": "Juno có thể trả lời hầu hết các câu hỏi trực tiếp trong trò chuyện - hoặc liên hệ với chúng tôi qua email.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "sẵn sàng khi bạn",
+      "heading": "giới thiệu thực tế. từng người một.",
+      "body": "Nói với Juno những gì quan trọng với bạn. Anh ấy sẽ lấy nó từ đó - một cách chu đáo, riêng tư và một người thực tại một thời điểm.",
+      "ctaLabel": "Nói chuyện với Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

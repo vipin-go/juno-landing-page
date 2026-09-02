@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "hu",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Ról ről",
+          "target": "about"
+        },
+        {
+          "label": "Hogyan működik",
+          "target": "how-it-works"
+        },
+        {
+          "label": "történetek",
+          "target": "stories"
+        },
+        {
+          "label": "GYIK",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Ismerje meg Junót"
+    },
+    "badge": "párkeresés, átgondoltan",
+    "headline": "Valódi bemutatkozás",
+    "headlineLine2": "Egyszerre egy ember",
+    "subheadline": "Beszélj Junóval, mint egy zseniális barátoddal. Megtanulja, ami számít, egy átgondolt bemutatkozást tesz, és csak akkor köt össze, ha mindketten igent mondanak.",
+    "ctaLabel": "Beszélj Junóval",
+    "secondaryCtaLabel": "Hogyan működik",
+    "featureTags": [
+      "Tilos a csúsztatás",
+      "Csak közös megegyezés",
+      "Valódi beszélgetések",
+      "privát, amíg igent nem mond"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Szia, Juno vagyok. Egyszerre egy valós embert mutatok be – soha egy listát."
+      },
+      {
+        "role": "user",
+        "text": "Ez hogy működik?"
+      },
+      {
+        "role": "assistant",
+        "text": "Mesélj magadról és arról, hogy kit keresel. Kezdem azzal, ami valójában számít."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Általában azonnal válaszol",
+      "inputPlaceholder": "Kérdezz bármit Junótól…",
+      "suggestedPrompts": [
+        "Hogyan működik a párosítás?",
+        "A profilom privát?",
+        "Segíts az indulásban"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "A társkereső alkalmazások mindenkinek adott. Juno bemutat valakinek.",
+      "body": "Megtanulja azokat a részleteket, amelyek soha nem illenek bele egy életrajzba – az élettempót, amire vágysz, ami megnevettet, és a hétköznapi keddet, amelyet remélsz megosztani.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Anyaggal rendelkező emberek"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "gonosztevő",
+          "caption": "Bevezetés kontextussal"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "NIA",
+          "caption": "Dátumok, amelyekre érdemes öltözni"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm mosolyogva",
+        "name": "Malcolm · 34",
+        "meta": "megnyúz"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia mosolyog a szabadban",
+        "name": "nia · 29",
+        "meta": "London"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Konkrét ütemek végtelenek.",
+        "body": "A Juno szűri a megosztott értékeket, a kompatibilis életeket és azt a fajta szikrát, amelyre ténylegesen építhet.",
+        "tags": [
+          "Fajta",
+          "Kíváncsi",
+          "Készen áll"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Egy személy, nem egy profil.",
+        "body": "Minden bevezetőnek van egy oka annak, hogy Juno úgy gondolja, hogy találkozniuk kell – nem egy titokzatos százalék.",
+        "ctaLabel": "Hadd mutassa be Juno"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Emlékszik a részletekre.",
+        "body": "Beleértve azokat is, amelyeket csak egyszer említ."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Privát, mindig.",
+        "body": "Nincs nyilvános pakli. Nincsenek idegenek, akik téged böngésznek."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Hogyan történik a varázslat",
+      "heading": "A \"Mesélj rólad\"-tól a \"Mikor találkozhatunk?\"",
+      "headingAccent": "Mikor találkozhatunk?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno figyelmesen hallgat egy privát párkereső beszélgetés során",
+          "title": "valódi beszélgetést folytatni",
+          "body": "Mondd el Junónak, hogy mit akarsz, mi nem vált be, és milyen érzés egy jó kapcsolat számodra."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno kompatibilis emberek profiljainak privát adatbázisában keres",
+          "title": "Juno keres",
+          "body": "Keresi a privát közösséget kompatibilis emberek után, és a nyilvánvalón túl ellenőrzi az illeszkedést."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Két ember meleg első bemutatkozást tart egy kávézóban",
+          "title": "Találkozz egy jó lehetőséggel",
+          "body": "Átgondolt bemutatkozás a kontextussal. Mindketten jelentkeznek, mielőtt bármit megosztanának."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Két ember élvezi a könnyű beszélgetést az első randevú után sétálva",
+          "title": "Menj el egy tényleges randevúra",
+          "body": "Juno javasolhatja a helyet, megtörheti a jeget, és visszajelzését felhasználva még élesebbé teheti a következő bemutatkozást."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Juno legújabb sejtése",
+      "heading": "két teljes életet. Egy nagyon jó ok a találkozásra.",
+      "body": "Mindketten átkelnek a városon nagy kenyérért, vasárnaponként felhívják a családjukat, és inkább vacsorát rendeznek, mint kiabálnak egy bárban.",
+      "checklist": [
+        "Ugyanaz a kapcsolati ütem",
+        "elég közel ahhoz, hogy spontán legyen",
+        "Ugyanolyan komoly a desszert"
+      ],
+      "ctaLabel": "Találd meg az én fajtámat",
+      "badgeLabel": "Juno sejtése",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31",
+          "meta": "Vasárnapi piacok · Nagy regények"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Oroszlán",
+          "name": "Leo, 33 éves",
+          "meta": "Friss tészta · Apró mozik"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "A csoportos chatből",
+      "heading": "Randi Az emberek SMS-t küldenek barátaiknak.",
+      "quote": "Juno kihagyta a kis beszélgetést. Az első randevúnk négy óráig tartott, a másodikunk pedig két nappal később történt.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "NIA"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "gonosztevő"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Londonban vezették be · 11 hónap együtt",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4k",
+          "label": "Átgondolt bemutatkozás"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "Váltson első randevúvá"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "átlagos tagértékelés"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "A Juno egy társkereső alkalmazás?",
+        "answer": "Nem igazán – nincs csúsztatási pakli vagy nyilvános profil. Elmondod Junónak, hogy ki vagy és mit akarsz, ő pedig egy-egy átgondolt bemutatkozást tesz."
+      },
+      {
+        "question": "Mindenki látni fogja a profilomat?",
+        "answer": "Nem. A profilja alapértelmezés szerint privát. Juno csak egy jóváhagyott bemutatkozást oszt meg valakivel, akiről úgy gondolja, hogy megfelelő lehet – soha nem nyilvános vagy kereshető hírfolyamban."
+      },
+      {
+        "question": "Mi van, ha nem érdekel a meccs?",
+        "answer": "Csak mondd meg Junónak. A elutasítás soha nem büntet meg téged vagy a másikat, és addig keresi, amíg nem lesz megfelelő."
+      },
+      {
+        "question": "A Juno szabadon használható?",
+        "answer": "Igen, a Junóval való csevegés és a bemutatkozás ingyenes."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "jó kérdések",
+      "heading": "Mielőtt Juno Cupidot játszik."
+    },
+    "contact": {
+      "heading": "Kérdése van a csapathoz?",
+      "body": "A Juno a legtöbb kérdésre közvetlenül a chaten válaszolhat – vagy e-mailben fordulhat hozzánk.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "készen állsz, amikor vagy",
+      "heading": "Valódi bemutatkozások. egyszerre egy ember.",
+      "body": "Mondd el Junónak, hogy mi számít neked. Onnan veszi át – elgondolkodva, privátban, és egyszerre egy valódi ember.",
+      "ctaLabel": "Beszélj Junóval"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

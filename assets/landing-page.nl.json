@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "nl",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Over",
+          "target": "about"
+        },
+        {
+          "label": "Hoe het werkt",
+          "target": "how-it-works"
+        },
+        {
+          "label": "verhalen",
+          "target": "stories"
+        },
+        {
+          "label": "Veelgestelde vragen",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Ontmoet Juno"
+    },
+    "badge": "Matchmaking, doordacht gedaan",
+    "headline": "Echte introducties",
+    "headlineAccent": "Echt",
+    "headlineLine2": "Eén persoon tegelijk",
+    "subheadline": "Praat met Juno zoals je een briljante vriend zou doen. Hij zal leren wat belangrijk is, een doordachte introductie maken en je alleen verbinden als jullie allebei ja zeggen.",
+    "ctaLabel": "Praat met Juno",
+    "secondaryCtaLabel": "Kijk hoe het werkt",
+    "featureTags": [
+      "Niet vegen",
+      "Alleen wederzijdse toestemming",
+      "Echte gesprekken",
+      "Privé totdat je ja zegt"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hallo, ik ben Juno. Ik introduceer één echte persoon tegelijk - nooit een lijst."
+      },
+      {
+        "role": "user",
+        "text": "Hoe werkt dat?"
+      },
+      {
+        "role": "assistant",
+        "text": "Vertel me over jezelf en wie je zoekt. Ik zal beginnen met wat er echt toe doet."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "online · meestal direct antwoordt",
+      "inputPlaceholder": "Vraag Juno iets...",
+      "suggestedPrompts": [
+        "Hoe werkt matchen?",
+        "Is mijn profiel privé?",
+        "Help me aan de slag"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Dating-apps gaven je iedereen. Juno stelt je aan iemand voor.",
+      "body": "Hij leert de details die nooit in een bio passen - het tempo van het leven dat je wilt, wat je aan het lachen maakt en de gewone dinsdag die je hoopt te delen.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "caption": "Mensen met substantie"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Inleidingen met context"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nacht’",
+          "caption": "Dadels die het waard zijn om aan te kleden"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm glimlacht",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia glimlachend buiten",
+        "name": "nia · 29",
+        "meta": "Londen"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "specifieke beats eindeloos.",
+        "body": "Juno filtert op gedeelde waarden, compatibele levens en het soort vonk waar je daadwerkelijk op kunt bouwen.",
+        "tags": [
+          "Soort",
+          "Nieuwsgierig",
+          "Klaar"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "een persoon, geen profiel.",
+        "body": "Elke introductie komt met een reden waarom Juno denkt dat jullie elkaar zouden moeten ontmoeten - geen mysterieus percentage.",
+        "ctaLabel": "Laat Juno je voorstellen"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Hij herinnert zich de details.",
+        "body": "inclusief degene die je maar één keer noemt."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Privé, altijd.",
+        "body": "Geen openbaar dek. Geen vreemden die je browsen."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Hoe de magie gebeurt",
+      "heading": "Van \"Vertel me over jou\" tot \"Wanneer kunnen we elkaar ontmoeten?\"",
+      "headingAccent": "Wanneer kunnen we elkaar ontmoeten?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno luistert goed tijdens een privé-matchmaking-gesprek",
+          "title": "Voer een echt gesprek",
+          "body": "Vertel Juno wat je wilt, wat niet heeft gewerkt en hoe een goede relatie voor jou voelt."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno zoekt in een privédatabase met profielen voor compatibele mensen",
+          "title": "Juno doet het kijken",
+          "body": "Hij doorzoekt de privégemeenschap naar compatibele mensen en controleert de pasvorm die verder gaat dan het voor de hand liggende."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Twee mensen die een warme eerste introductie delen in een café",
+          "title": "ontmoet een goede mogelijkheid",
+          "body": "Krijg een doordachte introductie met context. Jullie kiezen allebei voor voordat er iets wordt gedeeld."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Twee mensen genieten van een gemakkelijk gesprek tijdens het wandelen na een eerste date",
+          "title": "Ga op een echte date",
+          "body": "Juno kan de plaats voorstellen, het ijs breken en je feedback gebruiken om de volgende introductie nog scherper te maken."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Juno's laatste voorgevoel",
+      "heading": "Twee volle levens. Een heel goede reden om elkaar te ontmoeten.",
+      "body": "Ze gaan allebei door de stad voor geweldig brood, bellen hun familie op zondag en organiseren liever een diner dan over een bar te schreeuwen.",
+      "checklist": [
+        "Zelfde relatietempo",
+        "Dicht genoeg om spontaan te zijn",
+        "even serieus over dessert"
+      ],
+      "ctaLabel": "Vind mijn soort persoon",
+      "badgeLabel": "Juno's voorgevoel",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "name": "Amara, 31",
+          "meta": "Zondagmarkten · Grote romans"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leeuw",
+          "name": "Leeuw, 33",
+          "meta": "verse pasta · kleine bioscopen"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "uit de groepschat",
+      "heading": "dates mensen sms'en hun vrienden over.",
+      "quote": "Juno sloeg de small talk over. Onze eerste date duurde vier uur en onze tweede vond twee dagen later plaats.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nacht’"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Geïntroduceerd in Londen · 11 maanden samen",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "Doordachte introducties"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "Verander in een eerste date"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "Gemiddelde beoordeling van leden"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Is Juno een dating-app?",
+        "answer": "Niet echt - er is geen swipe-deck of openbaar profiel. Je vertelt Juno wie je bent en wat je wilt, en hij maakt één doordachte introductie tegelijk."
+      },
+      {
+        "question": "Ziet iedereen mijn profiel?",
+        "answer": "Nee. Uw profiel is standaard privé. Juno deelt alleen een goedgekeurde introductie met iemand waarvan hij denkt dat het een aanval zou kunnen zijn - nooit in een openbare of doorzoekbare feed."
+      },
+      {
+        "question": "Wat als ik niet geïnteresseerd ben in een wedstrijd?",
+        "answer": "Zeg het gewoon tegen Juno. Weigeren bestraffen nooit jou of de ander, en hij zal blijven zoeken totdat het goed is."
+      },
+      {
+        "question": "Is Juno gratis te gebruiken?",
+        "answer": "Ja, chatten met Juno en introducties krijgen is gratis."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Goede vragen",
+      "heading": "Voordat Juno Cupido speelt."
+    },
+    "contact": {
+      "heading": "Heeft u een vraag aan het team?",
+      "body": "Juno kan de meeste vragen rechtstreeks in de chat beantwoorden - of contact met ons opnemen via e-mail.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Klaar wanneer jij het bent",
+      "heading": "Echte introducties. één persoon tegelijk.",
+      "body": "Vertel Juno wat voor jou belangrijk is. Hij zal het vanaf daar overnemen - bedachtzaam, privé en één echte persoon tegelijk.",
+      "ctaLabel": "Praat met Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

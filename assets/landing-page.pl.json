@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "pl",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "O",
+          "target": "about"
+        },
+        {
+          "label": "Jak to działa",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Historie",
+          "target": "stories"
+        },
+        {
+          "label": "Często zadawane pytania",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Poznaj Juno"
+    },
+    "badge": "Matchmaking, zrobione z przemyślanym",
+    "headline": "Prawdziwe wprowadzenie",
+    "headlineLine2": "Jedna osoba na raz",
+    "subheadline": "Porozmawiaj z Juno tak, jakbyś był genialnym przyjacielem. Dowie się, co się liczy, zrobi jedno przemyślane wprowadzenie i połączy cię tylko wtedy, gdy oboje powiecie tak.",
+    "ctaLabel": "Porozmawiaj z Juno",
+    "secondaryCtaLabel": "Zobacz jak to działa",
+    "featureTags": [
+      "Bez przesuwania",
+      "Tylko wzajemna zgoda",
+      "Prawdziwe rozmowy",
+      "Prywatne, dopóki nie powiesz tak"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Cześć, jestem Juno. Przedstawiam jedną prawdziwą osobę na raz — nigdy listę."
+      },
+      {
+        "role": "user",
+        "text": "Jak to działa?"
+      },
+      {
+        "role": "assistant",
+        "text": "Opowiedz mi o sobie i kogo szukasz. Zacznę od tego, co naprawdę ma znaczenie."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "online · zwykle odpowiada natychmiast",
+      "inputPlaceholder": "Zapytaj Juno o cokolwiek…",
+      "suggestedPrompts": [
+        "Jak działa dopasowanie?",
+        "Czy mój profil jest prywatny?",
+        "Pomóż mi zacząć"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Aplikacje randkowe dały ci wszystkich. Juno przedstawia cię komuś.",
+      "body": "Dowiaduje się szczegółów, które nigdy nie pasują do biografii — tempa życia, którego pragniesz, tego, co cię rozśmieszasz, i zwyczajnego wtorku, którym masz nadzieję się podzielić.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Ludzie z substancją"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolma",
+          "caption": "Wprowadzenie z kontekstem"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "Daty, na które warto się ubrać"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm uśmiechnięty",
+        "name": "Malcolma · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia uśmiechnięta na zewnątrz",
+        "name": "nia · 29",
+        "meta": "Londyn"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Specyficzne bije bez końca.",
+        "body": "Filtry Juno dla wspólnych wartości, kompatybilnych żyć i rodzaju iskry, na której możesz faktycznie budować.",
+        "tags": [
+          "Rodzaj",
+          "Ciekawy",
+          "Gotowy"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Osoba, a nie profil.",
+        "body": "Każde wprowadzenie ma powód, dla którego Juno uważa, że powinniście się spotkać – a nie tajemniczy procent.",
+        "ctaLabel": "Niech Juno cię przedstawi"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Pamięta szczegóły.",
+        "body": "W tym te, o których wspominasz tylko raz."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Prywatne, zawsze.",
+        "body": "Brak publicznego pokładu. Nie obcy cię przeglądają."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Jak dzieje się magia",
+      "heading": "Od „Opowiedz mi o sobie” do „Kiedy możemy się spotkać?”",
+      "headingAccent": "Kiedy możemy się spotkać?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno uważnie nasłuchuje podczas prywatnej rozmowy kojarzeń",
+          "title": "prowadzić prawdziwą rozmowę",
+          "body": "Powiedz Juno, czego chcesz, co nie zadziałało i jaki jest dla ciebie dobry związek."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno przeszukuje prywatną bazę profili profili dla kompatybilnych osób",
+          "title": "Juno patrzy",
+          "body": "Przeszukuje prywatną społeczność w poszukiwaniu zgodnych ludzi i sprawdza dopasowanie poza oczywistością."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Dwie osoby dzielące ciepłe pierwsze wprowadzenie w kawiarni",
+          "title": "Poznaj jedną dobrą możliwość",
+          "body": "Uzyskaj przemyślane wprowadzenie z kontekstem. Oboje zdecydujesz się, zanim cokolwiek zostanie udostępnione."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Dwie osoby cieszące się łatwą rozmową podczas chodzenia po pierwszej randce",
+          "title": "Idź na rzeczywistą randkę",
+          "body": "Juno może zasugerować to miejsce, przełamać lody i wykorzystać swoją opinię, aby kolejne wprowadzenie było jeszcze ostrzejsze."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Najnowsze przeczucie Juno",
+      "heading": "Dwa pełne życia. Jeden bardzo dobry powód do spotkania.",
+      "body": "Oboje przemierzają miasto po wspaniały chleb, dzwonią do rodziny w niedziele i wolą organizować kolację niż krzyczeć nad barem.",
+      "checklist": [
+        "To samo tempo relacji",
+        "Wystarczająco blisko, aby być spontanicznym",
+        "Równie poważnie o deser"
+      ],
+      "ctaLabel": "Znajdź mój rodzaj osoby",
+      "badgeLabel": "Przeczucie Juno",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31",
+          "meta": "Niedzielne targi · Wielkie powieści"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Lew",
+          "name": "Leon, 33",
+          "meta": "Świeży makaron · małe kina"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "z czatu grupowego",
+      "heading": "Dates people text\ntheir friends about.",
+      "quote": "Juno zrezygnowała z małej rozmowy. Nasza pierwsza randka trwała cztery godziny, a druga nastąpiła dwa dni później.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolma"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Wprowadzone w Londynie · 11 miesięcy razem",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4 tys",
+          "label": "Przemyślane wprowadzenie"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "zamienić się w pierwszą randkę"
+        },
+        {
+          "icon": "star",
+          "value": "4,9/5",
+          "label": "Średnia ocena członków"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Czy Juno jest aplikacją randkową?",
+        "answer": "Niezupełnie — nie ma talii przesuwania ani profilu publicznego. Mówisz Juno, kim jesteś i czego chcesz, a on robi jedno przemyślane wprowadzenie na raz."
+      },
+      {
+        "question": "Czy wszyscy zobaczą mój profil?",
+        "answer": "Nie. Twój profil jest domyślnie prywatny. Juno dzieli się tylko zatwierdzonym wprowadzeniem z kimś, o kim uważa, że może być wpasowany — nigdy w publicznym lub przeszukiwanym kanale."
+      },
+      {
+        "question": "Co jeśli nie jestem zainteresowany meczem?",
+        "answer": "Po prostu powiedz Juno. Odmowa nigdy nie karze ciebie ani drugą osobę i będzie szukał, dopóki nie będzie to właściwe."
+      },
+      {
+        "question": "Czy Juno jest za darmo?",
+        "answer": "Tak, czatowanie z Juno i wstępy są bezpłatne."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Dobre pytania",
+      "heading": "Zanim Juno gra Kupidyna."
+    },
+    "contact": {
+      "heading": "Masz pytanie do zespołu?",
+      "body": "Juno może odpowiedzieć na większość pytań bezpośrednio na czacie — lub skontaktować się z nami przez e-mail.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Gotowy, kiedy jesteś",
+      "heading": "Prawdziwe przedstawienia. jedna osoba na raz.",
+      "body": "Powiedz Juno, co jest dla ciebie ważne. Weźmie to stamtąd — w zamyśleniu, prywatnie i jedną prawdziwą osobą na raz.",
+      "ctaLabel": "Porozmawiaj z Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

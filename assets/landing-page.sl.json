@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "sl",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Okoli",
+          "target": "about"
+        },
+        {
+          "label": "Kako deluje",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Zgodbe",
+          "target": "stories"
+        },
+        {
+          "label": "Pogosta vprašanja",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Spoznaj Juno"
+    },
+    "badge": "Matchmaking, opravljeno premišljeno",
+    "headline": "Pravi uvodi",
+    "headlineLine2": "Ena oseba naenkrat",
+    "subheadline": "Pogovorite se z Juno, kot da bi briljanten prijatelj. Naučil se bo, kaj je pomembno, naredil en premišljen uvod in vas povezal šele, ko bosta oba rekla da.",
+    "ctaLabel": "Pogovorite se z Juno",
+    "secondaryCtaLabel": "Poglejte, kako deluje",
+    "featureTags": [
+      "Brez vlečenja",
+      "Samo medsebojno soglasje",
+      "Pravi pogovori",
+      "zasebno, dokler ne rečeš da"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Živjo, jaz sem Juno. Predstavljam eno resnično osebo naenkrat - nikoli seznama."
+      },
+      {
+        "role": "user",
+        "text": "Kako to deluje?"
+      },
+      {
+        "role": "assistant",
+        "text": "Povej mi o sebi in koga iščeš. Začel bom s tem, kar je dejansko pomembno."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Na spletu · Običajno odgovori takoj",
+      "inputPlaceholder": "Vprašaj Juno karkoli…",
+      "suggestedPrompts": [
+        "Kako deluje ujemanje?",
+        "Ali je moj profil zaseben?",
+        "Pomagaj mi začeti"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Aplikacije za zmenke so vam dale vse. Juno te predstavi z nekom.",
+      "body": "Nauči se podrobnosti, ki se nikoli ne ujemajo z biografijo – tempo življenja, ki si ga želite, kaj vas spravi v smeh in navaden torek, ki ga upate deliti.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Ljudje s snovjo"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Uvodi s kontekstom"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "Datumi, za katere je vredno obleči"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm Smiling",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia se nasmehne na prostem",
+        "name": "NIA · 29",
+        "meta": "London"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Specifični utripi neskončni.",
+        "body": "Juno filtrira skupne vrednosti, združljiva življenja in vrsto iskre, na kateri lahko dejansko gradite.",
+        "tags": [
+          "Prijazen",
+          "Radoveden",
+          "Pripravljen"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Oseba, ne profil.",
+        "body": "Vsak uvod ima razlog, zakaj Juno misli, da bi se morala srečati vidva – ne skrivnostnega odstotka.",
+        "ctaLabel": "Naj vas Juno predstavi"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Spominja se podrobnosti.",
+        "body": "vključno s tistimi, ki jih omenjate samo enkrat."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Zasebno, vedno.",
+        "body": "Brez javnega krova. Noben neznanec vas ne brska."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Kako se zgodi čarovnija",
+      "heading": "Od \"Povej mi o tebi\" do \"Kdaj se lahko srečamo?\"",
+      "headingAccent": "Kdaj se lahko srečamo?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno pozorno posluša med zasebnim pogovorom o druženju",
+          "title": "Imejte pravi pogovor",
+          "body": "Povejte Juno, kaj želite, kaj ni delovalo in kakšen je dober odnos za vas."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno Iskanje v zasebni bazi podatkov profilov za združljive osebe",
+          "title": "Juno gleda",
+          "body": "V zasebni skupnosti išče združljive ljudi in preveri, ali je prileganje onkraj očitnega."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Dve osebi si delita topel prvi uvod v kavarni",
+          "title": "Spoznajte eno dobro možnost",
+          "body": "Pridobite premišljen uvod s kontekstom. Oba se odločita, preden se karkoli deli."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Dve osebi uživata v lahkem pogovoru med sprehodom po prvem zmenku",
+          "title": "Pojdi na dejanski zmenek",
+          "body": "Juno lahko predlaga kraj, prebije led in uporabi vaše povratne informacije, da bo naslednji uvod še bolj oster."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Junojeva najnovejša slutnja",
+      "heading": "Dve polni življenji. En zelo dober razlog za srečanje.",
+      "body": "Oba prečkata mesto po odličen kruh, ob nedeljah pokličeta svojo družino in raje prirejata večerjo, kot da bi kričala nad barom.",
+      "checklist": [
+        "Enak tempo odnosa",
+        "dovolj blizu, da je spontan",
+        "enako resno glede sladice"
+      ],
+      "ctaLabel": "Najdi mojo vrsto osebe",
+      "badgeLabel": "Junojeva slutnja",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31",
+          "meta": "Nedeljske tržnice · Veliki romani"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leo",
+          "name": "Leo, 33",
+          "meta": "Sveže testenine · Tiny Cinemas"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Iz skupinskega klepeta",
+      "heading": "Zmenki ljudje pošiljajo sporočila svojim prijateljem.",
+      "quote": "Juno je preskočila mali pogovor. Naš prvi zmenek je trajal štiri ure, drugi pa dva dni pozneje.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Predstavljeno v Londonu · 11 mesecev skupaj",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "Premišljeni uvodi"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "Spremenite se v prvi zmenek"
+        },
+        {
+          "icon": "star",
+          "value": "4,9/5",
+          "label": "Povprečna ocena članov"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Je Juno aplikacija za zmenke?",
+        "answer": "V resnici ne — ni swipe decka ali javnega profila. Juno poveš, kdo si in kaj hočeš, on pa naredi en premišljen uvod naenkrat."
+      },
+      {
+        "question": "Bodo vsi videli moj profil?",
+        "answer": "Ne. Vaš profil je privzeto zaseben. Juno ima samo odobren uvod z nekom, za katerega meni, da bi bil primeren – nikoli v javnem viru ali viru, ki ga je mogoče iskati."
+      },
+      {
+        "question": "Kaj pa, če me tekma ne zanima?",
+        "answer": "Samo povej Juno. Padec nikoli ne kaznuje vas ali druge osebe in bo še naprej iskal, dokler ne bo prav."
+      },
+      {
+        "question": "Ali je Juno brezplačen za uporabo?",
+        "answer": "Da, klepetanje z Juno in predstavitev je brezplačno."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Dobra vprašanja",
+      "heading": "Preden Juno igra Kupida."
+    },
+    "contact": {
+      "heading": "Imate vprašanje za ekipo?",
+      "body": "Juno lahko odgovori na večino vprašanj neposredno v klepetu – ali pa se obrnete na nas po e-pošti.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "pripravljen, ko si",
+      "heading": "Resnični uvodi. ena oseba naenkrat.",
+      "body": "Povej Juno, kaj ti je pomembno. Prevzel ga bo od tam - premišljeno, zasebno in eno resnično osebo naenkrat.",
+      "ctaLabel": "Pogovorite se z Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

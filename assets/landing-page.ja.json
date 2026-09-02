@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "language": "ja",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "約",
+          "target": "about"
+        },
+        {
+          "label": "使い方",
+          "target": "how-it-works"
+        },
+        {
+          "label": "物語",
+          "target": "stories"
+        },
+        {
+          "label": "よくある質問",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "ジュノに会います"
+    },
+    "badge": "マッチメイキング、思慮深く行われます",
+    "headline": "本当の紹介",
+    "headlineLine2": "一度に一人",
+    "subheadline": "素晴らしい友達と同じように、ジュノと話してください。 彼は何が重要かを学び、1 つの思慮深い紹介をして、あなたが 2 人とも「はい」と答えた場合にのみあなたを結びつけます。",
+    "ctaLabel": "ジュノと話してください",
+    "secondaryCtaLabel": "それがどのように機能するかをご覧ください",
+    "featureTags": [
+      "スワイプしないでください",
+      "相互同意のみ",
+      "本当の会話",
+      "はいと言うまでプライベートです"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "こんにちは、ジュノです。 実在の人物を 1 人ずつ紹介します。決してリストではありません。"
+      },
+      {
+        "role": "user",
+        "text": "それはどのように機能しますか？"
+      },
+      {
+        "role": "assistant",
+        "text": "あなた自身と、あなたが探している人について教えてください。 まずは大事なことから始めます。"
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "オンライン · 通常、すぐに返信します",
+      "inputPlaceholder": "ジュノに何でも聞いて…",
+      "suggestedPrompts": [
+        "マッチングはどのように機能しますか?",
+        "私のプロフィールは非公開ですか?",
+        "始めるのを手伝ってください"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "出会い系アプリはあなたにすべてを与えました。 ジュノがあなたを誰かに紹介します。",
+      "body": "彼は、略歴に決して当てはまらない詳細、つまりあなたが望む生活のペース、何があなたを笑わせるか、そしてあなたが共有したい普通の火曜日を学びます。",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "アマラ",
+          "caption": "実体のある人"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "マルコム",
+          "caption": "コンテキストのある紹介"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "ニア",
+          "caption": "着替える価値のあるデート"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "マルコムの笑顔",
+        "name": "マルコム・34",
+        "meta": "ブルックリン"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "屋外で微笑んでいるニア",
+        "name": "ニア・29",
+        "meta": "ロンドン"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "特定のビートは無限大です。",
+        "body": "Juno は、共有された値、互換性のある寿命、および実際に構築できる種類の火花をフィルタリングします。",
+        "tags": [
+          "種類",
+          "奇妙",
+          "用意のできた"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "プロフィールではなく、人。",
+        "body": "すべての紹介には、ジュノが 2 人に会うべきだと考える理由があります。不思議な割合ではありません。",
+        "ctaLabel": "ジュノが紹介します"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "彼は詳細を覚えています。",
+        "body": "一度だけ言及したものも含めます。"
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "プライベート、いつも。",
+        "body": "公開デッキはありません。 あなたを閲覧している見知らぬ人はいません。"
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "魔法はどのように起こるか",
+      "heading": "「あなたについて教えて」から「いつ会えますか？」",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno は、プライベートなお見合いの会話をよく聞いています",
+          "title": "本当の会話をしてください",
+          "body": "Juno に、自分が何を望んでいるのか、何がうまくいかなかったのか、そしてあなたにとって良い関係がどのように感じられるかを伝えてください。"
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno は、互換性のある人々のプロフィールのプライベート データベースを検索しています",
+          "title": "ジュノは探しています",
+          "body": "彼は民間コミュニティで相性の良い人を探し、明白な人に合わないかどうかをチェックします。"
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "カフェでの温かい最初の紹介を共有する 2 人",
+          "title": "1 つの良い可能性を満たしてください",
+          "body": "文脈のある思慮深い紹介を得る。 何かが共有される前に、あなたは両方ともオプトインします。"
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "初デートの後、歩きながら簡単な会話を楽しんでいる 2 人",
+          "title": "実際の日付に行きます",
+          "body": "Juno はその場所を提案し、氷を砕き、フィードバックを使って次の紹介をさらに鋭くすることができます。"
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "ジュノの最新作",
+      "heading": "2つの充実した命。 出会う理由の 1 つです。",
+      "body": "2 人とも素晴らしいパンを求めて町を横断し、日曜日に家族に電話し、バーで叫ぶよりも夕食を主催したいと考えています。",
+      "checklist": [
+        "同じ関係のペース",
+        "自発的になるのに十分近い",
+        "デザートについても同様に真剣です"
+      ],
+      "ctaLabel": "私のような人を見つけてください",
+      "badgeLabel": "ジュノの予感",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "アマラ",
+          "name": "アマラ、31歳",
+          "meta": "日曜市 ・大小説"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "レオ",
+          "name": "レオ、33歳",
+          "meta": "生パスタ · 小さな映画館"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "グループチャットから",
+      "heading": "人々が友達にメールするデート。",
+      "quote": "ジュノは雑談をスキップしました。 最初のデートは 4 時間続き、2 回目は 2 日後に発生しました。",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "ニア"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "マルコム"
+        }
+      ],
+      "attribution": "ニア + マルコム",
+      "meta": "ロンドンで紹介 · 11 か月一緒に",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4k",
+          "label": "思慮深い紹介"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "最初のデートに変わります"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "メンバーの平均評価"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "ジュノは出会い系アプリですか？",
+        "answer": "そうではありません。スワイプ デッキや公開プロフィールはありません。 あなたはジュノに、あなたが誰で、何を望んでいるのかを話します。"
+      },
+      {
+        "question": "みんな私のプロフィールを見ることができますか?",
+        "answer": "いいえ。あなたのプロフィールはデフォルトで非公開です。 Juno は、承認された紹介のみを、適切であると考えている人とのみ共有します。"
+      },
+      {
+        "question": "試合に興味がない場合はどうしますか?",
+        "answer": "ジュノに言ってください。 辞退しても、あなたや他の人にペナルティを課すことは決してなく、彼はそれが正しくなるまで探し続けます。"
+      },
+      {
+        "question": "Juno は無料で使用できますか?",
+        "answer": "はい、Juno とチャットして紹介するのは無料です。"
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "良い質問です",
+      "heading": "ジュノがキューピッドを演じる前。"
+    },
+    "contact": {
+      "heading": "チームに質問がありますか?",
+      "body": "Juno は、ほとんどの質問にチャットで直接答えることができます。または、メールでお問い合わせください。",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "あなたがいるときに準備ができています",
+      "heading": "本当の紹介。 一度に一人。",
+      "body": "ジュノにあなたにとって重要なことを伝えてください。 彼はそこからそれを取ります — 思慮深く、私的に、そして一度に 1 人の実在の人物です。",
+      "ctaLabel": "ジュノと話してください"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

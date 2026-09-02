@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "bg",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "За",
+          "target": "about"
+        },
+        {
+          "label": "как работи",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Истории",
+          "target": "stories"
+        },
+        {
+          "label": "Често задавани въпроси",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Запознайте се с Джуно"
+    },
+    "badge": "Сватовство, направено замислено",
+    "headline": "Истински въведения",
+    "headlineAccent": "Истински",
+    "headlineLine2": "един човек в даден момент",
+    "subheadline": "Говорете с Juno като с брилянтен приятел. Той ще научи какво има значение, ще направи едно замислено въведение и ще ви свърже само когато и двамата кажете „да“.",
+    "ctaLabel": "Говорете с Джуно",
+    "secondaryCtaLabel": "Вижте как работи",
+    "featureTags": [
+      "Без плъзгане",
+      "Само взаимно съгласие",
+      "Истински разговори",
+      "частно, докато не кажеш да"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Здравейте, аз съм Джуно. Представям един истински човек наведнъж - никога списък."
+      },
+      {
+        "role": "user",
+        "text": "Как става това?"
+      },
+      {
+        "role": "assistant",
+        "text": "Разкажи ми за себе си и кого търсиш. Ще започна с това, което всъщност има значение."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Онлайн · Обикновено отговаря незабавно",
+      "inputPlaceholder": "Попитай Джуно каквото и да било…",
+      "suggestedPrompts": [
+        "Как работи съвпадението?",
+        "Моят профил частен ли е?",
+        "Помогнете ми да започна"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Приложенията за запознанства ви дадоха всички. Juno ви запознава с някого.",
+      "body": "Той научава детайлите, които никога не се вписват в биографията – темпото на живот, което искате, какво ви кара да се смеете, и обикновения вторник, който се надявате да споделите.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Амара",
+          "caption": "хора със субстанция"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Малкълм",
+          "caption": "Въведения с контекст"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Ниа",
+          "caption": "Дати, за които си струва да се обличате"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Малкълм се усмихва",
+        "name": "Малкълм · 34",
+        "meta": "Бруклин"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Ния се усмихва на открито",
+        "name": "nia · 29",
+        "meta": "Лондон"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Специфични удари безкрайни.",
+        "body": "Juno филтри за споделени ценности, съвместими животи и вида искра, върху която всъщност можете да надграждате.",
+        "tags": [
+          "Мил",
+          "Любопитен",
+          "Готов"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Човек, а не профил.",
+        "body": "Всяко въведение идва с причина, която Джуно смята, че трябва да срещнете, а не мистериозен процент.",
+        "ctaLabel": "Нека Джуно ви представи"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Той помни подробностите.",
+        "body": "включително тези, които споменавате само веднъж."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Частно, винаги.",
+        "body": "Няма обществена палуба. Няма непознати, които ви разглеждат."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Как се случва магията",
+      "heading": "От \"Разкажи ми за теб\" до \"Кога можем да се срещнем?\"",
+      "headingAccent": "Кога можем да се срещнем?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno слуша внимателно по време на личен разговор за сватовство",
+          "title": "Проведете истински разговор",
+          "body": "Кажете на Juno какво искате, какво не е работило и какво ви се струва една добра връзка."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno Търсене в частна база данни с профили за съвместими хора",
+          "title": "Юнона прави търсенето",
+          "body": "Той търси в частната общност съвместими хора и проверява прилягането отвъд очевидното."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Двама души споделят топло първо представяне в кафене",
+          "title": "отговарят на една добра възможност",
+          "body": "Получете внимателно въведение с контекста. И двамата се включвате, преди нещо да бъде споделено."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Двама души се наслаждават на лесен разговор, докато се разхождат след първа среща",
+          "title": "Отидете на реална дата",
+          "body": "Juno може да предложи мястото, да разчупи леда и да използва отзивите си, за да направи следващото въведение още по-рязко."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Последното предчувствие на Джуно",
+      "heading": "Два пълни живота. Една много добра причина да се срещнем.",
+      "body": "И двамата пресичат града за страхотен хляб, обаждат се на семейството си в неделя и предпочитат да организират вечеря, отколкото да крещят над бар.",
+      "checklist": [
+        "Същото темпо на връзката",
+        "достатъчно близо, за да бъде спонтанен",
+        "също толкова сериозно за десерта"
+      ],
+      "ctaLabel": "Намерете моя тип човек",
+      "badgeLabel": "Предчувствието на Джуно",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Амара",
+          "name": "Амара, 31 г",
+          "meta": "Неделни пазари · Големи романи"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Лъв",
+          "name": "Лео, 33",
+          "meta": "Свежа паста · Малки кина"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "От груповия чат",
+      "heading": "Дати, за които хората изпращат съобщения на приятелите си.",
+      "quote": "Джуно пропусна леките разговори. Първата ни среща продължи четири часа, а втората ни се случи два дни по-късно.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Ниа"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Малкълм"
+        }
+      ],
+      "attribution": "Ниа + Малкълм",
+      "meta": "въведен в Лондон · 11 месеца заедно",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4к",
+          "label": "Обмислени въведения"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "Превърнете се в първа среща"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "Средна оценка на членовете"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Juno приложение за запознанства ли е?",
+        "answer": "Всъщност не - няма тест за плъзгане или обществен профил. Казвате на Джуно кой сте и какво искате, и той прави едно замислено въведение в даден момент."
+      },
+      {
+        "question": "Всички ли ще видят профила ми?",
+        "answer": "Не. Вашият профил е частен по подразбиране. Juno споделя само одобрено въведение с някой, за когото смята, че може да бъде подходящ - никога в публична или търсена емисия."
+      },
+      {
+        "question": "Ами ако не се интересувам от мач?",
+        "answer": "Просто кажи на Джуно. Отказването никога не наказва вас или другия човек и той ще продължи да търси, докато не стане правилно."
+      },
+      {
+        "question": "Juno безплатен ли е за използване?",
+        "answer": "Да, чатът с Juno и представянето е безплатно."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Добри въпроси",
+      "heading": "Преди Джуно да играе Купидон."
+    },
+    "contact": {
+      "heading": "Имате въпрос към отбора?",
+      "body": "Juno може да отговори на повечето въпроси директно в чата — или да се свърже с нас по имейл.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "готов, когато сте",
+      "heading": "Истински въведения. един човек в даден момент.",
+      "body": "Кажете на Джуно какво има значение за вас. Той ще го вземе от там - замислено, насаме и един истински човек наведнъж.",
+      "ctaLabel": "Говорете с Джуно"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

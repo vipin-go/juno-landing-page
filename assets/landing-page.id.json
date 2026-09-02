@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "id",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Tentang",
+          "target": "about"
+        },
+        {
+          "label": "Bagaimana itu bekerja",
+          "target": "how-it-works"
+        },
+        {
+          "label": "cerita",
+          "target": "stories"
+        },
+        {
+          "label": "FAQ",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "bertemu Juno"
+    },
+    "badge": "perjodohan, dilakukan dengan penuh pertimbangan",
+    "headline": "perkenalan nyata",
+    "headlineLine2": "Satu Orang Sekaligus",
+    "subheadline": "Bicaralah dengan Juno seperti Anda berbicara dengan teman yang brilian. Dia akan mempelajari apa yang penting, membuat satu perkenalan yang bijaksana, dan hanya menghubungkan Anda ketika Anda berdua mengatakan ya.",
+    "ctaLabel": "berbicara dengan Juno",
+    "secondaryCtaLabel": "Lihat Cara Kerjanya",
+    "featureTags": [
+      "tidak menggesek",
+      "persetujuan bersama saja",
+      "percakapan nyata",
+      "pribadi sampai Anda mengatakan ya"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hai, saya Juno. Saya memperkenalkan satu orang pada satu waktu — tidak pernah ada daftar."
+      },
+      {
+        "role": "user",
+        "text": "Bagaimana cara kerjanya?"
+      },
+      {
+        "role": "assistant",
+        "text": "Ceritakan tentang diri Anda dan siapa yang Anda cari. Saya akan mulai dengan apa yang sebenarnya penting."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Biasanya langsung membalas",
+      "inputPlaceholder": "tanya juno apa saja…",
+      "suggestedPrompts": [
+        "Bagaimana cara kerja pencocokan?",
+        "Apakah profil saya pribadi?",
+        "Bantu Saya Memulai"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Aplikasi kencan memberi Anda semua orang. Juno memperkenalkanmu pada seseorang.",
+      "headingAccent": "seseorang.",
+      "body": "Dia mempelajari detail yang tidak pernah cocok dalam bio — kecepatan hidup yang Anda inginkan, apa yang membuat Anda tertawa, dan hari Selasa biasa yang ingin Anda bagikan.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "caption": "orang dengan substansi"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Perkenalan dengan konteks"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "Kurma yang layak untuk didandani"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm tersenyum",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia tersenyum di luar ruangan",
+        "name": "Nia · 29",
+        "meta": "London"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Ketukan khusus tak berujung.",
+        "body": "Filter Juno untuk nilai bersama, kehidupan yang kompatibel, dan jenis percikan yang benar-benar dapat Anda bangun.",
+        "tags": [
+          "Jenis",
+          "Penasaran",
+          "Siap"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "seseorang, bukan profil.",
+        "body": "Setiap perkenalan datang dengan alasan Juno berpikir kalian berdua harus bertemu — bukan persentase yang misterius.",
+        "ctaLabel": "Biarkan Juno memperkenalkanmu"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Dia ingat detailnya.",
+        "body": "Termasuk yang hanya Anda sebutkan sekali."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Pribadi, selalu.",
+        "body": "Tidak ada dek umum. Tidak ada orang asing yang menelusuri Anda."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Bagaimana Keajaiban Terjadi",
+      "heading": "Dari \"Tell Me About You\" hingga \"Kapan Kita Bisa Bertemu?\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno mendengarkan dengan seksama selama percakapan perjodohan pribadi",
+          "title": "Lakukan percakapan nyata",
+          "body": "Beri tahu Juno apa yang Anda inginkan, apa yang tidak berhasil, dan seperti apa hubungan yang baik dengan Anda."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno mencari database pribadi profil untuk orang-orang yang kompatibel",
+          "title": "Juno melakukan pencarian",
+          "body": "Dia mencari komunitas pribadi untuk orang-orang yang kompatibel dan memeriksa kecocokannya di luar yang sudah jelas."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Dua orang berbagi perkenalan pertama yang hangat di sebuah kafe",
+          "title": "Temui satu kemungkinan bagus",
+          "body": "Dapatkan pengantar yang bijaksana dengan konteks. Anda berdua ikut serta sebelum sesuatu dibagikan."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Dua orang menikmati percakapan yang mudah sambil berjalan setelah kencan pertama",
+          "title": "Pergi pada kencan yang sebenarnya",
+          "body": "Juno dapat menyarankan tempat, memecahkan kebekuan, dan menggunakan umpan balik Anda untuk membuat pendahuluan berikutnya lebih tajam."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Firasat terbaru Juno",
+      "heading": "Dua kehidupan penuh. Salah satu alasan yang sangat bagus untuk bertemu.",
+      "body": "Mereka berdua menyeberang kota untuk roti besar, menelepon keluarga mereka pada hari Minggu, dan lebih suka menjadi tuan rumah makan malam daripada berteriak di atas bar.",
+      "checklist": [
+        "kecepatan hubungan yang sama",
+        "cukup dekat untuk menjadi spontan",
+        "sama seriusnya dengan makanan penutup"
+      ],
+      "ctaLabel": "Temukan jenis orang saya",
+      "badgeLabel": "Firasat Juno",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "name": "Amara, 31",
+          "meta": "Pasar Minggu · Novel Besar"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leo",
+          "name": "Leo, 33",
+          "meta": "pasta segar · bioskop kecil"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "dari obrolan grup",
+      "heading": "Tanggal orang mengirim pesan teks kepada teman mereka.",
+      "quote": "Juno melewatkan obrolan ringan itu. Kencan pertama kami berlangsung empat jam, dan yang kedua terjadi dua hari kemudian.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Diperkenalkan di London · 11 bulan bersama",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "Perkenalan yang bijaksana"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "berubah menjadi kencan pertama"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "Peringkat anggota rata-rata"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Apakah Juno aplikasi kencan?",
+        "answer": "Tidak juga — tidak ada dek gesek atau profil publik. Anda memberi tahu Juno siapa Anda dan apa yang Anda inginkan, dan dia membuat satu perkenalan yang bijaksana pada satu waktu."
+      },
+      {
+        "question": "Apakah semua orang akan melihat profil saya?",
+        "answer": "Tidak. Profil Anda bersifat pribadi secara default. Juno hanya membagikan pengenalan yang disetujui dengan seseorang yang menurutnya cocok — tidak pernah di umpan publik atau dapat dicari."
+      },
+      {
+        "question": "Bagaimana jika saya tidak tertarik dengan pertandingan?",
+        "answer": "Katakan saja pada Juno. Menolak tidak pernah menghukum Anda atau orang lain, dan dia akan terus mencari sampai itu benar."
+      },
+      {
+        "question": "Apakah Juno gratis untuk digunakan?",
+        "answer": "Ya, mengobrol dengan Juno dan mendapatkan perkenalan gratis."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "pertanyaan yang bagus",
+      "heading": "Sebelum Juno memainkan Cupid."
+    },
+    "contact": {
+      "heading": "Punya pertanyaan untuk tim?",
+      "body": "Juno dapat menjawab sebagian besar pertanyaan secara langsung dalam obrolan — atau menghubungi kami melalui email.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "siap ketika Anda",
+      "heading": "perkenalan nyata. satu orang pada satu waktu.",
+      "body": "Beritahu Juno apa yang penting bagimu. Dia akan mengambilnya dari sana — dengan serius, secara pribadi, dan satu orang pada satu waktu.",
+      "ctaLabel": "berbicara dengan Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "language": "el",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Για",
+          "target": "about"
+        },
+        {
+          "label": "Πως δουλεύει",
+          "target": "how-it-works"
+        },
+        {
+          "label": "ιστορίες",
+          "target": "stories"
+        },
+        {
+          "label": "σύνοψη",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Γνωρίστε τον Juno"
+    },
+    "badge": "προξενία, έγινε προσεκτικά",
+    "headline": "Πραγματικές εισαγωγές",
+    "headlineLine2": "Ένα άτομο τη φορά",
+    "subheadline": "Μίλα στον Juno όπως θα έκανες έναν λαμπρό φίλο. Θα μάθει τι έχει σημασία, θα κάνει μια στοχαστική εισαγωγή και θα σας συνδέσει μόνο όταν και οι δύο λέτε ναι.",
+    "ctaLabel": "Μίλα με τον Juno",
+    "secondaryCtaLabel": "Δείτε πώς λειτουργεί",
+    "featureTags": [
+      "Απαγορεύεται το κτύπημα",
+      "Μόνο αμοιβαία συναίνεση",
+      "Πραγματικές συνομιλίες",
+      "Ιδιωτικό μέχρι να πείτε ναι"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Γεια, είμαι ο Juno. Παρουσιάζω ένα πραγματικό πρόσωπο τη φορά - ποτέ μια λίστα."
+      },
+      {
+        "role": "user",
+        "text": "Πώς λειτουργεί αυτό;"
+      },
+      {
+        "role": "assistant",
+        "text": "Πες μου για σένα και ποιον ψάχνεις. Θα ξεκινήσω με αυτό που πραγματικά έχει σημασία."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Συνήθως απαντά άμεσα",
+      "inputPlaceholder": "Ρωτήστε τον Juno οτιδήποτε…",
+      "suggestedPrompts": [
+        "Πώς λειτουργεί η αντιστοίχιση;",
+        "Είναι ιδιωτικό το προφίλ μου;",
+        "Βοηθήστε με να ξεκινήσω"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Οι εφαρμογές γνωριμιών σας έδωσαν όλους. Ο Juno σας συστήνει σε κάποιον.",
+      "body": "Μαθαίνει τις λεπτομέρειες που δεν ταιριάζουν ποτέ σε ένα βιογραφικό - τον ρυθμό της ζωής που θέλετε, τι σας κάνει να γελάτε και τη συνηθισμένη Τρίτη που ελπίζετε να μοιραστείτε.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "αμαράιο",
+          "caption": "Άτομα με ουσία"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Μάλκολμ",
+          "caption": "Εισαγωγές με πλαίσιο"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Νία",
+          "caption": "Ραντεβού που αξίζει να ντυθείτε"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Μάλκολμ Χαμίνινγκ",
+        "name": "Malcolm · 34",
+        "meta": "Μπρούκλιν"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Η Νία χαμογελά σε εξωτερικούς χώρους",
+        "name": "NIA · 29",
+        "meta": "Λονδίνο"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Συγκεκριμένα beats ατελείωτα.",
+        "body": "Το Juno φιλτράρει για κοινές αξίες, συμβατές ζωές και το είδος του σπινθήρα που μπορείτε πραγματικά να αξιοποιήσετε.",
+        "tags": [
+          "Είδος",
+          "Περίεργος",
+          "Έτοιμος"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Ένα άτομο, όχι ένα προφίλ.",
+        "body": "Κάθε εισαγωγή συνοδεύεται από έναν λόγο που ο Juno πιστεύει ότι πρέπει να συναντήσετε εσείς οι δύο — όχι ένα μυστηριώδες ποσοστό.",
+        "ctaLabel": "Αφήστε τον Juno να σας συστήσει"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Θυμάται τις λεπτομέρειες.",
+        "body": "συμπεριλαμβανομένων αυτών που αναφέρετε μόνο μία φορά."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Ιδιωτικό, πάντα.",
+        "body": "Χωρίς δημόσιο κατάστρωμα. Κανένας ξένος δεν σε περιηγείται."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Πώς συμβαίνει η μαγεία",
+      "heading": "Από το \"πες μου για σένα\" στο \"πότε μπορούμε να συναντηθούμε;\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Ο Juno ακούει προσεκτικά κατά τη διάρκεια μιας ιδιωτικής συνομιλίας",
+          "title": "Κάντε μια πραγματική συζήτηση",
+          "body": "Πείτε στον Juno τι θέλετε, τι δεν έχει λειτουργήσει και πώς είναι μια καλή σχέση για εσάς."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno Αναζήτηση ιδιωτικής βάσης δεδομένων προφίλ για συμβατά άτομα",
+          "title": "Ο Juno κάνει την εμφάνιση",
+          "body": "Ψάχνει στην ιδιωτική κοινότητα για συμβατά άτομα και ελέγχει την εφαρμογή πέρα από το προφανές."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Δύο άτομα μοιράζονται μια ζεστή πρώτη εισαγωγή σε ένα καφέ",
+          "title": "συναντήστε μια καλή πιθανότητα",
+          "body": "Λάβετε μια προσεκτική εισαγωγή με το πλαίσιο. Και οι δύο επιλέγετε πριν από την κοινή χρήση οτιδήποτε."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Δύο άτομα απολαμβάνουν μια εύκολη συζήτηση ενώ περπατούν μετά από ένα πρώτο ραντεβού",
+          "title": "Πηγαίνετε σε μια πραγματική ημερομηνία",
+          "body": "Ο Juno μπορεί να προτείνει το μέρος, να σπάσει τον πάγο και να χρησιμοποιήσει τα σχόλιά σας για να κάνει την επόμενη εισαγωγή ακόμα πιο ευκρινή."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Η τελευταία προαίσθηση του Juno",
+      "heading": "Δύο γεμάτες ζωές. Ένας πολύ καλός λόγος για να συναντηθούμε.",
+      "body": "Και οι δύο διασχίζουν την πόλη για υπέροχο ψωμί, τηλεφωνούν στην οικογένειά τους τις Κυριακές και προτιμούν να διοργανώνουν δείπνο παρά να φωνάζουν πάνω από ένα μπαρ.",
+      "checklist": [
+        "ίδιο ρυθμό σχέσης",
+        "Αρκετά κοντά για να είναι αυθόρμητο",
+        "εξίσου σοβαρά για το επιδόρπιο"
+      ],
+      "ctaLabel": "Βρείτε το είδος του ανθρώπου μου",
+      "badgeLabel": "Η προαίσθηση του Τζούνο",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "αμαράιο",
+          "name": "Amara, 31",
+          "meta": "Κυριακάτικες αγορές · Μεγάλα μυθιστορήματα"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Λέων",
+          "name": "Λέων, 33",
+          "meta": "φρέσκα ζυμαρικά · μικροσκοπικοί κινηματογράφοι"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Από την ομαδική συνομιλία",
+      "heading": "Ραντεβού Οι άνθρωποι στέλνουν μηνύματα στους φίλους τους.",
+      "quote": "Ο Τζούνο παρέλειψε τη κουβέντα. Το πρώτο μας ραντεβού κράτησε τέσσερις ώρες και το δεύτερο συνέβη δύο μέρες αργότερα.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Νία"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Μάλκολμ"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Παρουσιάστηκε στο Λονδίνο · 11 μήνες μαζί",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4k",
+          "label": "Στοχαστικές εισαγωγές"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "μετατραπεί σε πρώτο ραντεβού"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "Μέση βαθμολογία μέλους"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Είναι το Juno μια εφαρμογή γνωριμιών;",
+        "answer": "Όχι πραγματικά — δεν υπάρχει swipe deck ή δημόσιο προφίλ. Λέτε στον Juno ποιος είστε και τι θέλετε, και κάνει μια στοχαστική εισαγωγή κάθε φορά."
+      },
+      {
+        "question": "Θα δουν όλοι το προφίλ μου;",
+        "answer": "Όχι. Το προφίλ σας είναι ιδιωτικό από προεπιλογή. Ο Juno μοιράζεται μόνο μια εγκεκριμένη εισαγωγή με κάποιον που πιστεύει ότι θα μπορούσε να είναι κατάλληλος — ποτέ σε μια δημόσια ή με δυνατότητα αναζήτησης ροή."
+      },
+      {
+        "question": "Τι γίνεται αν δεν με ενδιαφέρει ένας αγώνας;",
+        "answer": "Πες απλά στον Juno. Η μείωση δεν τιμωρεί ποτέ εσάς ή το άλλο άτομο και θα συνεχίσει να ψάχνει μέχρι να είναι σωστό."
+      },
+      {
+        "question": "Είναι το Juno δωρεάν για χρήση;",
+        "answer": "Ναι, η συνομιλία με τον Juno και η λήψη εισαγωγών είναι δωρεάν."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Καλές ερωτήσεις",
+      "heading": "Πριν ο Juno παίξει τον Έρως."
+    },
+    "contact": {
+      "heading": "Έχετε κάποια ερώτηση για την ομάδα;",
+      "body": "Το Juno μπορεί να απαντήσει στις περισσότερες ερωτήσεις απευθείας στο Chat — ή να επικοινωνήσει μαζί μας μέσω email.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "έτοιμος όταν είσαι",
+      "heading": "Πραγματικές εισαγωγές. ένα άτομο τη φορά.",
+      "body": "Πες στον Juno τι έχει σημασία για σένα. Θα το πάρει από εκεί — στοχαστικά, ιδιωτικά και ένα πραγματικό πρόσωπο τη φορά.",
+      "ctaLabel": "Μίλα με τον Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

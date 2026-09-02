@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "language": "ko",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "약",
+          "target": "about"
+        },
+        {
+          "label": "작동 방식",
+          "target": "how-it-works"
+        },
+        {
+          "label": "이야기",
+          "target": "stories"
+        },
+        {
+          "label": "자주 묻는 질문",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "주노를 만나보세요"
+    },
+    "badge": "매치메이킹, 신중하게 완료",
+    "headline": "실제 소개",
+    "headlineLine2": "한 번에 한 사람",
+    "subheadline": "당신이 훌륭한 친구처럼 Juno에게 이야기하십시오. 그는 중요한 것을 배우고, 사려 깊은 소개를 하고, 둘 다 예라고 말할 때만 당신을 연결할 것입니다.",
+    "ctaLabel": "주노와 대화하십시오",
+    "secondaryCtaLabel": "작동 방식을 참조하십시오",
+    "featureTags": [
+      "스와이프 없음",
+      "상호 동의 전용",
+      "실제 대화",
+      "당신이 예라고 말할 때까지 비공개"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "안녕하세요 주노입니다. 나는 한 번에 한 명의 실제 사람을 소개합니다. 목록이 아닙니다."
+      },
+      {
+        "role": "user",
+        "text": "어떻게 작동합니까?"
+      },
+      {
+        "role": "assistant",
+        "text": "자신과 찾고 있는 사람에 대해 알려주세요. 실제로 중요한 것부터 시작하겠습니다."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "온라인 · 일반적으로 즉시 응답합니다",
+      "inputPlaceholder": "주노에게 무엇이든 물어보세요...",
+      "suggestedPrompts": [
+        "매칭은 어떻게 작동합니까?",
+        "내 프로필은 비공개인가요?",
+        "시작할 수 있도록 도와주세요"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "데이트 앱은 당신에게 모든 사람을 주었습니다. Juno가 누군가를 소개합니다.",
+      "body": "그는 당신이 원하는 삶의 속도, 당신을 웃게 만드는 것, 당신이 공유하고자 하는 평범한 화요일에 대해 결코 어울리지 않는 세부 사항을 배웁니다.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "아마라",
+          "caption": "물질이 있는 사람"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "말콤",
+          "caption": "컨텍스트가 있는 소개"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "니아",
+          "caption": "옷을 입을 가치가 있는 날짜"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "웃는 말콤",
+        "name": "말콤 · 34",
+        "meta": "브루클린"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "야외에서 웃고 있는 니아",
+        "name": "니아 · 29",
+        "meta": "런던"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "특정 비트는 끝이 없습니다.",
+        "body": "공유 가치, 호환되는 삶, 그리고 실제로 구축할 수 있는 스파크의 종류를 위한 Juno 필터.",
+        "tags": [
+          "종류",
+          "호기심이 강한",
+          "채비된"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "프로필이 아닌 사람.",
+        "body": "모든 소개에는 Juno가 두 사람이 만나야 한다고 생각하는 이유가 따릅니다. 신비한 비율이 아닙니다.",
+        "ctaLabel": "Juno를 소개합니다"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "그는 세부 사항을 기억합니다.",
+        "body": "한 번만 언급하는 것을 포함합니다."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "사적인, 항상.",
+        "body": "공용 갑판이 없습니다. 당신을 검색하는 낯선 사람이 없습니다."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "마법이 어떻게 일어나는지",
+      "heading": "\"당신에 대해 말해주세요\"에서 \"언제 만날 수 있나요?\"까지",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "사적인 매치메이킹 대화 중에 듣는 Juno",
+          "title": "진정한 대화를 나누세요",
+          "body": "Juno가 원하는 것, 효과가 없는 것, 좋은 관계가 당신에게 어떤 느낌인지 말하십시오."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno 호환되는 사람들을 위한 개인 프로필 데이터베이스 검색",
+          "title": "주노는 찾고 있습니다",
+          "body": "그는 사설 커뮤니티에서 호환 가능한 사람들을 검색하고 명백한 것 이상으로 적합성을 확인합니다."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "카페에서 따뜻한 첫 소개를 나누는 두 사람",
+          "title": "하나의 좋은 가능성을 만나십시오",
+          "body": "문맥과 함께 사려 깊은 소개를 얻으십시오. 무엇이든 공유하기 전에 둘 다 선택합니다."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "첫 데이트 후 산책하면서 편안한 대화를 즐기는 두 사람",
+          "title": "실제 데이트를 하세요",
+          "body": "Juno는 장소를 제안하고 얼음을 깨고 피드백을 사용하여 다음 소개를 더욱 날카롭게 만들 수 있습니다."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "주노의 최근 직감",
+      "heading": "두 개의 완전한 삶. 만나야 할 아주 좋은 이유 중 하나.",
+      "body": "그들은 둘 다 훌륭한 빵을 위해 마을을 건너고 일요일에 가족에게 전화를 걸고 바에 소리를 지르는 것보다 저녁 식사를 주최합니다.",
+      "checklist": [
+        "같은 관계 속도",
+        "자발적으로 충분히 가깝습니다",
+        "디저트에 대해 똑같이 심각합니다"
+      ],
+      "ctaLabel": "내 종류의 사람을 찾으십시오",
+      "badgeLabel": "주노의 직감",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "아마라",
+          "name": "아마라, 31",
+          "meta": "일요일 시장 · 큰 소설"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "사자 별자리",
+          "name": "레오, 33",
+          "meta": "신선한 파스타 · 작은 영화관"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "그룹 채팅에서",
+      "heading": "사람들이 친구에게 문자를 보내는 날짜.",
+      "quote": "주노는 잡담을 건너뛰었다. 우리의 첫 번째 데이트는 4시간 동안 지속되었고 두 번째 데이트는 이틀 후에 일어났습니다.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "니아"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "말콤"
+        }
+      ],
+      "attribution": "니아 + 말콤",
+      "meta": "런던에서 소개 · 11개월 함께",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4k",
+          "label": "사려 깊은 소개"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "첫 데이트로 전환하십시오"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "평균 회원 등급"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Juno는 데이트 앱입니까?",
+        "answer": "실제로는 아닙니다. 스와이프 데크나 공개 프로필이 없습니다. 당신은 Juno가 당신이 누구이고 당신이 원하는 것이 무엇인지 말하면 그는 한 번에 하나의 사려 깊은 소개를 합니다."
+      },
+      {
+        "question": "모두가 내 프로필을 볼 수 있습니까?",
+        "answer": "아니요. 프로필은 기본적으로 비공개입니다. Juno는 공개 또는 검색 가능한 피드에서 결코 적합하지 않을 수 있다고 생각하는 사람과 승인된 소개만 공유합니다."
+      },
+      {
+        "question": "내가 경기에 관심이 없다면?",
+        "answer": "그냥 주노에게 말하세요. 거절하는 것은 결코 당신이나 다른 사람에게 불이익을 주지 않으며, 그는 그것이 옳을 때까지 계속 찾을 것입니다."
+      },
+      {
+        "question": "Juno는 무료로 사용할 수 있습니까?",
+        "answer": "예, Juno와 채팅하고 소개를 받는 것은 무료입니다."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "좋은 질문",
+      "heading": "주노가 큐피드를 연기하기 전에."
+    },
+    "contact": {
+      "heading": "팀에 대한 질문이 있습니까?",
+      "body": "Juno는 채팅을 통해 대부분의 질문에 직접 답변하거나 이메일로 연락할 수 있습니다.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "당신이있을 때 준비",
+      "heading": "실제 소개. 한 번에 한 사람.",
+      "body": "Juno에게 중요한 것을 말하십시오. 그는 사려 깊게, 개인적으로, 그리고 한 번에 한 명의 실제 사람을 거기에서 가져갈 것입니다.",
+      "ctaLabel": "주노와 대화하십시오"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

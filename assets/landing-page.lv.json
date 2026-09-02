@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "language": "lv",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Par",
+          "target": "about"
+        },
+        {
+          "label": "Kā tas darbojas",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Stāsti",
+          "target": "stories"
+        },
+        {
+          "label": "Biežāk uzdotie jautājumi",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Iepazīstieties ar Juno"
+    },
+    "badge": "Iepazīstināšana, pārdomāti veikta",
+    "headline": "Īstas iepazīšanās",
+    "headlineLine2": "Viens cilvēks vienlaikus",
+    "subheadline": "Runājiet ar Juno tā, it kā ar izcilu draugu. Viņš iemācīsies, kas ir svarīgi, izdarīs vienu pārdomātu iepazīstināšanu un savienos jūs tikai tad, kad abi teiksiet jā.",
+    "ctaLabel": "Runājiet ar Juno",
+    "secondaryCtaLabel": "Skatiet, kā tas darbojas",
+    "featureTags": [
+      "Bez vilkšanas",
+      "Tikai abpusēja piekrišana",
+      "Īstas sarunas",
+      "Privāts, kamēr neakceptējat"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Sveiki, esmu Juno. Es iepazīstinu vienu īstu cilvēku vienlaikus — nekad sarakstu."
+      },
+      {
+        "role": "user",
+        "text": "Kā tas darbojas?"
+      },
+      {
+        "role": "assistant",
+        "text": "Pastāstiet man par sevi un ko meklējat. Es sākšu ar to, kas patiešām ir svarīgi."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Tiešsaistē · parasti atbild nekavējoties",
+      "inputPlaceholder": "Jautājiet Juno jebko…",
+      "suggestedPrompts": [
+        "Kā darbojas saskaņošana?",
+        "Vai mans profils ir privāts?",
+        "Palīdziet man sākt"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Iepazīšanās lietotnes deva jums visus. Juno jūs iepazīstina ar kādu.",
+      "body": "Viņš iemācās detaļas, kas nekad neiederēsies bio — dzīves tempu, ko vēlaties, kas jūs liek smieties, un parasto otrdienu, ko ceramies dalīt.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Cilvēki ar dziļumu"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Iepazīstināšanas ar kontekstu"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia",
+          "caption": "Tikšanās, par ko vērts ģērbties"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm smaidot",
+        "name": "Malcolm · 34",
+        "meta": "Bruklina"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia smaidot ārā",
+        "name": "Nia · 29",
+        "meta": "Londona"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Specifisks pārspēj bezgalīgu.",
+        "body": "Juno filtrē kopīgas vērtības, saderīgus dzīvesveidus un tādu dzirksteli, uz kuras patiešām var būvēt.",
+        "tags": [
+          "Laipns",
+          "Ziņkārs",
+          "Gatavs"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Cilvēks, nevis profils.",
+        "body": "Katrai iepazīstināšanai ir iemesls, kāpēc Juno domā, ka jums diviem vajadzētu satikties — nevis noslēpumains procents.",
+        "ctaLabel": "Laujiet Juno jūs iepazīstināt"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Viņš atceras detaļas.",
+        "body": "Ieskaitot tos, kurus pieminat tikai vienu reizi."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Privāts, vienmēr.",
+        "body": "Nav publiskas kārtas. Nav svešinieku, kas jūs pārlūko."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Kā notiek burvība",
+      "heading": "No \"pastāstiet par sevi\" līdz \"kad varam satikties?\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno rūpīgi klausās privātas iepazīšanās sarunas laikā",
+          "title": "Pārdomājiet īstu sarunu",
+          "body": "Pastāstiet Juno, ko vēlaties, kas nav strādājis un kā labai attiecībai vajadzētu justies."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno meklē privātu profilu datubāzi saderīgiem cilvēkiem",
+          "title": "Juno meklē",
+          "body": "Viņš meklē saderīgus cilvēkus privātajā kopienā un pārbauda atbilstību tālāk acīmredzamā."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Divi cilvēki dalās ar siltu pirmo iepazīstināšanu kafetērijā",
+          "title": "Iepazīstieties ar vienu labu iespēju",
+          "body": "Saņemiet pārdomātu iepazīstināšanu ar kontekstu. Abiem jāakceptē pirms kaut kas tiek kopīgots."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Divi cilvēki bauda vieglu sarunu, pastaigājoties pēc pirmā randiņa",
+          "title": "Iedodieties uz īstu randiņu",
+          "body": "Juno var ieteikt vietu, salauzt ledu un izmantot jūsu atsauksmes, lai nākamā iepazīstināšana būtu asāka."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Juno pēdējā nojauta",
+      "heading": "Divas pilnas dzīves. Viens ļoti labs iemesls satikties.",
+      "body": "Abi šķērso pilsētu lieliskas maizes dēļ, zvana ģimenei svētdienās un labprātāk rīkotu vakariņas nekā klātu pāri bāram.",
+      "checklist": [
+        "Vienāds attiecību temps",
+        "Pietiekami tuvu, lai būtu spontāni",
+        "Vienlīdzīgi nopietni attiecībā uz desertu"
+      ],
+      "ctaLabel": "Atrast manu veida cilvēku",
+      "badgeLabel": "Juno nojauta",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31",
+          "meta": "Svētdienas tirgi · Lieli romāni"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leo",
+          "name": "Leo, 33",
+          "meta": "Svaiga pasta · Mazi kinoteātri"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "No grupas tērta",
+      "heading": "Randēni, par kuriem cilvēki\nraksta draugiem.",
+      "quote": "Juno izlaida sīko sarunu. Mūsu pirmais randiņš ilga četras stundas, un otrais notika divas dienas vēlāk.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Iepazīstināti Londonā · 11 mēneši kopā",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "pārdomātas iepazīstināšanas"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "kļūst par pirmo randiņu"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "vidējais dalībnieka vērtējums"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Vai Juno ir iepazīšanās lietotne?",
+        "answer": "Patiesībā nē — nav ne vilkšanas kārtas, ne publiska profila. Jūs Juno sakāt, kas esat un ko vēlaties, un viņš veic vienu pārdomātu iepazīstināšanu vienlaikus."
+      },
+      {
+        "question": "Vai visi redzēs manu profilu?",
+        "answer": "Nē. Jūsu profils ir privāts pēc noklusējuma. Juno kopīgo apstiprinātu iepazīstināšanu tikai ar kādu, kuru viņš domā, ka varētu būt piemērots — nekad publiskā vai meklējamā plūsmā."
+      },
+      {
+        "question": "Ko darīt, ja neesmu ieinteresēts matchā?",
+        "answer": "Vienkārši pastāstiet Juno. Noraidīšana nekad nesodina jūs ne citu personu, un viņš turpinās meklēt, līdz būs pareizi."
+      },
+      {
+        "question": "Vai Juno ir bez maksas?",
+        "answer": "Jā, čatot ar Juno un saņemt iepazīstināšanas ir bez maksas."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Labi jautājumi",
+      "heading": "Pirms Juno"
+    },
+    "contact": {
+      "heading": "Vai jums ir jautājums komandai?",
+      "body": "Juno var atbildēt uz lielāko daļu jautājumu tieši tērzēšanā — vai sazinieties ar mums pa e-pastu.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Kad esat gatavi",
+      "heading": "Īstas iepazīšanās.\nViens cilvēks vienlaikus.",
+      "body": "Pastāstiet Juno, kas jums ir svarīgi. Viņš to ņems no turienes — pārdomāti, privāti un viens īsts cilvēks vienlaikus.",
+      "ctaLabel": "Runājiet ar Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

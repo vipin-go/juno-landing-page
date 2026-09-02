@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "lt",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Apie",
+          "target": "about"
+        },
+        {
+          "label": "Kaip tai veikia",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Istorijos",
+          "target": "stories"
+        },
+        {
+          "label": "DUK",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Susipažinkite su Juno"
+    },
+    "badge": "Piršlybos, atliktos apgalvotai",
+    "headline": "Tikros įžangos",
+    "headlineLine2": "Vienas žmogus vienu metu",
+    "subheadline": "Kalbėkitės su Juno kaip su nuostabiu draugu. Jis išmoks, kas svarbu, padarys vieną apgalvotą įžangą ir susisieks tik tada, kai abu pasakysite „taip“.",
+    "ctaLabel": "Pasikalbėk su Juno",
+    "secondaryCtaLabel": "Pažiūrėkite, kaip tai veikia",
+    "featureTags": [
+      "Jokio braukimo",
+      "Tik abipusis sutikimas",
+      "Tikri pokalbiai",
+      "Privatus, kol nepasakysite „taip"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Sveiki, aš Juno. Vienu metu pristatau vieną tikrą žmogų – niekada sąrašo."
+      },
+      {
+        "role": "user",
+        "text": "Kaip tai veikia?"
+      },
+      {
+        "role": "assistant",
+        "text": "Papasakokite apie save ir tai, ko ieškote. Pradėsiu nuo to, kas iš tikrųjų svarbu."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Prisijungę · Paprastai atsako iš karto",
+      "inputPlaceholder": "Paklausk Juno ko nors…",
+      "suggestedPrompts": [
+        "Kaip veikia suderinimas?",
+        "Ar mano profilis privatus?",
+        "Padėkite man pradėti"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Pažinčių programos suteikė jums visiems. Juno supažindina jus su kuo nors.",
+      "body": "Jis išmoksta smulkmenas, kurios niekada netelpa į biografiją – norimą gyvenimo tempą, tai, kas tave juokina, ir įprastą antradienį, kuriuo tikitės pasidalinti.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Žmonės su medžiaga"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malkolmas",
+          "caption": "Įvadai su kontekstu"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia",
+          "caption": "Datos, dėl kurių verta apsirengti"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malkolmas šypsosi",
+        "name": "Malkolmas · 34",
+        "meta": "Bruklinas"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia šypsosi lauke",
+        "name": "nia · 29",
+        "meta": "Londonas"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Konkretūs ritmai begaliniai.",
+        "body": "„Juno“ filtruoja bendras vertybes, suderinamus gyvenimus ir kibirkštį, kuria iš tikrųjų galite kurti.",
+        "tags": [
+          "Rūšis",
+          "Smalsus",
+          "Paruoštas"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Asmuo, o ne profilis.",
+        "body": "Kiekviena įžanga pateikiama su priežastimi, kurią Juno mano, kad jūs abu turėtumėte susitikti – ne paslaptingas procentas.",
+        "ctaLabel": "Leiskite Juno jus pristatyti"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Jis prisimena detales.",
+        "body": "Įskaitant tuos, kuriuos minite tik vieną kartą."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Privatus, visada.",
+        "body": "Nėra viešo denio. Jokių nepažįstamų žmonių naršo."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Kaip vyksta magija",
+      "heading": "Nuo „Pasakyk man apie tave“ iki „Kada galime susitikti?",
+      "headingAccent": "Kada galime susitikti?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno atidžiai klausosi per privatų piršlybų pokalbį",
+          "title": "Turėkite tikrą pokalbį",
+          "body": "Pasakykite Juno, ko norite, kas nepasiteisino ir kokie jums atrodo geri santykiai."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno ieško privačioje suderinamų žmonių profilių duomenų bazėje",
+          "title": "Juno ieško",
+          "body": "Jis ieško privačioje bendruomenėje suderinamų žmonių ir patikrina, ar tai yra akivaizdu."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Du žmonės dalijasi šilta pirmąja įžanga kavinėje",
+          "title": "patenkinti vieną gerą galimybę",
+          "body": "Gaukite apgalvotą įvadą su kontekstu. Jūs abu pasirenkate, kol kas nors nebus bendrinama."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Du žmonės, kurie mėgaujasi lengvu pokalbiu vaikščiodami po pirmojo pasimatymo",
+          "title": "Eikite į tikrą pasimatymą",
+          "body": "Juno gali pasiūlyti vietą, pralaužti ledus ir pasinaudoti jūsų atsiliepimais, kad kita įžanga būtų dar ryškesnė."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Naujausia Juno nuojauta",
+      "heading": "Du pilni gyvenimai. Viena labai gera priežastis susitikti.",
+      "body": "Jie abu kerta miestą ieškodami puikios duonos, sekmadieniais skambina savo šeimai ir mieliau rengia vakarienę, nei šaukia prie baro.",
+      "checklist": [
+        "Tas pats santykių tempas",
+        "pakankamai arti, kad būtų spontaniškas",
+        "taip pat rimtai žiūri į desertą"
+      ],
+      "ctaLabel": "Raskite mano rūšį",
+      "badgeLabel": "Juno nuojauta",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31 m",
+          "meta": "Sekmadienio turgūs · Dideli romanai"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Liūtas",
+          "name": "Liūtas, 33 m",
+          "meta": "Švieži makaronai · Maži kino teatrai"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Iš grupės pokalbio",
+      "heading": "Datos, apie kurias žmonės rašo savo draugams.",
+      "quote": "Junona praleido mažą pokalbį. Pirmasis mūsų pasimatymas truko keturias valandas, o antrasis įvyko po dviejų dienų.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malkolmas"
+        }
+      ],
+      "attribution": "Nia + Malcolmas",
+      "meta": "Pristatyta Londone · 11 mėnesių kartu",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4 tūkst",
+          "label": "Apgalvotos įžangos"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "virsti pirmuoju pasimatymu"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "Vidutinis nario įvertinimas"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Ar Juno yra pažinčių programa?",
+        "answer": "Tikrai ne – nėra braukimo denio ar viešo profilio. Jūs sakote Juno, kas esate ir ko norite, ir jis vienu metu apgalvotai prisistato."
+      },
+      {
+        "question": "Ar visi matys mano profilį?",
+        "answer": "Ne. Pagal numatytuosius nustatymus jūsų profilis yra privatus. Juno tik dalijasi patvirtinta įžanga su žmogumi, kuris, jo manymu, gali būti tinkamas – niekada viešame ar ieškomame kanale."
+      },
+      {
+        "question": "Ką daryti, jei manęs nedomina rungtynės?",
+        "answer": "Tiesiog pasakyk Junonai. Atsisakymas niekada nebaudžia nei jūsų, nei kito asmens, ir jis žiūrės tol, kol tai bus teisinga."
+      },
+      {
+        "question": "Ar Juno galima naudotis nemokamai?",
+        "answer": "Taip, kalbėtis su Juno ir susipažinti yra nemokama."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Geri klausimai",
+      "heading": "Prieš Juno žaidžiant Kupidoną."
+    },
+    "contact": {
+      "heading": "Turite klausimą komandai?",
+      "body": "Juno gali atsakyti į daugumą klausimų tiesiogiai pokalbio metu arba susisiekti su mumis el. paštu.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "pasiruošęs, kai būsi",
+      "heading": "Tikros įžangos. vienu metu vienas žmogus.",
+      "body": "Pasakyk Juno, kas tau svarbu. Jis tai paims iš ten – apgalvotai, privačiai ir vienu metu.",
+      "ctaLabel": "Pasikalbėk su Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

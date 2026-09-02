@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "uk",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "близько",
+          "target": "about"
+        },
+        {
+          "label": "Як це працює",
+          "target": "how-it-works"
+        },
+        {
+          "label": "оповідання",
+          "target": "stories"
+        },
+        {
+          "label": "поширені запитання",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Meet Juno"
+    },
+    "badge": "Сватання, продумано",
+    "headline": "Справжні вступи",
+    "headlineLine2": "Одна людина за раз",
+    "subheadline": "Поговоріть з Юноною, як з блискучим другом. Він дізнається, що важливо, зробить одне продумане вступ і з’єднає вас лише тоді, коли ви обидва скажете «так».",
+    "ctaLabel": "Поговоріть з Юноною",
+    "secondaryCtaLabel": "Подивіться, як це працює",
+    "featureTags": [
+      "Без прокручування",
+      "Тільки взаємна згода",
+      "Справжні розмови",
+      "Приватний, поки ви не скажете так"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Привіт, я Юнона. Я представляю одну реальну людину за раз — ніколи не список."
+      },
+      {
+        "role": "user",
+        "text": "Як це працює?"
+      },
+      {
+        "role": "assistant",
+        "text": "Розкажи мені про себе і про те, кого ти шукаєш. Почну з того, що насправді має значення."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Онлайн · Зазвичай миттєво відповідає",
+      "inputPlaceholder": "Запитайте Юнону будь-що…",
+      "suggestedPrompts": [
+        "Як працює відповідність?",
+        "Мій профіль приватний?",
+        "Допоможіть мені розпочати роботу"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Додатки для знайомств дали вам усі. Юнона знайомить вас з кимось.",
+      "body": "Він дізнається деталі, які ніколи не вписуються в біографію — темп життя, якого ви хочете, що змушує вас сміятися, і звичайний вівторок, яким ви сподіваєтеся поділитися.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "амара",
+          "caption": "Люди з речовиною"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Малькольм",
+          "caption": "Знайомство з контекстом"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Ніа",
+          "caption": "Фініки, на які варто одягатися"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Малкольм посміхається",
+        "name": "Малкольм · 34",
+        "meta": "Бруклін"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Ніа посміхається на відкритому повітрі",
+        "name": "Ніа · 29",
+        "meta": "Лондон"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Конкретні удари нескінченні.",
+        "body": "Фільтри Juno для спільних цінностей, сумісних життів і іскри, на якій ви дійсно можете розвивати.",
+        "tags": [
+          "рід",
+          "цікавий",
+          "готовий"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Людина, а не профіль.",
+        "body": "Кожне вступ має причину, яку Юно вважає, що ви двоє повинні зустрітися, а не таємничий відсоток.",
+        "ctaLabel": "Дозвольте Юноні представити вас"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Він пам'ятає деталі.",
+        "body": "включаючи ті, які ви згадуєте лише один раз."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Приватний, завжди.",
+        "body": "Немає публічної колоди. Не чужі люди не переглядають вас."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Як відбувається магія",
+      "heading": "Від «Розкажи мені про себе» до «Коли ми зможемо зустрітися?»",
+      "headingAccent": "Коли ми зможемо зустрітися?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Юнона уважно слухає під час приватної розмови",
+          "title": "мати справжню розмову",
+          "body": "Скажіть Джуно, що ви хочете, що не спрацювало, і які вам хороші стосунки."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno Пошук у приватній базі даних профілів для сумісних людей",
+          "title": "Юнона дивиться",
+          "body": "Він шукає в приватній спільноті сумісних людей і перевіряє відповідність за межами очевидного."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Двоє людей ділять теплий перший знайомство в кафе",
+          "title": "Зустрічайте одну хорошу можливість",
+          "body": "Отримайте продуманий вступ із контекстом. Ви обидва приймаєте рішення, перш ніж щось буде поділено."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Двоє людей насолоджуються легкою розмовою під час прогулянки після першого побачення",
+          "title": "піти на фактичне побачення",
+          "body": "Juno може запропонувати місце, зламати лід і використовувати свої відгуки, щоб зробити наступне представлення ще чіткішим."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Остання думка Юнони",
+      "heading": "Два повних життя. Одна дуже вагома причина зустрітися.",
+      "body": "Вони обидва перетинають місто за чудовим хлібом, телефонують своїй родині по неділях і воліють вечеряти, ніж кричати через бар.",
+      "checklist": [
+        "Той самий темп відносин",
+        "досить близько, щоб бути спонтанним",
+        "Не менш серйозно до десерту"
+      ],
+      "ctaLabel": "Знайди мою людину",
+      "badgeLabel": "Думка Юнони",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "амара",
+          "name": "Амара, 31",
+          "meta": "Недільні ринки · Великі романи"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Лев",
+          "name": "Лев, 33",
+          "meta": "Свіжа паста · Крихітні кінотеатри"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "з групового чату",
+      "heading": "Побачення, про які люди надсилають повідомлення своїм друзям.",
+      "quote": "Юнона пропустила маленьку розмову. Наше перше побачення тривало чотири години, а друге відбулося через два дні.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Ніа"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Малькольм"
+        }
+      ],
+      "attribution": "Ніа + Малкольм",
+      "meta": "Введено в Лондоні · 11 місяців разом",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4 тис",
+          "label": "Продумані вступи"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "перетворитися на перше побачення"
+        },
+        {
+          "icon": "star",
+          "value": "4,9/5",
+          "label": "Середній рейтинг учасників"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Juno це додаток для знайомств?",
+        "answer": "Не дуже — немає колоди чи публічного профілю. Ви говорите Джуно, хто ви і чого хочете, і він робить одне вдумливе представлення за раз."
+      },
+      {
+        "question": "Чи всі побачать мій профіль?",
+        "answer": "Ні. Ваш профіль за замовчуванням є приватним. «Юнона» ділиться лише схваленим знайомством з кимось, на його думку, може бути підходящим — ніколи в загальнодоступній стрічці або в стрічці з можливістю пошуку."
+      },
+      {
+        "question": "Що робити, якщо мене не цікавить матч?",
+        "answer": "Просто розкажи Юнону. Відмова ніколи не карає вас чи іншу людину, і він буде продовжувати шукати, поки це не стане правильним."
+      },
+      {
+        "question": "Чи є Juno безкоштовним у використанні?",
+        "answer": "Так, спілкуватися з Юноною та знайомства безкоштовно."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Гарні запитання",
+      "heading": "Перед Юноною грає Купідона."
+    },
+    "contact": {
+      "heading": "Є питання до команди?",
+      "body": "Juno може відповісти на більшість запитань безпосередньо в чаті або зв’язатися з нами електронною поштою.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "готовий, коли ти будеш",
+      "heading": "Справжні знайомства. по одній людині.",
+      "body": "Розкажіть Джуно, що для вас важливо. Він візьме це звідти — вдумливо, приватно та по одній реальній людині.",
+      "ctaLabel": "Поговоріть з Юноною"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

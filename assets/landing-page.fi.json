@@ -1,0 +1,309 @@
+{
+  "schemaVersion": 1,
+  "language": "fi",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Noin",
+          "target": "about"
+        },
+        {
+          "label": "Kuinka se toimii",
+          "target": "how-it-works"
+        },
+        {
+          "label": "tarinoita",
+          "target": "stories"
+        },
+        {
+          "label": "usein kysytyt kysymykset",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Tapaa Juno"
+    },
+    "badge": "matchmaking, tehty harkiten",
+    "headline": "Todellisia esittelyjä",
+    "headlineLine2": "Yksi henkilö kerrallaan",
+    "subheadline": "Puhu Junolle kuin olisit loistava ystävä. Hän oppii sen, mikä on tärkeää, tekee yhden harkitun esittelyn ja yhdistää sinut vain, kun sanotte kyllä.",
+    "ctaLabel": "Keskustele Junon kanssa",
+    "secondaryCtaLabel": "Katso kuinka se toimii",
+    "featureTags": [
+      "Ei pyyhkäisyä",
+      "Vain yhteinen suostumus",
+      "Oikeita keskusteluja",
+      "Yksityinen, kunnes sanot kyllä"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hei, olen Juno. Esittelen yhden oikean henkilön kerrallaan – ei koskaan luetteloa."
+      },
+      {
+        "role": "user",
+        "text": "Miten se toimii?"
+      },
+      {
+        "role": "assistant",
+        "text": "Kerro itsestäsi ja ketä etsit. Aloitan siitä, mikä on oikeastaan tärkeää."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "verkossa · yleensä vastaa välittömästi",
+      "inputPlaceholder": "Kysy Junolta mitä tahansa…",
+      "suggestedPrompts": [
+        "Miten sovitus toimii?",
+        "Onko profiilini yksityinen?",
+        "Auta minua pääsemään alkuun"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Treffisovellukset antoivat sinulle kaikille. Juno esittelee sinut jollekin.",
+      "body": "Hän oppii yksityiskohdat, jotka eivät koskaan sovi elämäkertaan – haluamasi elämäntahti, mikä saa sinut nauramaan, ja tavallinen tiistai, jonka toivot jakavasi.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "caption": "ihmisiä, joilla on sisältöä"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Esittelyt kontekstilla"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "Treffit kannattaa pukeutua"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm hymyilee",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia hymyilee ulkona",
+        "name": "nia · 29",
+        "meta": "Lontoo"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "erityisiä biittejä loputtomasti.",
+        "body": "Juno-suodattimet yhteisille arvoille, yhteensopiville elämälle ja sellaiselle kipinälle, jolle voit todella rakentaa.",
+        "tags": [
+          "Laji",
+          "Utelias",
+          "Valmis"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "henkilö, ei profiili.",
+        "body": "Jokaisella esittelyllä on syy, miksi Junon mielestä teidän kahden pitäisi tavata - ei mystinen prosenttiosuus.",
+        "ctaLabel": "Anna Junon esitellä sinut"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Hän muistaa yksityiskohdat.",
+        "body": "mukaan lukien ne, jotka mainitset vain kerran."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "yksityinen, aina.",
+        "body": "Ei julkista kantta. Ei vieraita selaa sinua."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Kuinka taika tapahtuu",
+      "heading": "\"Kerro minulle sinusta\" ja \"Milloin voimme tavata?\"",
+      "headingAccent": "Milloin voimme tavata?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno kuuntelee tarkasti yksityisen matchmaking-keskustelun aikana",
+          "title": "käydä todellista keskustelua",
+          "body": "Kerro Junolle, mitä haluat, mikä ei ole toiminut ja miltä hyvä suhde sinusta tuntuu."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno etsii yhteensopivien henkilöiden yksityisestä profiilitietokannasta",
+          "title": "Juno katsoo",
+          "body": "Hän etsii yksityiseltä yhteisöltä yhteensopivia ihmisiä ja tarkistaa sopivuuden ilmeisen."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Kaksi ihmistä jakaa lämpimän ensimmäisen esittelyn kahvilassa",
+          "title": "täyttää yksi hyvä mahdollisuus",
+          "body": "Hanki harkittu esittely kontekstin kera. Te molemmat osallistutte ennen kuin mitään jaetaan."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Kaksi ihmistä nauttii helposta keskustelusta kävellessä ensitreffien jälkeen",
+          "title": "mennä oikeaan treffeille",
+          "body": "Juno voi ehdottaa paikkaa, murtaa jään ja käyttää palautettasi tehdäksesi seuraavasta esittelystä vielä terävämmän."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Junon uusin aavistus",
+      "heading": "kaksi täyttä elämää. Yksi erittäin hyvä syy tavata.",
+      "body": "He molemmat ylittävät kaupungin leipää varten, soittavat perheelleen sunnuntaisin ja isännöivät mieluummin illallista kuin huutaisivat baarin yli.",
+      "checklist": [
+        "Sama suhdevauhti",
+        "tarpeeksi lähellä ollakseen spontaani",
+        "yhtä vakavasti jälkiruoan suhteen"
+      ],
+      "ctaLabel": "Etsi minun kaltainen ihminen",
+      "badgeLabel": "Junon aavistus",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "name": "Amara, 31",
+          "meta": "Sunnuntaimarkkinat · Suuret romaanit"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leijona",
+          "name": "Leo, 33",
+          "meta": "Fresh Pasta · Pienet elokuvateatterit"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Ryhmäkeskustelusta",
+      "heading": "Treffit ihmiset lähettävät tekstiviestejä ystävilleen.",
+      "quote": "Juno ohitti small talkin. Ensimmäinen treffimme kesti neljä tuntia, ja toinen tapahtui kaksi päivää myöhemmin.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Esitelty Lontoossa · 11 kuukautta yhdessä",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4k",
+          "label": "harkittuja esittelyjä"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "muuttua ensitreffeiksi"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "Keskimääräinen jäsenluokitus"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Onko Juno treffisovellus?",
+        "answer": "Ei oikeastaan – ei ole pyyhkäisykansia tai julkista profiilia. Kerrot Junolle, kuka olet ja mitä haluat, ja hän tekee yhden harkitun esittelyn kerrallaan."
+      },
+      {
+        "question": "Näkevätkö kaikki profiilini?",
+        "answer": "Ei. Profiilisi on oletuksena yksityinen. Juno jakaa vain hyväksytyn esittelyn jonkun kanssa, jonka hän uskoo sopivan – ei koskaan julkisessa tai haettavissa olevassa syötteessä."
+      },
+      {
+        "question": "Entä jos en ole kiinnostunut ottelusta?",
+        "answer": "Kerro vain Juno. Kieltäytyminen ei koskaan rankaise sinua tai toista henkilöä, ja hän jatkaa etsimistä, kunnes se on oikein."
+      },
+      {
+        "question": "Onko Juno ilmainen käyttää?",
+        "answer": "Kyllä, Junon kanssa chattailu ja esittelyjen saaminen on ilmaista."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "hyviä kysymyksiä",
+      "heading": "Ennen kuin Juno pelaa Cupidia."
+    },
+    "contact": {
+      "heading": "Onko sinulla kysyttävää joukkueelle?",
+      "body": "Juno voi vastata useimpiin kysymyksiin suoraan chatissa – tai ottaa meihin yhteyttä sähköpostitse.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Valmis kun olet",
+      "heading": "todellisia esittelyjä. yksi henkilö kerrallaan.",
+      "body": "Kerro Junolle, mikä on sinulle tärkeää. Hän ottaa sen sieltä - harkiten, yksityisesti ja yksi todellinen henkilö kerrallaan.",
+      "ctaLabel": "Keskustele Junon kanssa"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "da",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Om",
+          "target": "about"
+        },
+        {
+          "label": "Hvordan det virker",
+          "target": "how-it-works"
+        },
+        {
+          "label": "historier",
+          "target": "stories"
+        },
+        {
+          "label": "Ofte stillede spørgsmål",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "møde Juno"
+    },
+    "badge": "Matchmaking, udført med omtanke",
+    "headline": "Rigtige introduktioner",
+    "headlineLine2": "Én person ad gangen",
+    "subheadline": "Tal med Juno, som du ville være en genial ven. Han vil lære, hvad der betyder noget, lave en tankevækkende introduktion og kun forbinde dig, når I begge siger ja.",
+    "ctaLabel": "Tal med Juno",
+    "secondaryCtaLabel": "se hvordan det virker",
+    "featureTags": [
+      "Ingen swiping",
+      "Kun gensidigt samtykke",
+      "Rigtige samtaler",
+      "Privat indtil du siger ja"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hej, jeg er Juno. Jeg introducerer én rigtig person ad gangen - aldrig en liste."
+      },
+      {
+        "role": "user",
+        "text": "Hvordan fungerer det?"
+      },
+      {
+        "role": "assistant",
+        "text": "Fortæl mig om dig selv og hvem du leder efter. Jeg starter med det, der faktisk betyder noget."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · Svarer normalt med det samme",
+      "inputPlaceholder": "Spørg Juno om hvad som helst...",
+      "suggestedPrompts": [
+        "Hvordan fungerer matchning?",
+        "Er min profil privat?",
+        "Help me get started"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Dating-apps gav dig alle. Juno præsenterer dig for nogen.",
+      "headingAccent": "nogen.",
+      "body": "Han lærer de detaljer, der aldrig passer ind i en bio - det tempo i livet, du ønsker, hvad der får dig til at grine, og den almindelige tirsdag, du håber at dele.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Mennesker med substans"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Introduktioner med kontekst"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "Datoer værd at klæde sig på"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm smiler",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia smiler udendørs",
+        "name": "Nia · 29",
+        "meta": "London"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Specifikke beats uendelige.",
+        "body": "Juno filtrerer efter fælles værdier, kompatible liv og den slags gnist, du faktisk kan bygge videre på.",
+        "tags": [
+          "Slags",
+          "Nysgerrig",
+          "Parat"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "En person, ikke en profil.",
+        "body": "Hver introduktion kommer med en grund til, at Juno mener, at I to skal mødes - ikke en mystisk procentdel.",
+        "ctaLabel": "Lad Juno præsentere dig"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Han husker detaljerne.",
+        "body": "Inklusiv dem du kun nævner én gang."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Privat, altid.",
+        "body": "Intet offentligt dæk. Ingen fremmede, der gennemser dig."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Hvordan magien sker",
+      "heading": "Fra \"Fortæl mig om dig\" til \"Hvornår kan vi mødes?\"",
+      "headingAccent": "Hvornår kan vi mødes?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno lytter nøje under en privat matchmaking-samtale",
+          "title": "Hav en rigtig samtale",
+          "body": "Fortæl Juno, hvad du vil, hvad der ikke har virket, og hvordan et godt forhold føles for dig."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno søger i en privat database med profiler for kompatible personer",
+          "title": "Juno kigger",
+          "body": "Han søger i det private samfund efter kompatible mennesker og tjekker pasformen ud over det åbenlyse."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "To personer deler en varm første introduktion på en cafe",
+          "title": "møde en god mulighed",
+          "body": "Få en gennemtænkt introduktion med kontekst. I tilmelder jer begge, før noget deles."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "To personer, der nyder en nem samtale, mens de går efter en første date",
+          "title": "gå på en faktisk date",
+          "body": "Juno kan foreslå stedet, bryde isen og bruge din feedback til at gøre den næste introduktion endnu skarpere."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Junos seneste anelse",
+      "heading": "to fulde liv. En rigtig god grund til at mødes.",
+      "body": "De krydser begge byen for at få godt brød, ringer til deres familie om søndagen og vil hellere være vært for middag end at råbe over en bar.",
+      "checklist": [
+        "Samme forhold tempo",
+        "tæt nok til at være spontan",
+        "Lige så seriøs omkring dessert"
+      ],
+      "ctaLabel": "Find min slags person",
+      "badgeLabel": "Junos anelse",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31",
+          "meta": "Søndagsmarkeder · Store romaner"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leo",
+          "name": "Leo, 33",
+          "meta": "frisk pasta · bittesmå biografer"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Fra gruppechatten",
+      "heading": "Datoer folk skriver deres venner om.",
+      "quote": "Juno sprang småsnakken over. Vores første date varede fire timer, og vores anden skete to dage senere.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Introduceret i London · 11 måneder sammen",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12,4K",
+          "label": "Tankevækkende introduktioner"
+        },
+        {
+          "icon": "calendar",
+          "value": "68 %",
+          "label": "blive til en første date"
+        },
+        {
+          "icon": "star",
+          "value": "4,9/5",
+          "label": "Gennemsnitlig medlemsvurdering"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Er Juno en dating-app?",
+        "answer": "Egentlig ikke - der er ingen swipe-dæk eller offentlig profil. Du fortæller Juno, hvem du er, og hvad du vil have, og han laver en tankevækkende introduktion ad gangen."
+      },
+      {
+        "question": "Vil alle se min profil?",
+        "answer": "Nej. Din profil er som standard privat. Juno deler kun en godkendt introduktion med en, han mener kunne passe - aldrig i et offentligt eller søgbart feed."
+      },
+      {
+        "question": "Hvad hvis jeg ikke er interesseret i en kamp?",
+        "answer": "Bare fortæl Juno. At afslå aldrig straffer dig eller den anden person, og han vil blive ved med at lede, indtil det er rigtigt."
+      },
+      {
+        "question": "Er Juno gratis at bruge?",
+        "answer": "Ja, det er gratis at chatte med Juno og få introduktioner."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "gode spørgsmål",
+      "heading": "Før Juno spiller Amor."
+    },
+    "contact": {
+      "heading": "Har du et spørgsmål til holdet?",
+      "body": "Juno kan besvare de fleste spørgsmål direkte i chatten - eller kontakte os via e-mail.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Klar når du er",
+      "heading": "Rigtige introduktioner. én person ad gangen.",
+      "body": "Fortæl Juno, hvad der betyder noget for dig. Han vil tage det derfra - eftertænksomt, privat og en rigtig person ad gangen.",
+      "ctaLabel": "Tal med Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

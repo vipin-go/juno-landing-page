@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "language": "ro",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Despre",
+          "target": "about"
+        },
+        {
+          "label": "Cum functioneaza",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Povești",
+          "target": "stories"
+        },
+        {
+          "label": "Întrebări frecvente",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Faceți cunoștință cu Juno"
+    },
+    "badge": "Matchmaking, făcut cu grijă",
+    "headline": "Introduceri reale",
+    "headlineLine2": "O persoană la un moment dat",
+    "subheadline": "Vorbește cu Juno ca și cum ai face un prieten genial. El va învăța ce contează, va face o prezentare atentă și vă va conecta doar atunci când amândoi spuneți da.",
+    "ctaLabel": "Vorbește cu Juno",
+    "secondaryCtaLabel": "Vezi cum funcționează",
+    "featureTags": [
+      "Fără glisare",
+      "Numai consimțământul reciproc",
+      "Conversații reale",
+      "privat până când spui da"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Bună, sunt Juno. Vă prezint o persoană reală la un moment dat - niciodată o listă."
+      },
+      {
+        "role": "user",
+        "text": "Cum funcționează?"
+      },
+      {
+        "role": "assistant",
+        "text": "Spune-mi despre tine și pe cine cauți. Voi începe cu ceea ce contează de fapt."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "Online · de obicei răspunde instantaneu",
+      "inputPlaceholder": "Întreabă-l pe Juno orice...",
+      "suggestedPrompts": [
+        "Cum funcționează potrivirea?",
+        "Profilul meu este privat?",
+        "Ajută-mă să încep"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Aplicațiile de întâlniri ți-au oferit tuturor. Juno vă prezintă pe cineva.",
+      "headingAccent": "cineva.",
+      "body": "El învață detaliile care nu se potrivesc niciodată într-o biografie - ritmul vieții pe care îl dorești, ceea ce te face să râzi și marți obișnuită pe care speri să o împărtășești.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "caption": "Persoane cu substanță"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Introduceri cu context"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia",
+          "caption": "Întâlniri pentru care merită îmbrăcate"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm zâmbind",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia zâmbind în aer liber",
+        "name": "nia · 29",
+        "meta": "Londra"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "Bătăi specifice nesfârșite.",
+        "body": "Juno se filtrează pentru valori partajate, vieți compatibile și tipul de scânteie pe care poți construi de fapt.",
+        "tags": [
+          "Fel",
+          "Curios",
+          "Gata"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "o persoană, nu un profil.",
+        "body": "Fiecare introducere vine cu un motiv pentru care Juno crede că voi doi ar trebui să vă întâlniți - nu un procent misterios.",
+        "ctaLabel": "Lasă-l pe Juno să te prezinte"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Își amintește detaliile.",
+        "body": "inclusiv cele pe care le menționezi o singură dată."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "privat, întotdeauna.",
+        "body": "Fără punte publică. Fără străini care te răsfoiesc."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Cum se întâmplă magia",
+      "heading": "De la „Spune-mi despre tine” la „Când ne putem întâlni?”",
+      "headingAccent": "Când ne putem întâlni?",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "Juno ascultă cu atenție în timpul unei conversații private de matchmaking",
+          "title": "Aveți o conversație reală",
+          "body": "Spune-i lui Juno ce vrei, ce nu a funcționat și cum se simte o relație bună pentru tine."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "Juno căutând într-o bază de date privată de profiluri pentru persoane compatibile",
+          "title": "Juno se uită",
+          "body": "El caută în comunitatea privată oameni compatibili și verifică potrivirea dincolo de evident."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Două persoane împărtășesc o primă prezentare caldă la o cafenea",
+          "title": "satisface o posibilitate bună",
+          "body": "Obțineți o introducere atentă cu context. Amândoi vă înscrieți înainte ca ceva să fie partajat."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Două persoane se bucură de o conversație ușoară în timp ce merg după o primă întâlnire",
+          "title": "merge la o întâlnire reală",
+          "body": "Juno poate sugera locul, poate sparge gheața și poate folosi feedback-ul pentru a face următoarea introducere și mai clară."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "Cea mai recentă bănuială a lui Juno",
+      "heading": "două vieți pline. Un motiv foarte bun de întâlnit.",
+      "body": "Amândoi traversează orașul pentru pâine grozavă, își sună familia duminica și preferă să găzduiască cina decât să strige peste un bar.",
+      "checklist": [
+        "Același ritm de relație",
+        "suficient de aproape pentru a fi spontan",
+        "La fel de serios despre desert"
+      ],
+      "ctaLabel": "Găsește genul meu de persoană",
+      "badgeLabel": "Bănuiala lui Juno",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "amara",
+          "name": "Amara, 31",
+          "meta": "Pieţe de duminică · Romane mari"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leu",
+          "name": "Leu, 33",
+          "meta": "paste proaspete · cinematografe mici"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Din chatul de grup",
+      "heading": "Întâlnirile despre care oamenii își trimit mesaje prietenilor.",
+      "quote": "Juno a sărit peste discuția. Prima noastră întâlnire a durat patru ore, iar a doua a avut loc două zile mai târziu.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "introdus la Londra · 11 luni împreună",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "Introduceri atente"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "se transforma într-o primă întâlnire"
+        },
+        {
+          "icon": "star",
+          "value": "4,9/5",
+          "label": "Evaluarea medie a membrilor"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "Juno este o aplicație de întâlniri?",
+        "answer": "Nu chiar - nu există un pachet de glisare sau un profil public. Îi spui lui Juno cine ești și ce vrei, iar el face o prezentare atentă la un moment dat."
+      },
+      {
+        "question": "Îmi vor vedea toată lumea profilul?",
+        "answer": "Nu. Profilul dvs. este privat în mod implicit. Juno împărtășește doar o introducere aprobată cu cineva despre care crede că ar putea fi potrivit - niciodată într-un feed public sau care poate fi căutat."
+      },
+      {
+        "question": "Ce se întâmplă dacă nu sunt interesat de un meci?",
+        "answer": "Spune-i lui Juno. Declinul nu te penalizează niciodată pe tine sau pe cealaltă persoană, iar el va continua să caute până când va fi corect."
+      },
+      {
+        "question": "Juno este gratuit de utilizat?",
+        "answer": "Da, discuția cu Juno și obținerea de prezentări este gratuită."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Întrebări bune",
+      "heading": "Înainte ca Juno să joace Cupidon."
+    },
+    "contact": {
+      "heading": "Ai o întrebare pentru echipă?",
+      "body": "Juno poate răspunde la majoritatea întrebărilor direct prin chat – sau ne poate contacta prin e-mail.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Sunt pregatit cand esti si tu",
+      "heading": "Introduceri reale. o persoană la un moment dat.",
+      "body": "Spune-i lui Juno ce contează pentru tine. O va lua de acolo - gânditor, privat și o persoană reală la un moment dat.",
+      "ctaLabel": "Vorbește cu Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}

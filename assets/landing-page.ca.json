@@ -1,0 +1,308 @@
+{
+  "schemaVersion": 1,
+  "language": "ca",
+  "regionKey": null,
+  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "landingPage": {
+    "design": {
+      "variant": "signature",
+      "defaultThemeMode": "light",
+      "theme": {
+        "palette": "forest",
+        "primaryColor": "green",
+        "secondaryColor": "teal",
+        "accentColor": "orange"
+      },
+      "brand": {
+        "presetRevision": 1,
+        "colors": {
+          "light": {
+            "canvas": "#eef6eb",
+            "surface": "#f3f9f0",
+            "sidebar": "#073f31",
+            "text": "#153b30",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          },
+          "dark": {
+            "canvas": "#071f19",
+            "surface": "#0b3026",
+            "sidebar": "#073f31",
+            "text": "#efffec",
+            "accent": "#dff66a",
+            "userBubble": "#22c768"
+          }
+        },
+        "typography": {
+          "body": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "display": {
+            "source": "builtin",
+            "family": "dm-sans"
+          },
+          "label": {
+            "source": "builtin",
+            "family": "dm-sans"
+          }
+        }
+      }
+    },
+    "header": {
+      "brandMark": "heart",
+      "navItems": [
+        {
+          "label": "Sobre",
+          "target": "about"
+        },
+        {
+          "label": "Com funciona",
+          "target": "how-it-works"
+        },
+        {
+          "label": "Històries",
+          "target": "stories"
+        },
+        {
+          "label": "Preguntes freqüents",
+          "target": "faq"
+        }
+      ],
+      "ctaLabel": "Conegueu en Juno"
+    },
+    "badge": "Intermediació feta amb cura",
+    "headline": "Introduccions reals",
+    "headlineLine2": "Una persona a la vegada",
+    "subheadline": "Parleu amb en Juno com ho faríeu amb un amic brillant. Ell aprendrà què és important, farà una introducció acurada i només us connectarà quan ambdós digueu que sí.",
+    "ctaLabel": "Parleu amb en Juno",
+    "secondaryCtaLabel": "Mira com funciona",
+    "featureTags": [
+      "Sense passar el dit",
+      "Només consentiment mutu",
+      "Converses reals",
+      "Privat fins que digueu que sí"
+    ],
+    "demoConversation": [
+      {
+        "role": "assistant",
+        "text": "Hola, sóc en Juno. Presento una persona real a la vegada — mai una llista."
+      },
+      {
+        "role": "user",
+        "text": "Com funciona això?"
+      },
+      {
+        "role": "assistant",
+        "text": "Explica'm sobre tu i qui busques. Començaré pel que realment importa."
+      }
+    ],
+    "heroChat": {
+      "statusLabel": "En línia · normalment respon a l'instant",
+      "inputPlaceholder": "Pregunteu a en Juno el que vulgueu…",
+      "suggestedPrompts": [
+        "Com funciona l'aparellament?",
+        "El meu perfil és privat?",
+        "Ajudeu-me a començar"
+      ]
+    },
+    "heroCharacterImage": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-cupid-green.png",
+    "gallery": {
+      "icon": "users",
+      "heading": "Les apps de cites us van donar tothom. Juno us presenta algú.",
+      "body": "Ell aprèn els detalls que mai no caben en una biografia: el ritme de vida que vols, el que et fa riure i el dimarts normal que esperes compartir.",
+      "items": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "caption": "Persones amb substància"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm",
+          "caption": "Introduccions amb context"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia",
+          "caption": "Cites dignes de vestirse"
+        }
+      ]
+    },
+    "bento": {
+      "photoTall": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+        "alt": "Malcolm somrient",
+        "name": "Malcolm · 34",
+        "meta": "Brooklyn"
+      },
+      "photoWide": {
+        "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+        "alt": "Nia somrient a l'aire lliure",
+        "name": "Nia · 29",
+        "meta": "Londres"
+      },
+      "mainCard": {
+        "icon": "search",
+        "title": "L'específic supera l'il·limitat.",
+        "body": "El Juno filtra valors compartits, vides compatibles i el tipus guspira sobre la qual realment podeu construir.",
+        "tags": [
+          "Amable",
+          "Curiós",
+          "A punt"
+        ]
+      },
+      "ctaCard": {
+        "icon": "user-plus",
+        "title": "Una persona, no un perfil.",
+        "body": "Cada introducció ve amb una raó del per què el Juno pensa que vosaltres dos hauríeu de reunió— no un percentatge misteriós.",
+        "ctaLabel": "Deixeu que el Juno us presenti"
+      },
+      "smallCardA": {
+        "icon": "lightbulb",
+        "title": "Ell recorda els detalls.",
+        "body": "Inclòs els que mencioneu només una vegada."
+      },
+      "smallCardB": {
+        "icon": "lock",
+        "title": "Privat, sempre.",
+        "body": "Sense terrassa pública. Sense estranys navegant per vosaltres."
+      }
+    },
+    "howItWorks": {
+      "icon": "envelope",
+      "kicker": "Com passa la màgia",
+      "heading": "De \"explica'm sobre tu\" a \"quan podem reunir-nos?\"",
+      "steps": [
+        {
+          "icon": "chat",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-conversation-mascot.webp",
+          "alt": "En Juno escoltant de prop durant una conversa privada d'intermediació",
+          "title": "Teniu una conversa real",
+          "body": "Conteu al Juno què voleu, què no ha funcionat i com se sent una bona relació per a vosaltres."
+        },
+        {
+          "icon": "search",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-search-mascot.webp",
+          "alt": "En Juno cercant una base de dades privada de perfils per a persones compatibles",
+          "title": "En Juno busca",
+          "body": "Ell cerca a la comunitat privada persones compatibles i verifica l'adequació més enllà de l'evident."
+        },
+        {
+          "icon": "user-plus",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-introduction.webp",
+          "alt": "Dues persones compartint una primera introducció càlida en un cafè",
+          "title": "Conegueu una bona possibilitat",
+          "body": "Rebeu una introducció acurada amb context. Tots dos opteu abans que es comparteixi res."
+        },
+        {
+          "icon": "calendar",
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/juno-how-date.webp",
+          "alt": "Dues persones gaudint d'una conversa fàcil mentre caminen després d'una primera cita",
+          "title": "Sortiu a una cita real",
+          "body": "El Juno pot suggerir el lloc, trencar el gel i fer servir els vostres comentaris per fer la propera introducció més precisa."
+        }
+      ]
+    },
+    "matchPreview": {
+      "kicker": "L'última sospita del Juno",
+      "heading": "Dues vides completes. Un molt bon motiu per reunió.",
+      "body": "Tots dos creuen la ciutat per un pa meravellós, truquen a la família els diumenges i preferirien allotjar un sopar que cridar per sobre d'un bar.",
+      "checklist": [
+        "El mateix ritme de relació",
+        "Prou a prop per ser espontani",
+        "Igualment seriosos sobre el postre"
+      ],
+      "ctaLabel": "Troba el meu tipus de persona",
+      "badgeLabel": "La sospita del Juno",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
+          "alt": "Amara",
+          "name": "Amara, 31",
+          "meta": "Mercats de diumenge · Novel·les grans"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-leo.jpg",
+          "alt": "Leo",
+          "name": "Leo, 33",
+          "meta": "Pasta fresca · Cinemes petits"
+        }
+      ]
+    },
+    "stories": {
+      "icon": "chat",
+      "kicker": "Del grup de xat",
+      "heading": "Cites de les quals la gent\nescriu als seus amics.",
+      "quote": "El Juno es va saltar les presentacions. La nostra primera cita va durar quatre hores, i la segona va passar dos dies després.",
+      "people": [
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-nia.jpg",
+          "alt": "Nia"
+        },
+        {
+          "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-malcolm.jpg",
+          "alt": "Malcolm"
+        }
+      ],
+      "attribution": "Nia + Malcolm",
+      "meta": "Introduïts a Londres · 11 mesos junts",
+      "stats": [
+        {
+          "icon": "heart",
+          "value": "12.4K",
+          "label": "intermedeccions acurades"
+        },
+        {
+          "icon": "calendar",
+          "value": "68%",
+          "label": "es converteixen en una primera cita"
+        },
+        {
+          "icon": "star",
+          "value": "4.9/5",
+          "label": "qualificació mitjana dels membres"
+        }
+      ]
+    },
+    "faqs": [
+      {
+        "question": "El Juno és una app de cites?",
+        "answer": "Realment no — no hi ha terrassa per passar ni perfil público. Li dieu al Juno qui sou i què voleu, i ell fa una introducció acurada a la vegada."
+      },
+      {
+        "question": "Tothom veurà el meu perfil?",
+        "answer": "No. El vostre perfil és privat per defecte. El Juno només comparteix una introducció aprovada amb algú que pensa que podria ser un bon match — mai en un feed público o cercable."
+      },
+      {
+        "question": "I si no estic interessat en un match?",
+        "answer": "Només digueu-l'hi al Juno. Rebutjar mai us perjudica a vosaltres ni a l'altra persona, i ell seguirà cercant fins que estigui bé."
+      },
+      {
+        "question": "El Juno és gratuït?",
+        "answer": "Sí, xatejar amb el Juno i obtenir introduccions és gratuït."
+      }
+    ],
+    "faqIntro": {
+      "icon": "question-mark",
+      "kicker": "Bones preguntes",
+      "heading": "Abans que el Juno"
+    },
+    "contact": {
+      "heading": "Teniu una pregunta per a l'equip?",
+      "body": "El Juno pot respondre la majoria de preguntes directament al xat — o poseu-vos en contacte amb nosaltres per correu electrònic.",
+      "email": "hello@gabrieloperator.com"
+    },
+    "backgroundImage": {
+      "src": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/background-start.jpg",
+      "alt": ""
+    },
+    "closing": {
+      "kicker": "Quan estigueu preparats",
+      "heading": "Introduccions reals.\nUna persona a la vegada.",
+      "body": "Conteu al Juno què us importa. Ell ho agafarà des d'aquí — acuradament, privatament i una persona real a la vegada.",
+      "ctaLabel": "Parleu amb en Juno"
+    }
+  },
+  "generatedAt": "2026-09-01T15:39:42.140Z"
+}
