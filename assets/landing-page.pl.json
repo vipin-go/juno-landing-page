@@ -1,8 +1,8 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "language": "pl",
   "regionKey": null,
-  "sourceRevision": "6f0d1531ed086dd477863f5e3baa4b520d2ca82d659e73c2d05a03fb34738447",
+  "sourceRevision": "4f498334fffd443a1b4684bb642e35ecca04bdfa8e463a0d2b3e84c5ff0525e4",
   "landingPage": {
     "design": {
       "variant": "signature",
@@ -110,7 +110,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Aplikacje randkowe dały ci wszystkich. Juno przedstawia cię komuś.",
-      "body": "Dowiaduje się szczegółów, które nigdy nie pasują do biografii, tempa życia, którego pragniesz, tego, co cię rozśmieszasz, i zwyczajnego wtorku, którym masz nadzieję się podzielić.",
+      "body": "Poznaje szczegóły, które nigdy nie zmieściły się w biografii, tempo życia, którego pragniesz, co cię śmieszy i zwykły wtorek, który masz nadzieję dzielić.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
@@ -155,7 +155,7 @@
       "ctaCard": {
         "icon": "user-plus",
         "title": "Osoba, a nie profil.",
-        "body": "Każde wprowadzenie ma powód, dla którego Juno uważa, że powinniście się spotkać – a nie tajemniczy procent.",
+        "body": "Każde wprowadzenie zawiera powód, dla którego Juno uważa, że powinniście się spotkać, a nie tajemniczy procent.",
         "ctaLabel": "Niech Juno cię przedstawi"
       },
       "smallCardA": {
@@ -269,11 +269,11 @@
     "faqs": [
       {
         "question": "Czy Juno jest aplikacją randkową?",
-        "answer": "Niezupełnie, nie ma talii przesuwania ani profilu publicznego. Mówisz Juno, kim jesteś i czego chcesz, a on robi jedno przemyślane wprowadzenie na raz."
+        "answer": "Niezupełnie. Nie ma talii do przesuwania ani publicznego profilu. Mówisz Juno, kim jesteś i czego chcesz, a on dokonuje jednego przemyślanego wprowadzenia na raz."
       },
       {
         "question": "Czy wszyscy zobaczą mój profil?",
-        "answer": "Nie. Twój profil jest domyślnie prywatny. Juno dzieli się tylko zatwierdzonym wprowadzeniem z kimś, o kim uważa, że może być wpasowany, nigdy w publicznym lub przeszukiwanym kanale."
+        "answer": "Nie. Twój profil jest domyślnie prywatny. Juno udostępnia zatwierdzone wprowadzenie tylko osobie, która według niego może pasować, nigdy w publicznym ani przeszukiwalnym kanale."
       },
       {
         "question": "Co jeśli nie jestem zainteresowany meczem?",
@@ -291,7 +291,7 @@
     },
     "contact": {
       "heading": "Masz pytanie do zespołu?",
-      "body": "Juno może odpowiedzieć na większość pytań bezpośrednio na czacie, lub skontaktować się z nami przez e-mail.",
+      "body": "Juno może odpowiedzieć na większość pytań bezpośrednio na czacie lub skontaktować się z nami e-mailem.",
       "email": "hello@gabrieloperator.com"
     },
     "backgroundImage": {
@@ -301,9 +301,2225 @@
     "closing": {
       "kicker": "Gotowy, kiedy jesteś",
       "heading": "Prawdziwe przedstawienia. jedna osoba na raz.",
-      "body": "Powiedz Juno, co jest dla ciebie ważne. Weźmie to stamtąd, w zamyśleniu, prywatnie i jedną prawdziwą osobą na raz.",
+      "body": "Powiedz Juno, co jest dla ciebie ważne. On zajmie się resztą, rozważnie, prywatnie i jedną prawdziwą osobą na raz.",
       "ctaLabel": "Porozmawiaj z Juno"
+    },
+    "roiCalculator": {
+      "enabled": true,
+      "kicker": "Ekonomia AI",
+      "heading": "Kalkulator ROI",
+      "subheading": "Godziny nie poświęcone na ściganie list to zdolność. Oceń je, czy stają się większą liczbą wprowadzeń, lepszym dopasowaniem, czy rzeczywistym kosztem, którego przestajesz płacić.",
+      "disclaimer": "Liczby są szacunkami modelowanymi na podstawie Twoich założeń. Zwrócone godziny to zdolność, a nie automatyczne oszczędności na płacach i nie są obserwowanymi wynikami klientów.",
+      "currency": "EUR",
+      "locale": "en-GB",
+      "periodToggle": true,
+      "defaultPeriod": "monthly",
+      "settingsHeading": "Ustawienia użytkowania i kosztów",
+      "resultsHeading": "Wpływ operacyjny i wartość ekonomiczna",
+      "profileHeading": "Profil firmy",
+      "workloadHeading": "Obciążenie pracą",
+      "economicsHeading": "Ekonomia AI",
+      "economicsNote": "Całkowity koszt operacyjny to tokeny modelu, narzędzia i licencja platformy, a nie porównanie wynagrodzeń.",
+      "allocationHeading": "Gdzie trafia zwrócona zdolność",
+      "allocationHelp": "Usunięte godziny to zdolność. Tylko udziały, które przypiszesz do redukcji kosztów, dodatkowej objętości lub pracy o wyższej wartości, otrzymują wartość w euro.",
+      "unusedAllocationLabel": "Zatrzymane jako niewykorzystana zdolność",
+      "operationsHeading": "Co fizycznie się zmienia",
+      "valueHeading": "Ile warta jest ta zmiana",
+      "frameworkHeading": "Jak powstaje wartość",
+      "negativeProductivity": {
+        "heading": "Usunięta negatywna produktywność",
+        "body": "Tworzenie list, ściganie i ogólne działania, które nie prowadzą do lepszego wprowadzenia.",
+        "items": [
+          "Tworzenie list",
+          "Niekwalifikowane ściganie",
+          "Powtarzające się zbieranie kontekstu"
+        ]
+      },
+      "positiveProductivity": {
+        "heading": "Potencjalna pozytywna produktywność",
+        "body": "Zwrócony czas może pozwolić na bardziej staranne wprowadzenia lub objąć więcej tego samego wydarzenia lub miasta.",
+        "items": [
+          "Więcej wprowadzeń o tej samej jakości",
+          "Lepsze briefy",
+          "Mniej nadgodzin wokół wydarzeń"
+        ]
+      },
+      "producesHeading": "Co produkuje Juno",
+      "produces": [
+        "Jedno nazwane wprowadzenie",
+        "Zapis wzajemnej zgody",
+        "Prywatny brief"
+      ],
+      "breakdownHeading": "Sklasyfikowana wartość ekonomiczna",
+      "projectionHeading": "Prognozowana 12-miesięczna wartość ekonomiczna",
+      "yearOneCostLabel": "Koszt AI w pierwszym roku",
+      "yearOneValueLabel": "Wartość ekonomiczna w pierwszym roku",
+      "yearOneReturnLabel": "Zwrot ekonomiczny w pierwszym roku",
+      "scenarios": [
+        {
+          "id": "conservative",
+          "label": "Konserwatywny",
+          "multiplier": 0.7
+        },
+        {
+          "id": "base",
+          "label": "Podstawowy",
+          "multiplier": 1
+        },
+        {
+          "id": "optimistic",
+          "label": "Optymistyczny",
+          "multiplier": 1.3
+        }
+      ],
+      "defaultScenarioId": "base",
+      "inputs": [
+        {
+          "id": "introductions",
+          "label": "Przemyślane wprowadzenia każdego miesiąca",
+          "type": "slider",
+          "min": 2,
+          "max": 80,
+          "step": 1,
+          "defaultValue": 16,
+          "format": "integer",
+          "group": "profile",
+          "profile": true,
+          "profileIcon": "heart"
+        },
+        {
+          "id": "capacity_rate",
+          "label": "Cena cienia czasu dopasowania / godz.",
+          "type": "slider",
+          "min": 20,
+          "max": 200,
+          "step": 5,
+          "defaultValue": 80,
+          "format": "currency",
+          "group": "profile",
+          "profile": true
+        },
+        {
+          "id": "hours_per_intro",
+          "label": "Godziny przesiewania na wprowadzenie dzisiaj",
+          "type": "slider",
+          "min": 0.5,
+          "max": 10,
+          "step": 0.5,
+          "defaultValue": 1.5,
+          "format": "hours",
+          "group": "workload"
+        },
+        {
+          "id": "automation_share",
+          "label": "Udział zautomatyzowanej pracy dopasowującej",
+          "type": "slider",
+          "min": 10,
+          "max": 90,
+          "step": 5,
+          "defaultValue": 50,
+          "format": "percent",
+          "group": "workload"
+        },
+        {
+          "id": "tokens_per_unit",
+          "label": "Szacowane tokeny na zautomatyzowaną godzinę",
+          "type": "slider",
+          "min": 10000,
+          "max": 250000,
+          "step": 5000,
+          "defaultValue": 40000,
+          "format": "tokens",
+          "group": "economics"
+        },
+        {
+          "id": "input_price",
+          "label": "Cena wejściowa modelu / 1M tokenów",
+          "type": "number",
+          "min": 0,
+          "max": 50,
+          "step": 0.25,
+          "defaultValue": 2,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "output_price",
+          "label": "Cena wyjściowa modelu / 1M tokenów",
+          "type": "number",
+          "min": 0,
+          "max": 80,
+          "step": 0.25,
+          "defaultValue": 10,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "output_share",
+          "label": "Udział tokenów, które są wyjściowe",
+          "type": "slider",
+          "min": 5,
+          "max": 50,
+          "step": 1,
+          "defaultValue": 20,
+          "format": "percent",
+          "group": "economics"
+        },
+        {
+          "id": "license",
+          "label": "Miesięczna licencja platformy",
+          "type": "slider",
+          "min": 0,
+          "max": 6000,
+          "step": 50,
+          "defaultValue": 1500,
+          "format": "currency",
+          "group": "economics"
+        },
+        {
+          "id": "allocation_volume",
+          "label": "Udział wykorzystany do absorpcji większej objętości",
+          "help": "Przepustowość: dodatkowa praca, którą może wykonać ten sam zespół. Wartość jako tworzenie zdolności, a nie gotówka opuszczająca listę płac.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 50,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "allocation_billable",
+          "label": "Udział wykorzystany do pracy o wyższej wartości / rozliczalnej",
+          "help": "Pozytywna produktywność: doradztwo, sprzedaż lub inna praca z marżą wkładu.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 25,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "allocation_cost_reduction",
+          "label": "Udział stanowiący rzeczywistą redukcję kosztów",
+          "help": "Usunięta negatywna produktywność jako gotówka: nadgodziny, wykonawcy lub praca, za którą w innym przypadku byś zapłacił.",
+          "type": "slider",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "defaultValue": 17,
+          "format": "percent",
+          "group": "allocation"
+        },
+        {
+          "id": "contribution_rate",
+          "label": "Marża kontrybucyjna / godzina pracy o wyższej wartości",
+          "help": "Używane tylko dla części rozliczeniowej/doradczej. To nie jest wynagrodzenie godzinowe.",
+          "type": "slider",
+          "min": 20,
+          "max": 400,
+          "step": 5,
+          "defaultValue": 150,
+          "format": "currency",
+          "group": "allocation"
+        },
+        {
+          "id": "expected_error_cost",
+          "label": "Oczekiwany miesięczny koszt błędów / poprawek obecnie",
+          "type": "slider",
+          "min": 0,
+          "max": 20000,
+          "step": 50,
+          "defaultValue": 800,
+          "format": "currency",
+          "group": "workload"
+        },
+        {
+          "id": "error_reduction_share",
+          "label": "Udział unikniętych kosztów błędów",
+          "type": "slider",
+          "min": 0,
+          "max": 90,
+          "step": 5,
+          "defaultValue": 35,
+          "format": "percent",
+          "group": "workload"
+        }
+      ],
+      "metrics": [
+        {
+          "id": "hours_removed",
+          "label": "Zautomatyzowana praca powtarzalna",
+          "formula": "introductions * hours_per_intro * (automation_share / 100)",
+          "format": "hours",
+          "kind": "card",
+          "layer": "operations",
+          "productivity": "negative",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Negatywna produktywność: usunięte obciążenie operacyjne."
+        },
+        {
+          "id": "hours_returned",
+          "label": "Zwrócona zdolność produkcyjna zespołowi",
+          "formula": "hours_removed",
+          "format": "hours",
+          "kind": "card",
+          "layer": "operations",
+          "productivity": "positive",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Pozytywna produktywność: godziny dostępne teraz na lepszą pracę."
+        },
+        {
+          "id": "work_units",
+          "label": "Wprowadzenia modelowane każdego miesiąca",
+          "formula": "introductions",
+          "format": "integer",
+          "kind": "card",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "unused_share",
+          "label": "Udział niewykorzystanej zdolności produkcyjnej",
+          "formula": "100 - allocation_volume - allocation_billable - allocation_cost_reduction",
+          "format": "percent",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": false,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "volume_hours",
+          "label": "Godziny przeznaczone na większą objętość",
+          "formula": "hours_returned * (allocation_volume / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "billable_hours",
+          "label": "Godziny przeznaczone na pracę o wyższej wartości",
+          "formula": "hours_returned * (allocation_billable / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "cost_hours",
+          "label": "Godziny, które stają się rzeczywistą redukcją kosztów",
+          "formula": "hours_returned * (allocation_cost_reduction / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "unused_hours",
+          "label": "Godziny utrzymywane jako niewykorzystana zdolność produkcyjna",
+          "formula": "hours_returned * (unused_share / 100)",
+          "format": "hours",
+          "kind": "hidden",
+          "layer": "operations",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "monthly_tokens",
+          "label": "Tokeny miesięcznie",
+          "formula": "hours_removed * tokens_per_unit",
+          "format": "tokens",
+          "kind": "hidden",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "model_cost",
+          "label": "Koszt modelu AI (szac.)",
+          "formula": "(monthly_tokens * (1 - output_share / 100) / 1000000) * input_price + (monthly_tokens * (output_share / 100) / 1000000) * output_price",
+          "format": "currency",
+          "kind": "breakdown-cost",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "all_in_cost",
+          "label": "Całkowity koszt AI",
+          "formula": "model_cost + license",
+          "format": "currency",
+          "kind": "summary-cost",
+          "layer": "economics",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "cost_elimination",
+          "label": "Rzeczywisty koszt wyeliminowany",
+          "formula": "cost_hours * capacity_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "cost-elimination",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false,
+          "note": "Nadgodziny, wykonawcy lub inne wydatki, które faktycznie byś wstrzymał."
+        },
+        {
+          "id": "revenue_productivity",
+          "label": "Wkład z pracy o wyższej wartości",
+          "formula": "billable_hours * contribution_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "revenue-productivity",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": true,
+          "note": "Wartość wyceniana na podstawie marży kontrybucyjnej, nie wynagrodzenia."
+        },
+        {
+          "id": "throughput_value",
+          "label": "Zdolność do przyjęcia większej objętości",
+          "formula": "volume_hours * capacity_rate",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "throughput",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": true,
+          "note": "Cena cienia dodatkowej przepustowości, nie oszczędność na płacach."
+        },
+        {
+          "id": "error_value",
+          "label": "Uniknięte oczekiwane błędy i poprawki",
+          "formula": "expected_error_cost * (error_reduction_share / 100)",
+          "format": "currency",
+          "kind": "breakdown-benefit",
+          "layer": "value",
+          "valueClass": "error-avoidance",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "economic_value",
+          "label": "Modelowana wartość ekonomiczna",
+          "formula": "cost_elimination + revenue_productivity + throughput_value + error_value",
+          "format": "currency",
+          "kind": "summary-benefit",
+          "layer": "value",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "net_value",
+          "label": "Wartość ekonomiczna po koszcie AI",
+          "formula": "economic_value - all_in_cost",
+          "format": "currency",
+          "kind": "card",
+          "layer": "value",
+          "scalesWithPeriod": true,
+          "scalesWithScenario": false
+        },
+        {
+          "id": "return_multiple",
+          "label": "Zwrot ekonomiczny z całkowitego kosztu AI",
+          "formula": "economic_value / all_in_cost",
+          "format": "multiplier",
+          "kind": "summary-roi",
+          "layer": "value",
+          "scalesWithPeriod": false,
+          "scalesWithScenario": false
+        }
+      ],
+      "projection": {
+        "months": 12,
+        "costMetricId": "all_in_cost",
+        "benefitMetricId": "net_value",
+        "yearOneLabel": "Wartość ekonomiczna w pierwszym roku po koszcie AI",
+        "costLabel": "Koszt AI (całkowity)",
+        "benefitLabel": "Wartość ekonomiczna po koszcie"
+      },
+      "cta": {
+        "primaryLabel": "Porozmawiaj z Juno",
+        "secondaryLabel": "Zobacz jak to działa",
+        "primaryTarget": "meet",
+        "privacyNote": "Twoje dane pozostają prywatne. Godziny to zdolność produkcyjna. Euro to sklasyfikowana modelowana wartość, a nie zaobserwowane wyniki."
+      }
     }
   },
-  "generatedAt": "2026-09-01T15:39:42.140Z"
+  "translationIndex": [
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "ctaLabel"
+      ],
+      "sourceHash": "074ef5bfc7f3224957cc0b93600d7b0f06b03167b2ab7d659df87828f42107c0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "badge"
+      ],
+      "sourceHash": "cd48a0c8a908e9c7cde0eb68b2a0e30539b8b51375ec02b466d787726461027a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headline"
+      ],
+      "sourceHash": "ebc1badfade0d4b691dd97660197069fcd1218396b47d75b18bb6b0b75f10933"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headlineLine2"
+      ],
+      "sourceHash": "ef249fab9dfe31e34685de36d611f7b52559fc9042f5d932967c578ae87606d8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "subheadline"
+      ],
+      "sourceHash": "389ea2b0cc598104c709297021e6b801edd79ffd15b02502b25d3405a22ccf69"
+    },
+    {
+      "path": [
+        "landingPage",
+        "ctaLabel"
+      ],
+      "sourceHash": "c08f07a1865379defc3e6a9002e9e1b6b81f6208132ba77a0602dfbeef628c3d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "secondaryCtaLabel"
+      ],
+      "sourceHash": "a105ad29235aa71ee321d02ba00ee1cf7e9273406367343fdf9a721daa38419e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        0
+      ],
+      "sourceHash": "4a7df8d73f6eab593698071dd95d25564020d1272e5ded871620fe9fb76c90ad"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        1
+      ],
+      "sourceHash": "8e866a31c042bf31ed3a60b2101d196aecf148d20dbe4f84f846abdcd7517923"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        2
+      ],
+      "sourceHash": "3016ae0f487382851496c9136ddb416106e98d9e5cc480065507a30ec2816562"
+    },
+    {
+      "path": [
+        "landingPage",
+        "featureTags",
+        3
+      ],
+      "sourceHash": "3260540703f97a747b1105ea9d916786257cf870221c6f1f28004904baef9196"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        0,
+        "text"
+      ],
+      "sourceHash": "b7d3576726d38cf0fb08d98d48b70bf34f12fba69945d5597bd2ce7860d43784"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        1,
+        "text"
+      ],
+      "sourceHash": "1650b5ac66e4afc87c9068ce8f2a57ef85aa9d6ede274f127de76879be21a367"
+    },
+    {
+      "path": [
+        "landingPage",
+        "demoConversation",
+        2,
+        "text"
+      ],
+      "sourceHash": "2b2f81cc2c1d032cb6553339d80361d02992509df4738701dff9956b45be3e05"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "statusLabel"
+      ],
+      "sourceHash": "33a40b159621a1bade4b308d0d03958f41ee89daf41861e671a479a6aa40da4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "inputPlaceholder"
+      ],
+      "sourceHash": "4855acccd10948e61c1e12203164cd070b335546c6fe115b1d6b46074fbc444d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        0
+      ],
+      "sourceHash": "6b55683085ad4652ced5779d3dcae466e6a52530a9bc923a0cf55618bc91c64c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        1
+      ],
+      "sourceHash": "275dcd5bc3647fc0ca8b9319df2f3e32cb404caf9758819068d98bb31f10bac4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "heroChat",
+        "suggestedPrompts",
+        2
+      ],
+      "sourceHash": "aa82031fea8df9299f4da97dd1dd39d46f399571c2f37555830bcdb4e9988c30"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "heading"
+      ],
+      "sourceHash": "920975628b0fb640da49680eee2ec12ba3804920884af7ca5b5af09ce5a2e17a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "body"
+      ],
+      "sourceHash": "1bcf9fe3d73b0a61f3d84b3265de8a049dd8c2b0888371bc7afedd8baa460c8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "items",
+        0,
+        "alt"
+      ],
+      "sourceHash": "884c47e1811062ad4de5ca523835fc49560b42989a08f0dba51653c78225a7f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "items",
+        0,
+        "caption"
+      ],
+      "sourceHash": "b62c24ab3a25d8ddfbf4f12d29c857ec521241733f00b72dbd334401bafd46b8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "items",
+        1,
+        "alt"
+      ],
+      "sourceHash": "0a5e7f1bd69fc848935eb9ad9a8965efa61f13b7f2ac05f9ca98689fccb5f38f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "items",
+        1,
+        "caption"
+      ],
+      "sourceHash": "a5ebfb920d7bf83b5c7ee62ef1997400b6f7cbff9ede3f0e0fedd88fb222b649"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "items",
+        2,
+        "alt"
+      ],
+      "sourceHash": "957cafedcf90e0e7b7a9b2916e6e975aaf39ccb6657768f29c6c00238d152436"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "items",
+        2,
+        "caption"
+      ],
+      "sourceHash": "546e601705bf2a381d8acc056300fadedaac32942e1c6520021dafcd9555c1fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "photoTall",
+        "alt"
+      ],
+      "sourceHash": "aaf946b5e9e55d17ca63ae854787d021a3449501441f49d2c6411988f2fb2a9a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "photoTall",
+        "name"
+      ],
+      "sourceHash": "0244cb4f7d5da6cab1386c657d37c1fb80c71846ce9fcbeaef87016973396eb5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "photoTall",
+        "meta"
+      ],
+      "sourceHash": "a1ff4142da5b75773a177942a692b5dacf32dd9fae178cb40074e98d842a12bd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "photoWide",
+        "alt"
+      ],
+      "sourceHash": "8a952a7ab9f74b778c49ca395567cca87d11ff2492bf144c9476c3469266fa13"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "photoWide",
+        "name"
+      ],
+      "sourceHash": "f5e136734bbfdcd1418ffe281374b22d46d4c044a93f97fb81d740ec252fb117"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "photoWide",
+        "meta"
+      ],
+      "sourceHash": "ecc0e7dc084f141b29479058967d0bc07dee25d9690a98ee4e6fdad5168274d7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "mainCard",
+        "title"
+      ],
+      "sourceHash": "64d0b3f4d2245403e428a088bea36257051b377c2a834e6a487ca9b6868c879e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "mainCard",
+        "body"
+      ],
+      "sourceHash": "33382a69e6c40d0c03fc42b1965b199bd99b371139610bc75a9f52c09f63c252"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "mainCard",
+        "tags",
+        0
+      ],
+      "sourceHash": "f5387f9bb6ed70315a77fdcb9335facc27a9bf241f35955bd2755c55e0c016c7"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "mainCard",
+        "tags",
+        1
+      ],
+      "sourceHash": "bcbd76ed94ed60dadeecdaf381cd44747a8b5f668ec46f2d8aa085aa7792351c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "mainCard",
+        "tags",
+        2
+      ],
+      "sourceHash": "5fa7aac5375c5815787fba3f49559f9b45b14023147ce0652803387974144e5f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "ctaCard",
+        "title"
+      ],
+      "sourceHash": "7a30f34b311bf1517e9d69788bc853ac98785f55da16be2d51431f8a77177201"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "ctaCard",
+        "body"
+      ],
+      "sourceHash": "54223a481ce7b78201042b325b7da2b67c02256f813071dfea53016023c76e25"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "ctaCard",
+        "ctaLabel"
+      ],
+      "sourceHash": "5f406599cb76b691c9b1d05d50107ef56c8eeceb409722dfaa992ccda39115de"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "smallCardA",
+        "title"
+      ],
+      "sourceHash": "25f1033c5f950e2eb48ecdac629f6a1e61b0c82a04aa369dfec54f10f80d1a45"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "smallCardA",
+        "body"
+      ],
+      "sourceHash": "99a13d011cbf77359bb4684917be8f1752c472205491deb069d26f8c9a09dc50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "smallCardB",
+        "title"
+      ],
+      "sourceHash": "dac03e92abae8587b42b169d4b068265b654893fcd440c217d44185502a74893"
+    },
+    {
+      "path": [
+        "landingPage",
+        "bento",
+        "smallCardB",
+        "body"
+      ],
+      "sourceHash": "86859f8c6b70f94535f6e7836ac8c3afcbc642a3d1925d50ba5042910ebb45d1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "kicker"
+      ],
+      "sourceHash": "9bd63e39a1a8af8db97c1e43c84767638704bb099d8fd4bb1fd15f694181001b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "heading"
+      ],
+      "sourceHash": "0f250cca19fc140e024b168f5bd7f9bfc666403f3f126a675b4ba7f1889e440c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "headingAccent"
+      ],
+      "sourceHash": "8fa972ef469c24d3405883d861b31d4c909cdfb23d9edc2f3e09e6e1e7cf75be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        0,
+        "alt"
+      ],
+      "sourceHash": "6132e01b8c225da863f6c4fb5fa1917e52f8cf6c8ebe0a353dc3d5d60f246845"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        0,
+        "title"
+      ],
+      "sourceHash": "717df15b37447af15cbcc04e2be3d81b39c0226c68a10b27d4f6db1f155c46a2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        0,
+        "body"
+      ],
+      "sourceHash": "d8f9de652c75fd43ce4fb4fbf18b05b5ddcbb0a010a91d334b7c0026a3a4ba30"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        1,
+        "alt"
+      ],
+      "sourceHash": "69c43b457a6d65ff66c54f2edbae871f43020234bcb62ef323c1f864ec7bc9e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        1,
+        "title"
+      ],
+      "sourceHash": "33e6bde77355493f35e4e211acdfc7e2ada7df8c0a98e50a0151771ec526f537"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        1,
+        "body"
+      ],
+      "sourceHash": "c09013f9268f1575e425f0aec62593782370e5ff75258e9c686dc369393b78fa"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        2,
+        "alt"
+      ],
+      "sourceHash": "5667a6b269f3b5aaa2d9c3520ee2c20a0a1e708c1376d9580f3f63cba2ecfa60"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        2,
+        "title"
+      ],
+      "sourceHash": "a2e88372f98cb14321eb372ba3d1f342f054bb569a28ca1e50fc0625af640c3f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        2,
+        "body"
+      ],
+      "sourceHash": "23c5e883d03716c22e63eccf967801050a28953de9257b38d850aa068b002bcd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        3,
+        "alt"
+      ],
+      "sourceHash": "bf787c7acf3a22614571108c061f3f15faf82ef9203508752155640f6d1e86a3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        3,
+        "title"
+      ],
+      "sourceHash": "388e02ccf73091a480cbd8c261b3fb55e2109491c165ede3993bc00356255c38"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "steps",
+        3,
+        "body"
+      ],
+      "sourceHash": "868811e2ef1021b8e5623270247a0879f87ab5ccad938f0391248ca3fbdf609b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "kicker"
+      ],
+      "sourceHash": "f521bd890861b46a6d30978bfb206b93772eeea953e3a273c8b15224335c3243"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "heading"
+      ],
+      "sourceHash": "1420b5f98f5a549fca1ec4a72ba9b55bb20c44941920162e06a24e220fbbdff1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "body"
+      ],
+      "sourceHash": "d648bd0395dbc32b80e17664b1edc227951efcfe27357c25b6e492e875809ce4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "checklist",
+        0
+      ],
+      "sourceHash": "3f1809811324a0b20d4f88f49b63d70d7db69e4d1769e1dd125c9550b51ea255"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "checklist",
+        1
+      ],
+      "sourceHash": "5fe4a89ae1f34490932964e48cef56edb978f3d58d9f0ab5e2c6f92aa1c4bef4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "checklist",
+        2
+      ],
+      "sourceHash": "bbc64ad3859c1b5bf2b6e35e4e4fa3a7a8d9ad53230d51cf4334a9108e64b5e4"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "ctaLabel"
+      ],
+      "sourceHash": "d2e835d48670afc87b59538a1ad611a1a9ac78ebae9244e486c55e1982e9c98c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "badgeLabel"
+      ],
+      "sourceHash": "962a15ae4bcea55d3e971653ee7b850760311d48803c25e8e25ce97671653c8d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "people",
+        0,
+        "alt"
+      ],
+      "sourceHash": "884c47e1811062ad4de5ca523835fc49560b42989a08f0dba51653c78225a7f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "people",
+        0,
+        "name"
+      ],
+      "sourceHash": "cab127c3beb3ec700d06947f24bd49e346f85b9b95441908c8ef6d5be13697ed"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "people",
+        0,
+        "meta"
+      ],
+      "sourceHash": "5320b7959faa2f5e881f474262af0761c60f1d5848bf6604462656df6ccd467a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "people",
+        1,
+        "alt"
+      ],
+      "sourceHash": "5bc426e8d81e2f4136a562fac893c2229e3faa99d97df09ab604a2f8a0c0a60c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "people",
+        1,
+        "name"
+      ],
+      "sourceHash": "2924de597c16a7521c3d2e3a5e0b07186e8af28dde69b476802024e3b5f2c320"
+    },
+    {
+      "path": [
+        "landingPage",
+        "matchPreview",
+        "people",
+        1,
+        "meta"
+      ],
+      "sourceHash": "3d0c91e6038ff5f5712ef2bab8dddfa9122342e76dc3ab1af0292e1fee5aa5db"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "kicker"
+      ],
+      "sourceHash": "78dd7e83a1c0676258bce27f772585e16983418b80a017f3f316d7dfc0beae7f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "heading"
+      ],
+      "sourceHash": "7b616a88279478535130cae85ca0ca476d3e791441e5efe3faf4a93b8238ad47"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "quote"
+      ],
+      "sourceHash": "e61d9b917a230405de81725b1175d1e6ed8d1e481209e3738992e871482599d5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "people",
+        0,
+        "alt"
+      ],
+      "sourceHash": "957cafedcf90e0e7b7a9b2916e6e975aaf39ccb6657768f29c6c00238d152436"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "people",
+        1,
+        "alt"
+      ],
+      "sourceHash": "0a5e7f1bd69fc848935eb9ad9a8965efa61f13b7f2ac05f9ca98689fccb5f38f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "attribution"
+      ],
+      "sourceHash": "e499dbb3417120e471ab4db923aa26044cc8ef587ff149f0e3e8a543e40848ba"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "meta"
+      ],
+      "sourceHash": "28f9f06b91149908970b48c04b801f0676b98709e9a1a98181877c08dc2c579b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "stats",
+        0,
+        "value"
+      ],
+      "sourceHash": "7df25cd29456f6e37f7ca6218454b9cd29a4b4b44176b78376d5831b5be0c17b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "stats",
+        0,
+        "label"
+      ],
+      "sourceHash": "bc1918d5defe5659d476581159aef1d4699a53159d4340b3b4721b3517b3c9c8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "stats",
+        1,
+        "value"
+      ],
+      "sourceHash": "a075425af8bb1249b2cc7a86f0b38077930da938b8094b17abee3383b0cb67f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "stats",
+        1,
+        "label"
+      ],
+      "sourceHash": "6b64ccbae96ff33691925fa6ec1bbab3f103b2182bb0a3ad009ef1e76546c35e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "stats",
+        2,
+        "value"
+      ],
+      "sourceHash": "5724d73e8038f60daa02472d1b791155f811e3accaf12024c389815e36cb98df"
+    },
+    {
+      "path": [
+        "landingPage",
+        "stories",
+        "stats",
+        2,
+        "label"
+      ],
+      "sourceHash": "a538fa4a114bb9f4660df357db0718aeb6330425c4f229c4ef709fd832f25457"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        0,
+        "question"
+      ],
+      "sourceHash": "d943948578010d979b1910789a21f3075f52937c25048ee941ff36a903667d0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        0,
+        "answer"
+      ],
+      "sourceHash": "edc909f2d0d023b9908aa5d81265e355127dc70f999d5d65c58b1eb64413efe3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        1,
+        "question"
+      ],
+      "sourceHash": "88455538630700221c881c2f4030cb1f759c717d18e3d86a52d48678c8e37690"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        1,
+        "answer"
+      ],
+      "sourceHash": "de907c838b151c58d35c1b57c116eb68c1d06097ffb2a51d2cf97d5f1959c8fc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        2,
+        "question"
+      ],
+      "sourceHash": "2266571c2a0599208f3a62564221b8b042cce84c96b99a39ed3790aaeee76f39"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        2,
+        "answer"
+      ],
+      "sourceHash": "b11b97356781ae9e312df3519148a7bd3d1ae1b4e5ce42f85684385fd1558317"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        3,
+        "question"
+      ],
+      "sourceHash": "959f28718f34d8d8a53cee7c5e96ae4c8a8d718407ff20adddb70c00916bf52a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqs",
+        3,
+        "answer"
+      ],
+      "sourceHash": "d5bf03dd97526c970a0160e1d1b8607ec59ecc6d978a40a0ca64c378d68c511f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqIntro",
+        "kicker"
+      ],
+      "sourceHash": "5ca0413b1d7481b37f894e91d094a9826082d5ef4ee352e7e749748019dd1ba1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "faqIntro",
+        "heading"
+      ],
+      "sourceHash": "32098687f8666b3868de64b0795c02f7e03c23146b670bac78cacebc7309f274"
+    },
+    {
+      "path": [
+        "landingPage",
+        "contact",
+        "heading"
+      ],
+      "sourceHash": "3d4abcc47556e93ec83bafc4fb113b6fdc02c9a7f06dcb146ae091a7ecb68707"
+    },
+    {
+      "path": [
+        "landingPage",
+        "contact",
+        "body"
+      ],
+      "sourceHash": "fe51095b273532fb5019a7cb3f0be5e26c6efaa100274aa60179e25d6412e3c0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "kicker"
+      ],
+      "sourceHash": "34ef570432852cd659e15beafbe7651f0bb47a68a03a9c8e0448c9ff93cf476c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "heading"
+      ],
+      "sourceHash": "7a6e239964e5b9fe3de4e1fbc2e3625e93380ced7d8fbbf2e76adfd0ffa03413"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "body"
+      ],
+      "sourceHash": "9c13077294f8f412e538c40adf7553117b49d56e1db2bf3a9665cc2fec1abd91"
+    },
+    {
+      "path": [
+        "landingPage",
+        "closing",
+        "ctaLabel"
+      ],
+      "sourceHash": "c08f07a1865379defc3e6a9002e9e1b6b81f6208132ba77a0602dfbeef628c3d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "kicker"
+      ],
+      "sourceHash": "9d6eadd1d536884a92a56633ef62b918675469f35a3d07c72ba7a9f01baeb369"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "subheading"
+      ],
+      "sourceHash": "73f27040bc83a92918543c3248b82488cf55ff673dfcb325e9c05d4a1ced84fb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "disclaimer"
+      ],
+      "sourceHash": "f1b7a204e614929cbb7f8667c3c9118c8d3863ecc3811e16bdce472da9103857"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "settingsHeading"
+      ],
+      "sourceHash": "2db81a4f36b58b92bd835befc97710814f206401d94781ad907fa28a4cd09e4c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "resultsHeading"
+      ],
+      "sourceHash": "e0afda1f9c30def3d10367c47f1e52469dcc178ba838d177e4cc6a0012a22108"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "profileHeading"
+      ],
+      "sourceHash": "5dbbdc5e51f3a95fb5e74c396f6d26d87cd37b4f67c2f1910700eb4d40397a22"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "workloadHeading"
+      ],
+      "sourceHash": "ba3c74c1a18f50a10faac9c24d17c3e1b771657c8fc238e0de390089a747bc2a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "economicsHeading"
+      ],
+      "sourceHash": "9d6eadd1d536884a92a56633ef62b918675469f35a3d07c72ba7a9f01baeb369"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "economicsNote"
+      ],
+      "sourceHash": "944dffd5e7087c63512f2882626641d6f5a1ab6c3806779b93a3516dab997014"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "allocationHeading"
+      ],
+      "sourceHash": "0d7858d9e1a82da02aaeaaa9ad5458fcf94ec713ce8f1f773164ebce4345694d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "allocationHelp"
+      ],
+      "sourceHash": "2d17e37e3acc2484995642626458185d38f464ef39f261ea2de1842636581730"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "unusedAllocationLabel"
+      ],
+      "sourceHash": "a215a74c968b1d40803325f825cac5925678cf58df6f5d3d8776f6b872852e4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "operationsHeading"
+      ],
+      "sourceHash": "b00997599a474bada4f6e309fb79d92ab6f501fb5f30817727a7707775784e8a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "valueHeading"
+      ],
+      "sourceHash": "ba76a4a8aebdd12f0e7d843d4098e5f366729eb79dcc6267236204ef91dd94da"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "frameworkHeading"
+      ],
+      "sourceHash": "4cd85ae64e04e029db2db81a1fea50766fd3219653f489c1b82a368bfff7e545"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "heading"
+      ],
+      "sourceHash": "b8c4164dcf6e3ef5d8bf49487237315a0de40b518c74b3ea0bc2d04bf08bc57a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "body"
+      ],
+      "sourceHash": "78c78454c63395edc5abae70a76b334d64a80eb21dd37c61c6ceb7a51b30b9f8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "items",
+        0
+      ],
+      "sourceHash": "3ba60988e21baf9b61e85a3ff957304b8316483e6a826980f54c13966608ba0e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "items",
+        1
+      ],
+      "sourceHash": "189bdffb2f77ffcf7e3c0bcdbfef248528b0f7bd8a114b03f6e387071207635a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "negativeProductivity",
+        "items",
+        2
+      ],
+      "sourceHash": "57e3be6ddf80d3ca8b0549a6d4f73aee0ee3f27929cc5433ce5c1b9da7198056"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "heading"
+      ],
+      "sourceHash": "9424b432947bafd2b005fcb83f7c9101e955f2ec0c3810a3c0e26a2d53a89847"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "body"
+      ],
+      "sourceHash": "514f2f30d738a272ea4359857750eb8159e1655fbe735feca18cac2c0b04d16d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "items",
+        0
+      ],
+      "sourceHash": "969a9c9f0737fece33de540eac12f6ab84fd0248dece5b890c1a0659aeb37e67"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "items",
+        1
+      ],
+      "sourceHash": "705121d97224ca27e081d7eb6c07c8a18f484f077861dbd5cba861eb62f0ac97"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "positiveProductivity",
+        "items",
+        2
+      ],
+      "sourceHash": "05fcd37bd49bad60e3f5181e51cf529f338d97bac64233d17c951fa0d6ceb4ec"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "producesHeading"
+      ],
+      "sourceHash": "4f59a2bccf0c82145ec9eaf7da43ab6b546a06461a208e073eb5ae75f74aceb3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "produces",
+        0
+      ],
+      "sourceHash": "90ac1b9d305332cce7feb8dfdefa7cbe1a4e907f4f64abe10934e755c9ccdad3"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "produces",
+        1
+      ],
+      "sourceHash": "709fcd1e2fc54fcfd031044cb99c8ecd6cba2ba1bd6510f5ea403b36c90aa9cb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "produces",
+        2
+      ],
+      "sourceHash": "4bf7a39b0836efeaa40e6bfad16e10055c34d42b44cf2d8d87b9c9a8db7ebbbd"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "breakdownHeading"
+      ],
+      "sourceHash": "42d035b930c7b854c88b9f450a68ce16d399fde725960b47abb32c73b9cdecda"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projectionHeading"
+      ],
+      "sourceHash": "50d53ffb8b6ba2e987c83a8f63a3eb6d8e9d886c47950a835e7595989d33d0eb"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "yearOneCostLabel"
+      ],
+      "sourceHash": "547618fd9bc08782dc81cee26028648b537876d2e955d2cb7be559e964f56b08"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "yearOneValueLabel"
+      ],
+      "sourceHash": "fa9735cf1f9895c43aae556f97d1a24b2418741528ad130412ece4a745a85915"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "yearOneReturnLabel"
+      ],
+      "sourceHash": "85beefa364209014605e15d36bb6f9fa5ee45ffcc2b7126ce391fe1a683818ef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "scenarios",
+        0,
+        "label"
+      ],
+      "sourceHash": "75e1783e4e517e5459062db056ec2d886889cf94fc62c3b7e01f10ae3505a2f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "scenarios",
+        1,
+        "label"
+      ],
+      "sourceHash": "7b47361aad19bb483aeab081a7df0a55f7cb0fdb3327efe6dd016e6353a17880"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "scenarios",
+        2,
+        "label"
+      ],
+      "sourceHash": "d343fb299e0c833e79beab8dbd238e17c84bd7e9cfc828955609dddb1cd3fcf6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        0,
+        "label"
+      ],
+      "sourceHash": "2e7f3e99cf87f19f406b4f94ace2d3816cdc02e37ab181cec19fc8a5c98bfcef"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        1,
+        "label"
+      ],
+      "sourceHash": "8073b17787c3dd0967b12cebf87ed92cdfcaf5b382575f13e9f655dc1843a48b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        2,
+        "label"
+      ],
+      "sourceHash": "0a3d4222dc26740a3feb3e3f6c69ae76987d79119dde3b2693d802dee245470f"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        3,
+        "label"
+      ],
+      "sourceHash": "6bc1d6d1487eb35778da6ce199759dbc3ee20e170a9bdff88efb3cf9459d08e8"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        4,
+        "label"
+      ],
+      "sourceHash": "222d3732468ff5e8de6e140197a726437d4f3fa70c7e4ebd29aeead30160ec41"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        5,
+        "label"
+      ],
+      "sourceHash": "b9f335d754aa66d4f8dbcea05a8ce6b636ffca996a845af7afd62ca72e7a48a9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        6,
+        "label"
+      ],
+      "sourceHash": "2e73572adb42f5f277c8de8cec9f3960ea4fd41f307ec9bd1d143b55219159e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        7,
+        "label"
+      ],
+      "sourceHash": "b8e8c8ae12aa13afcf84abd1a49e5e7bf6169679099ef035b94dfbff37349ac6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        8,
+        "label"
+      ],
+      "sourceHash": "fe869422e4aff1869b3e076c0051b15e53020153712ac4a44f9f43ff1ff00f9c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        9,
+        "label"
+      ],
+      "sourceHash": "07cb449fc4bd46e5c72cd7dcd3c24ff1d8a0e8ff9c574573568d702f62fb084e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        9,
+        "help"
+      ],
+      "sourceHash": "77599042a260d644dd40ea04cd7f7d119e05570156025a10ac2805a19d988f11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        10,
+        "label"
+      ],
+      "sourceHash": "6cdb8b23c54613e261287a244257ec534d0261b11b9310ea8908f38806c7075d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        10,
+        "help"
+      ],
+      "sourceHash": "7878ca522b4592e2322777a01902b5a09c88e11c2ee72bd242c156966947300c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        11,
+        "label"
+      ],
+      "sourceHash": "804eee4764a8430f43825b3d10636f96f61cb28dddb24014c26b0cea2de6cecf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        11,
+        "help"
+      ],
+      "sourceHash": "661d3c1a695472ec8bb0eae669898d9deb0a2ef677c8d801defda9a6d9b26068"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        12,
+        "label"
+      ],
+      "sourceHash": "8cc287b9a48ef60e7835df9da590f890c2a00f22404ba3d514cdf5b9654be2a0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        12,
+        "help"
+      ],
+      "sourceHash": "f57cfb07fd94ff0cd4c9078b18a34ec98069156a07ede77fd06a743549e84f27"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        13,
+        "label"
+      ],
+      "sourceHash": "15b2073bf237121ecc43a933ad40bd883c9154ef1af11e0a1142e9342dcf73d6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "inputs",
+        14,
+        "label"
+      ],
+      "sourceHash": "2c7b96d00325ca2722eb47c35eacf1db07266255127387fd752fb881ee01bc4e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        0,
+        "label"
+      ],
+      "sourceHash": "320af1fedd0ec2a0919af231f9c8c0676f08105c235ac8f33af795d1c9b6700b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        0,
+        "note"
+      ],
+      "sourceHash": "9291a98029f2e03a5487bfc64a7f87172c36cb5fbd8eb926c9b7496aa39b2ea9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        1,
+        "label"
+      ],
+      "sourceHash": "cc212326bc6ad9090c67c1a8fecdfac472bc89fb61669b61f6d8bc7b7cf61f9c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        1,
+        "note"
+      ],
+      "sourceHash": "796eed9c43a15e279bb60308065138650b3e5367d08928762caa168ae31d2d11"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        2,
+        "label"
+      ],
+      "sourceHash": "51669f2551eca5f0169cfc0367a8eaf9ee286a5763a2056dedee0096e088ffce"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        3,
+        "label"
+      ],
+      "sourceHash": "cc2bd56d7ec11d0473066569c56b9c35ce19b9997f7cb72ff30a273617ee7abf"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        4,
+        "label"
+      ],
+      "sourceHash": "954d7b197e9cdda34fc69544aa0cf281fae006ef0e538906d3109ceaad9e7e3d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        5,
+        "label"
+      ],
+      "sourceHash": "36c196ee3a45d40f859adf642af7686fbf7923892a3166e7c23259aed4fcceb0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        6,
+        "label"
+      ],
+      "sourceHash": "2e0dca1786cdb30958e949de32f5ac00c33124c2fe4a023247784495c9482cea"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        7,
+        "label"
+      ],
+      "sourceHash": "fba0838ca9b3525b716453915fd98f77df1cec34ec2975034dbe89ff9a1fc8d9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        8,
+        "label"
+      ],
+      "sourceHash": "1ec141d886a19fcb577c86afb98ebf0449ed936cece7a8e7a96b44b3281df16a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        9,
+        "label"
+      ],
+      "sourceHash": "580db459a5f5c8285cc4714e8781496cc5a23504ef174275fa84aca80d8d1a3e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        10,
+        "label"
+      ],
+      "sourceHash": "ee598ac63eeea97fa1b3173940e9163f61187d1603fa155aee4cc636f1b609f1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        11,
+        "label"
+      ],
+      "sourceHash": "2de06c88f5be573b35f9b7fa846a573cbb12bf0b71af522107a5606b6f3f77a1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        11,
+        "note"
+      ],
+      "sourceHash": "afca482645ce1d04982a97a94dc4471c1bf830f5022fe8ac5078399b4ecfa4f5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        12,
+        "label"
+      ],
+      "sourceHash": "12e5a482d5479cf75c2186a4048973faf705bc380857785e64a29866477bbab2"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        12,
+        "note"
+      ],
+      "sourceHash": "f6b90007ff624521b1fa314bc405fd65c487fe566c37142b83d4ab0eeba0832c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        13,
+        "label"
+      ],
+      "sourceHash": "a17b57b2c7d83589ab5b13af7bb2a05288ec0f7151e087318b0c3bed72f1061d"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        13,
+        "note"
+      ],
+      "sourceHash": "18c0ea45a319205bb4ff80ffba97bdd06c26003478696daa6f4a32d6aee2a4c1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        14,
+        "label"
+      ],
+      "sourceHash": "6a2326aa5856c99a78a1c9c45997cf6557a953f3efec8c1fc8e2165a96818750"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        15,
+        "label"
+      ],
+      "sourceHash": "c4402679b0bd01837904090e68038db886c05ed3b1402e58296074c1cb135a57"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        16,
+        "label"
+      ],
+      "sourceHash": "0545b989a2eae9237d62263aa70478a274be429a5b20f3052113d1e04010fec9"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "metrics",
+        17,
+        "label"
+      ],
+      "sourceHash": "d95c7f4a7273275110970c4a53e16a41c9c370c81575f123ec4e77e51490efb0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projection",
+        "yearOneLabel"
+      ],
+      "sourceHash": "e07d177a87fc88f707c1fe6ee3c36863ee433fea74956837d91554e22fdb2068"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projection",
+        "costLabel"
+      ],
+      "sourceHash": "44fa8317e3e6e15538edaae74059a6a56a2ea52c32b62a01355fd10abeeb30bc"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "projection",
+        "benefitLabel"
+      ],
+      "sourceHash": "56998e38ef5d41206aeb6ec35af43abe60c9df7bf8d88d7f3f1c2a8db0d63734"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "primaryLabel"
+      ],
+      "sourceHash": "cc6bffce8d37eafceb83f049542146b945808f20379156bfd33e58a0ee2865f0"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "secondaryLabel"
+      ],
+      "sourceHash": "a105ad29235aa71ee321d02ba00ee1cf7e9273406367343fdf9a721daa38419e"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "cta",
+        "privacyNote"
+      ],
+      "sourceHash": "dc23cdf650359e6260ca6494e4d765555cdf24afc9b176195d9abb9f154cd47a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "4efca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "6d09cf5748829bd23a36d4de1e81b3a5cf103b3902ef494f0fe66541b5d89bab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        3,
+        "label"
+      ],
+      "sourceHash": "9856b7433f842da2093b956811286d51860e05ae3904dc40b36dc709ea298884"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "heading"
+      ],
+      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+    }
+  ],
+  "generatedAt": "2026-09-06T18:26:03.562Z"
 }
