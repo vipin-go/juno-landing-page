@@ -86,7 +86,7 @@
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Cześć, jestem Juno. Przedstawiam jedną prawdziwą osobę na raz — nigdy listę."
+        "text": "Cześć, jestem Juno. Przedstawiam jedną prawdziwą osobę na raz, nigdy listę."
       },
       {
         "role": "user",
@@ -110,7 +110,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Aplikacje randkowe dały ci wszystkich. Juno przedstawia cię komuś.",
-      "body": "Dowiaduje się szczegółów, które nigdy nie pasują do biografii — tempa życia, którego pragniesz, tego, co cię rozśmieszasz, i zwyczajnego wtorku, którym masz nadzieję się podzielić.",
+      "body": "Dowiaduje się szczegółów, które nigdy nie pasują do biografii, tempa życia, którego pragniesz, tego, co cię rozśmieszasz, i zwyczajnego wtorku, którym masz nadzieję się podzielić.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
@@ -269,11 +269,11 @@
     "faqs": [
       {
         "question": "Czy Juno jest aplikacją randkową?",
-        "answer": "Niezupełnie — nie ma talii przesuwania ani profilu publicznego. Mówisz Juno, kim jesteś i czego chcesz, a on robi jedno przemyślane wprowadzenie na raz."
+        "answer": "Niezupełnie, nie ma talii przesuwania ani profilu publicznego. Mówisz Juno, kim jesteś i czego chcesz, a on robi jedno przemyślane wprowadzenie na raz."
       },
       {
         "question": "Czy wszyscy zobaczą mój profil?",
-        "answer": "Nie. Twój profil jest domyślnie prywatny. Juno dzieli się tylko zatwierdzonym wprowadzeniem z kimś, o kim uważa, że może być wpasowany — nigdy w publicznym lub przeszukiwanym kanale."
+        "answer": "Nie. Twój profil jest domyślnie prywatny. Juno dzieli się tylko zatwierdzonym wprowadzeniem z kimś, o kim uważa, że może być wpasowany, nigdy w publicznym lub przeszukiwanym kanale."
       },
       {
         "question": "Co jeśli nie jestem zainteresowany meczem?",
@@ -291,7 +291,7 @@
     },
     "contact": {
       "heading": "Masz pytanie do zespołu?",
-      "body": "Juno może odpowiedzieć na większość pytań bezpośrednio na czacie — lub skontaktować się z nami przez e-mail.",
+      "body": "Juno może odpowiedzieć na większość pytań bezpośrednio na czacie, lub skontaktować się z nami przez e-mail.",
       "email": "hello@gabrieloperator.com"
     },
     "backgroundImage": {
@@ -301,7 +301,7 @@
     "closing": {
       "kicker": "Gotowy, kiedy jesteś",
       "heading": "Prawdziwe przedstawienia. jedna osoba na raz.",
-      "body": "Powiedz Juno, co jest dla ciebie ważne. Weźmie to stamtąd — w zamyśleniu, prywatnie i jedną prawdziwą osobą na raz.",
+      "body": "Powiedz Juno, co jest dla ciebie ważne. Weźmie to stamtąd, w zamyśleniu, prywatnie i jedną prawdziwą osobą na raz.",
       "ctaLabel": "Porozmawiaj z Juno"
     }
   },

@@ -86,7 +86,7 @@
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Zdravo, ja sam Juno. Upoznajem jednu stvarnu osobu u isto vreme — nikada listu."
+        "text": "Zdravo, ja sam Juno. Upoznajem jednu stvarnu osobu u isto vreme, nikada listu."
       },
       {
         "role": "user",
@@ -110,7 +110,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Aplikacije za upoznavanje dale su vam sve. Juno vas upoznaje sa nekim.",
-      "body": "On uči detalje koji nikad ne stanu u biografiju — tempo života koji želite, šta vas smeši i običan utorak koji se nadate da ćete podeliti.",
+      "body": "On uči detalje koji nikad ne stanu u biografiju, tempo života koji želite, šta vas smeši i običan utorak koji se nadate da ćete podeliti.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
@@ -155,7 +155,7 @@
       "ctaCard": {
         "icon": "user-plus",
         "title": "Osoba, ne profil.",
-        "body": "Svako upoznavanje dolazi sa razlogom zašto Juno misli da bi vas dvoje trebalo da se sretnete — ne misteriozni procenat.",
+        "body": "Svako upoznavanje dolazi sa razlogom zašto Juno misli da bi vas dvoje trebalo da se sretnete, ne misteriozni procenat.",
         "ctaLabel": "Pustite Juna da vas upozna"
       },
       "smallCardA": {
@@ -268,11 +268,11 @@
     "faqs": [
       {
         "question": "Da li je Juno aplikacija za upoznavanje?",
-        "answer": "Zapravo ne — ne postoji špil za prevlačenje niti javni profil. Vi Junu govorite ko ste i šta želite, a on pravi jedno promišljeno upoznavanje u isto vreme."
+        "answer": "Zapravo ne, ne postoji špil za prevlačenje niti javni profil. Vi Junu govorite ko ste i šta želite, a on pravi jedno promišljeno upoznavanje u isto vreme."
       },
       {
         "question": "Da li svi vide moj profil?",
-        "answer": "Ne. Vaš profil je privatan po podrazumevano. Juno deli samo odobreno upoznavanje sa nekim za koga misli da bi mogao biti podudaranje — nikada u javnom ili pretraživom feed-u."
+        "answer": "Ne. Vaš profil je privatan po podrazumevano. Juno deli samo odobreno upoznavanje sa nekim za koga misli da bi mogao biti podudaranje, nikada u javnom ili pretraživom feed-u."
       },
       {
         "question": "Šta ako nisam zainteresovan za uparivanje?",
@@ -290,7 +290,7 @@
     },
     "contact": {
       "heading": "Imate pitanje za tim?",
-      "body": "Juno može odgovoriti na većinu pitanja direktno u četu — ili nam se obratite e-mailom.",
+      "body": "Juno može odgovoriti na većinu pitanja direktno u četu, ili nam se obratite e-mailom.",
       "email": "hello@gabrieloperator.com"
     },
     "backgroundImage": {
@@ -300,7 +300,7 @@
     "closing": {
       "kicker": "Kada ste spremni",
       "heading": "Stvarna upoznavanja.\nJedna osoba u isto vreme.",
-      "body": "Recite Junu šta je vama važno. On će preuzeti odatle — promišljeno, privatno i jedna stvarna osoba u isto vreme.",
+      "body": "Recite Junu šta je vama važno. On će preuzeti odatle, promišljeno, privatno i jedna stvarna osoba u isto vreme.",
       "ctaLabel": "Razgovarajte sa Junom"
     }
   },

@@ -86,7 +86,7 @@
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Tere, olen Juno. Tutvustan ühte tõelist inimest korraga — kunagi mitte nimekirja."
+        "text": "Tere, olen Juno. Tutvustan ühte tõelist inimest korraga, kunagi mitte nimekirja."
       },
       {
         "role": "user",
@@ -110,7 +110,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Kohtingurakendused andsid teile kõik. Juno tutvustab teid kellelegi.",
-      "body": "Ta õpib üksikasju, mis kunagi bio-sse ei mahu — elutempot, mida soovid, mis sind naerutab ja tavalist teisipäeva, mida loodad jagada.",
+      "body": "Ta õpib üksikasju, mis kunagi bio-sse ei mahu, elutempot, mida soovid, mis sind naerutab ja tavalist teisipäeva, mida loodad jagada.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
@@ -155,7 +155,7 @@
       "ctaCard": {
         "icon": "user-plus",
         "title": "Inimene, mitte profiil.",
-        "body": "Iga tutvustusega kaasneb põhjus, miks Juno arvab, et teie kaks peaksite kohtuma — mitte salapärane protsent.",
+        "body": "Iga tutvustusega kaasneb põhjus, miks Juno arvab, et teie kaks peaksite kohtuma, mitte salapärane protsent.",
         "ctaLabel": "Laske Junol teid tutvustada"
       },
       "smallCardA": {
@@ -268,11 +268,11 @@
     "faqs": [
       {
         "question": "Kas Juno on kohtingurakendus?",
-        "answer": "Tegelikult mitte — tõmbešpilja ega avalikku profiili pole. Te ütlete Junole, kes olete ja mida soovite, ning ta teeb ühe läbimõeldud tutvustuse korraga."
+        "answer": "Tegelikult mitte, tõmbešpilja ega avalikku profiili pole. Te ütlete Junole, kes olete ja mida soovite, ning ta teeb ühe läbimõeldud tutvustuse korraga."
       },
       {
         "question": "Kas kõik näevad mu profiili?",
-        "answer": "Ei. Teie profiil on vaikimisi privaatne. Juno jagab kinnitatud tutvustust ainult kellegagi, keda ta arvab sobivat — kunagi avalikus või otsitavas voos."
+        "answer": "Ei. Teie profiil on vaikimisi privaatne. Juno jagab kinnitatud tutvustust ainult kellegagi, keda ta arvab sobivat, kunagi avalikus või otsitavas voos."
       },
       {
         "question": "Mis siis, kui ma ei ole huvitatud matchist?",
@@ -290,7 +290,7 @@
     },
     "contact": {
       "heading": "Kas teil on meeskonnale küsimus?",
-      "body": "Juno saab vastata enamikule küsimustele otse vestluses — või võtke meiega ühendust e-posti teel.",
+      "body": "Juno saab vastata enamikule küsimustele otse vestluses, või võtke meiega ühendust e-posti teel.",
       "email": "hello@gabrieloperator.com"
     },
     "backgroundImage": {
@@ -300,7 +300,7 @@
     "closing": {
       "kicker": "Kui olete valmis",
       "heading": "Tõelised tutvustused.\nÜks inimene korraga.",
-      "body": "Räägi Junole, mis on sinu jaoks oluline. Ta võtab seda sealt edasi — läbimõeldult, privaatselt ja üks tõeline inimene korraga.",
+      "body": "Räägi Junole, mis on sinu jaoks oluline. Ta võtab seda sealt edasi, läbimõeldult, privaatselt ja üks tõeline inimene korraga.",
       "ctaLabel": "Rääkige Junoga"
     }
   },

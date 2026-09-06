@@ -86,7 +86,7 @@
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Sveiki, esmu Juno. Es iepazīstinu vienu īstu cilvēku vienlaikus — nekad sarakstu."
+        "text": "Sveiki, esmu Juno. Es iepazīstinu vienu īstu cilvēku vienlaikus, nekad sarakstu."
       },
       {
         "role": "user",
@@ -110,7 +110,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Iepazīšanās lietotnes deva jums visus. Juno jūs iepazīstina ar kādu.",
-      "body": "Viņš iemācās detaļas, kas nekad neiederēsies bio — dzīves tempu, ko vēlaties, kas jūs liek smieties, un parasto otrdienu, ko ceramies dalīt.",
+      "body": "Viņš iemācās detaļas, kas nekad neiederēsies bio, dzīves tempu, ko vēlaties, kas jūs liek smieties, un parasto otrdienu, ko ceramies dalīt.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
@@ -155,7 +155,7 @@
       "ctaCard": {
         "icon": "user-plus",
         "title": "Cilvēks, nevis profils.",
-        "body": "Katrai iepazīstināšanai ir iemesls, kāpēc Juno domā, ka jums diviem vajadzētu satikties — nevis noslēpumains procents.",
+        "body": "Katrai iepazīstināšanai ir iemesls, kāpēc Juno domā, ka jums diviem vajadzētu satikties, nevis noslēpumains procents.",
         "ctaLabel": "Laujiet Juno jūs iepazīstināt"
       },
       "smallCardA": {
@@ -268,11 +268,11 @@
     "faqs": [
       {
         "question": "Vai Juno ir iepazīšanās lietotne?",
-        "answer": "Patiesībā nē — nav ne vilkšanas kārtas, ne publiska profila. Jūs Juno sakāt, kas esat un ko vēlaties, un viņš veic vienu pārdomātu iepazīstināšanu vienlaikus."
+        "answer": "Patiesībā nē, nav ne vilkšanas kārtas, ne publiska profila. Jūs Juno sakāt, kas esat un ko vēlaties, un viņš veic vienu pārdomātu iepazīstināšanu vienlaikus."
       },
       {
         "question": "Vai visi redzēs manu profilu?",
-        "answer": "Nē. Jūsu profils ir privāts pēc noklusējuma. Juno kopīgo apstiprinātu iepazīstināšanu tikai ar kādu, kuru viņš domā, ka varētu būt piemērots — nekad publiskā vai meklējamā plūsmā."
+        "answer": "Nē. Jūsu profils ir privāts pēc noklusējuma. Juno kopīgo apstiprinātu iepazīstināšanu tikai ar kādu, kuru viņš domā, ka varētu būt piemērots, nekad publiskā vai meklējamā plūsmā."
       },
       {
         "question": "Ko darīt, ja neesmu ieinteresēts matchā?",
@@ -290,7 +290,7 @@
     },
     "contact": {
       "heading": "Vai jums ir jautājums komandai?",
-      "body": "Juno var atbildēt uz lielāko daļu jautājumu tieši tērzēšanā — vai sazinieties ar mums pa e-pastu.",
+      "body": "Juno var atbildēt uz lielāko daļu jautājumu tieši tērzēšanā, vai sazinieties ar mums pa e-pastu.",
       "email": "hello@gabrieloperator.com"
     },
     "backgroundImage": {
@@ -300,7 +300,7 @@
     "closing": {
       "kicker": "Kad esat gatavi",
       "heading": "Īstas iepazīšanās.\nViens cilvēks vienlaikus.",
-      "body": "Pastāstiet Juno, kas jums ir svarīgi. Viņš to ņems no turienes — pārdomāti, privāti un viens īsts cilvēks vienlaikus.",
+      "body": "Pastāstiet Juno, kas jums ir svarīgi. Viņš to ņems no turienes, pārdomāti, privāti un viens īsts cilvēks vienlaikus.",
       "ctaLabel": "Runājiet ar Juno"
     }
   },

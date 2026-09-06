@@ -86,7 +86,7 @@
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Hola, sóc en Juno. Presento una persona real a la vegada — mai una llista."
+        "text": "Hola, sóc en Juno. Presento una persona real a la vegada, mai una llista."
       },
       {
         "role": "user",
@@ -155,7 +155,7 @@
       "ctaCard": {
         "icon": "user-plus",
         "title": "Una persona, no un perfil.",
-        "body": "Cada introducció ve amb una raó del per què el Juno pensa que vosaltres dos hauríeu de reunió— no un percentatge misteriós.",
+        "body": "Cada introducció ve amb una raó del per què el Juno pensa que vosaltres dos hauríeu de reunió, no un percentatge misteriós.",
         "ctaLabel": "Deixeu que el Juno us presenti"
       },
       "smallCardA": {
@@ -268,11 +268,11 @@
     "faqs": [
       {
         "question": "El Juno és una app de cites?",
-        "answer": "Realment no — no hi ha terrassa per passar ni perfil público. Li dieu al Juno qui sou i què voleu, i ell fa una introducció acurada a la vegada."
+        "answer": "Realment no, no hi ha terrassa per passar ni perfil público. Li dieu al Juno qui sou i què voleu, i ell fa una introducció acurada a la vegada."
       },
       {
         "question": "Tothom veurà el meu perfil?",
-        "answer": "No. El vostre perfil és privat per defecte. El Juno només comparteix una introducció aprovada amb algú que pensa que podria ser un bon match — mai en un feed público o cercable."
+        "answer": "No. El vostre perfil és privat per defecte. El Juno només comparteix una introducció aprovada amb algú que pensa que podria ser un bon match, mai en un feed público o cercable."
       },
       {
         "question": "I si no estic interessat en un match?",
@@ -290,7 +290,7 @@
     },
     "contact": {
       "heading": "Teniu una pregunta per a l'equip?",
-      "body": "El Juno pot respondre la majoria de preguntes directament al xat — o poseu-vos en contacte amb nosaltres per correu electrònic.",
+      "body": "El Juno pot respondre la majoria de preguntes directament al xat, o poseu-vos en contacte amb nosaltres per correu electrònic.",
       "email": "hello@gabrieloperator.com"
     },
     "backgroundImage": {
@@ -300,7 +300,7 @@
     "closing": {
       "kicker": "Quan estigueu preparats",
       "heading": "Introduccions reals.\nUna persona a la vegada.",
-      "body": "Conteu al Juno què us importa. Ell ho agafarà des d'aquí — acuradament, privatament i una persona real a la vegada.",
+      "body": "Conteu al Juno què us importa. Ell ho agafarà des d'aquí, acuradament, privatament i una persona real a la vegada.",
       "ctaLabel": "Parleu amb en Juno"
     }
   },

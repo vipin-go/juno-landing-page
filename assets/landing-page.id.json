@@ -86,7 +86,7 @@
     "demoConversation": [
       {
         "role": "assistant",
-        "text": "Hai, saya Juno. Saya memperkenalkan satu orang pada satu waktu — tidak pernah ada daftar."
+        "text": "Hai, saya Juno. Saya memperkenalkan satu orang pada satu waktu, tidak pernah ada daftar."
       },
       {
         "role": "user",
@@ -111,7 +111,7 @@
       "icon": "users",
       "heading": "Aplikasi kencan memberi Anda semua orang. Juno memperkenalkanmu pada seseorang.",
       "headingAccent": "seseorang.",
-      "body": "Dia mempelajari detail yang tidak pernah cocok dalam bio — kecepatan hidup yang Anda inginkan, apa yang membuat Anda tertawa, dan hari Selasa biasa yang ingin Anda bagikan.",
+      "body": "Dia mempelajari detail yang tidak pernah cocok dalam bio, kecepatan hidup yang Anda inginkan, apa yang membuat Anda tertawa, dan hari Selasa biasa yang ingin Anda bagikan.",
       "items": [
         {
           "image": "https://raw.githubusercontent.com/vipin-go/juno-landing-page/main/assets/media/profile-amara.jpg",
@@ -156,7 +156,7 @@
       "ctaCard": {
         "icon": "user-plus",
         "title": "seseorang, bukan profil.",
-        "body": "Setiap perkenalan datang dengan alasan Juno berpikir kalian berdua harus bertemu — bukan persentase yang misterius.",
+        "body": "Setiap perkenalan datang dengan alasan Juno berpikir kalian berdua harus bertemu, bukan persentase yang misterius.",
         "ctaLabel": "Biarkan Juno memperkenalkanmu"
       },
       "smallCardA": {
@@ -269,11 +269,11 @@
     "faqs": [
       {
         "question": "Apakah Juno aplikasi kencan?",
-        "answer": "Tidak juga — tidak ada dek gesek atau profil publik. Anda memberi tahu Juno siapa Anda dan apa yang Anda inginkan, dan dia membuat satu perkenalan yang bijaksana pada satu waktu."
+        "answer": "Tidak juga, tidak ada dek gesek atau profil publik. Anda memberi tahu Juno siapa Anda dan apa yang Anda inginkan, dan dia membuat satu perkenalan yang bijaksana pada satu waktu."
       },
       {
         "question": "Apakah semua orang akan melihat profil saya?",
-        "answer": "Tidak. Profil Anda bersifat pribadi secara default. Juno hanya membagikan pengenalan yang disetujui dengan seseorang yang menurutnya cocok — tidak pernah di umpan publik atau dapat dicari."
+        "answer": "Tidak. Profil Anda bersifat pribadi secara default. Juno hanya membagikan pengenalan yang disetujui dengan seseorang yang menurutnya cocok, tidak pernah di umpan publik atau dapat dicari."
       },
       {
         "question": "Bagaimana jika saya tidak tertarik dengan pertandingan?",
@@ -291,7 +291,7 @@
     },
     "contact": {
       "heading": "Punya pertanyaan untuk tim?",
-      "body": "Juno dapat menjawab sebagian besar pertanyaan secara langsung dalam obrolan — atau menghubungi kami melalui email.",
+      "body": "Juno dapat menjawab sebagian besar pertanyaan secara langsung dalam obrolan, atau menghubungi kami melalui email.",
       "email": "hello@gabrieloperator.com"
     },
     "backgroundImage": {
@@ -301,7 +301,7 @@
     "closing": {
       "kicker": "siap ketika Anda",
       "heading": "perkenalan nyata. satu orang pada satu waktu.",
-      "body": "Beritahu Juno apa yang penting bagimu. Dia akan mengambilnya dari sana — dengan serius, secara pribadi, dan satu orang pada satu waktu.",
+      "body": "Beritahu Juno apa yang penting bagimu. Dia akan mengambilnya dari sana, dengan serius, secara pribadi, dan satu orang pada satu waktu.",
       "ctaLabel": "berbicara dengan Juno"
     }
   },
