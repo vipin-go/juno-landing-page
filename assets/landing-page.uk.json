@@ -2,7 +2,7 @@
   "schemaVersion": 2,
   "language": "uk",
   "regionKey": null,
-  "sourceRevision": "4f498334fffd443a1b4684bb642e35ecca04bdfa8e463a0d2b3e84c5ff0525e4",
+  "sourceRevision": "5ae6a1a528d25a83372a76cc1f6a8ab6c9b977108ca0efaab9002dab469d2397",
   "landingPage": {
     "design": {
       "variant": "signature",
@@ -305,7 +305,7 @@
       "ctaLabel": "Поговоріть з Юноною"
     },
     "roiCalculator": {
-      "enabled": true,
+      "enabled": false,
       "kicker": "Економіка ШІ",
       "heading": "Калькулятор ROI",
       "subheading": "Години, не витрачені на переслідування списків, є потужністю. Оцінюйте їх за тим, чи стають вони більшою кількістю знайомств, кращим збігом або реальною вартістю, яку ви перестаєте платити.",
@@ -757,6 +757,46 @@
     }
   },
   "translationIndex": [
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        0,
+        "label"
+      ],
+      "sourceHash": "4efca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        1,
+        "label"
+      ],
+      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        2,
+        "label"
+      ],
+      "sourceHash": "6d09cf5748829bd23a36d4de1e81b3a5cf103b3902ef494f0fe66541b5d89bab"
+    },
+    {
+      "path": [
+        "landingPage",
+        "header",
+        "navItems",
+        3,
+        "label"
+      ],
+      "sourceHash": "9856b7433f842da2093b956811286d51860e05ae3904dc40b36dc709ea298884"
+    },
     {
       "path": [
         "landingPage",
@@ -1689,6 +1729,14 @@
       "path": [
         "landingPage",
         "roiCalculator",
+        "heading"
+      ],
+      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
         "subheading"
       ],
       "sourceHash": "73f27040bc83a92918543c3248b82488cf55ff673dfcb325e9c05d4a1ced84fb"
@@ -2471,55 +2519,7 @@
         "privacyNote"
       ],
       "sourceHash": "dc23cdf650359e6260ca6494e4d765555cdf24afc9b176195d9abb9f154cd47a"
-    },
-    {
-      "path": [
-        "landingPage",
-        "header",
-        "navItems",
-        0,
-        "label"
-      ],
-      "sourceHash": "4efca0d10c5feb8e9b35eb1d994f2905bb71714e6a271f511d713b539ea5faa1"
-    },
-    {
-      "path": [
-        "landingPage",
-        "header",
-        "navItems",
-        1,
-        "label"
-      ],
-      "sourceHash": "9c870aa6e5e93270170d5a81277ad3e623afe8d4efd186d3e28f3d2b646d52e6"
-    },
-    {
-      "path": [
-        "landingPage",
-        "header",
-        "navItems",
-        2,
-        "label"
-      ],
-      "sourceHash": "6d09cf5748829bd23a36d4de1e81b3a5cf103b3902ef494f0fe66541b5d89bab"
-    },
-    {
-      "path": [
-        "landingPage",
-        "header",
-        "navItems",
-        3,
-        "label"
-      ],
-      "sourceHash": "9856b7433f842da2093b956811286d51860e05ae3904dc40b36dc709ea298884"
-    },
-    {
-      "path": [
-        "landingPage",
-        "roiCalculator",
-        "heading"
-      ],
-      "sourceHash": "c63420eca3f95b8917c99f3a5cf72f000ab237bc6c658765b2176ebdd7b311be"
     }
   ],
-  "generatedAt": "2026-09-06T18:26:03.562Z"
+  "generatedAt": "2026-09-11T08:16:14.269Z"
 }

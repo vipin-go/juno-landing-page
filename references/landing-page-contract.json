@@ -239,6 +239,7 @@
         "fallbackToRetail": false
       },
       "sections": ["header", "hero", "product", "mobile", "features", "stories", "about", "closing", "footer"],
+      "optionalSections": ["retail"],
       "constraints": {
         "navigationItems": 5,
         "trustItems": 4,
@@ -250,6 +251,17 @@
         "testimonials": 6,
         "storyItems": 3,
         "aboutCapabilities": 9,
+        "retailMedia": [
+          "inventoryCount",
+          "painStockSpreadsheet",
+          "painVendorLate",
+          "painMultiShop",
+          "vendorOrder",
+          "vendorDelivery",
+          "homeCook",
+          "mealPlanning",
+          "consumerDelivery"
+        ],
         "heroDemo": {
           "requires": ["enabled", "commandTrigger"],
           "commandExecutionType": "operator_action",
@@ -309,18 +321,32 @@
       "optionalForBackwardCompatibility": true,
       "sectionId": "persona-landing-roi-calculator",
       "navTarget": "roi-calculator",
-      "navLabel": "ROI Calculator",
+      "navLabel": "ROI",
+      "currencyCopy": {
+        "optional": true,
+        "fields": ["native", "loading", "unavailable", "converted", "basis"],
+        "preservePlaceholders": ["{base}", "{currency}", "{date}"],
+        "execution": "Platform-owned country selection and dated FX conversion, independent of language; no model-estimated rates."
+      },
+      "costCopy": {
+        "optional": true,
+        "fields": ["breakdown", "perUnit", "budgetOnly", "benefitNotice", "remainder", "allocation"],
+        "preservePlaceholders": ["{amount}"],
+        "presentation": "Cost-first summary, visible operating-cost subtotals and per-unit averages. Strike only expected avoided spending, not contribution or capacity."
+      },
       "guidedMethodology": {
         "methodologyVersion": 2,
         "reference": "references/business-impact.md",
         "navLabelSource": "businessImpact.copy.navLabel",
-        "presentation": "three_steps_live_summary",
-        "steps": ["workload", "operating_cost", "capacity_use"],
+        "presentation": "persona_tabs_live_summary",
+        "steps": ["workload", "token_usage", "value"],
         "requiredFields": ["heading", "disclaimer", "currency", "inputs", "metrics", "businessImpact"],
-        "businessImpactFields": ["defaults", "copy", "fields", "outcomes", "burden", "opportunity"],
+        "businessImpactFields": ["defaults", "copy", "fields", "outcomes", "burden", "opportunity", "usagePackages", "tabs", "hero", "selected", "confirmations", "defaultPackage", "reviewMode", "costMode"],
         "workloadDefaultFields": ["volume", "minutes", "automation", "review"],
+        "tokenField": "tokens_per_output",
         "outcomeIds": ["cash", "higher_value", "throughput", "hiring", "error", "risk", "cycle_time"],
-        "financialDefaults": false,
+        "financialDefaults": true,
+        "usagePackages": ["base", "medium"],
         "authoredFormulas": false,
         "compatibilityArrays": { "inputs": [], "metrics": [] },
         "unsetIsNotZero": true,
@@ -348,7 +374,8 @@
         "formula", "currency", "locale", "format", "kind", "defaultPeriod", "defaultScenarioId",
         "costMetricId", "benefitMetricId", "primaryTarget", "secondaryTarget", "methodologyVersion", "min", "max", "step", "defaultValue",
         "multiplier", "months", "scalesWithPeriod", "scalesWithScenario", "enabled", "periodToggle",
-        "profile", "profileIcon", "id", "type", "group", "layer", "valueClass", "productivity"
+        "profile", "profileIcon", "id", "type", "group", "layer", "valueClass", "productivity",
+        "selected", "fields", "defaultPackage", "reviewMode", "costMode", "tokensPerOutput"
       ],
       "formulaDsl": {
         "operators": ["+", "-", "*", "/", "(", ")"],

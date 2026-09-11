@@ -46,10 +46,19 @@ section, use `methodologyVersion: 2` and read
 [`references/business-impact.md`](references/business-impact.md) **before authoring
 its copy or defaults**. Start from the persona's real work unit, not its employee's
 salary. Separate operational capacity, operating cost, and explicitly modeled value.
-The platform owns the three-step interaction and deterministic calculations; the
-landing-page child owns the bounded workload defaults, outcome selection, and all
-translated labels and explanations. Start financial assumptions unset. Do not
-invent savings, prices, conversion rates, risk reductions, or customer outcomes.
+The platform owns the live calculator tabs, Base/Medium packages, token cost mix and
+deterministic calculations; the landing-page child owns persona-specific tab labels,
+typical usage numbers, outcome selection, and all translated labels and explanations.
+Prefill a typical consumer of this persona. Do not invent observed savings, provider
+quotes, or guaranteed customer outcomes.
+
+Keep this as a live, slider-driven calculator: input tabs and auto-updating results,
+not a form-submit/results replacement. Use direct numeric entry alongside sliders.
+Author localized `currencyCopy` notices from the seed. Country selects currency;
+language only changes copy/formatting. Dated FX conversion is platform-owned, not
+LLM translation or proof of local costs. Read the country-currency rules in
+`references/business-impact.md`, including unavailable-rate fallback and the
+requirement to deploy compatible platform support before publishing new fields.
 
 Use **ROI** for the short header link and **ROI Calculator** for the section
 heading (localized in translated pages). Keep the persona-specific supporting copy
@@ -288,10 +297,11 @@ the translation generator before committing. It reuses unchanged strings from hi
 assets and translates only the delta. The validator recomputes source revisions and must
 reject a syntactically valid but stale manifest.
 
-When the region changes jurisdictional content rather than only language, read
-`../landing-page-markets/SKILL.md` and run that skill. It owns canonical market language,
-locale, authoritative glossary/evidence, market context revision, and country-directory
-translations. Do not use direct translation to invent market tax or regulatory terms.
+When the region changes jurisdictional content or ROI assumptions rather than only language,
+read `../landing-page-regions/SKILL.md` and run that skill. It owns region profiles (locale,
+currency, glossary, facts and evidence), per-section companion prompts, and the generated
+region sections and their translations. Do not use direct translation to invent market tax or
+regulatory terms.
 
 When this skill is materialized as a Git repository for one persona's landing
 page, the repo contains this scaffold plus `assets/landing-page.json`. Edit
