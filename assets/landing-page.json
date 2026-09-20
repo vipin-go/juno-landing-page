@@ -3,6 +3,10 @@
   "resourceKey": "landing_page.juno",
   "runtimeDataPolicy": "definitions_only",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",

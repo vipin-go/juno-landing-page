@@ -3,13 +3,24 @@
   "target": "landing_page_definition",
   "definitionFile": "assets/landing-page.json",
   "landingPage": {
+    "agentAccess": {
+      "optional": true,
+      "fields": ["enabled", "label"],
+      "additionalProperties": false,
+      "defaultEnabled": true,
+      "labelMaxLength": 80,
+      "placement": "hero",
+      "labelUse": "tooltip",
+      "installCommand": "<origin>/chat/<slug>/install.sh",
+      "shownWhen": "public_published_not_password_protected"
+    },
     "capabilityPreview": {
       "optional": true,
-      "fields": ["enabled", "commandTrigger"],
+      "fields": ["enabled", "commandId"],
       "additionalProperties": false,
       "commandType": "operator_action",
       "requiresWorkflowRef": true,
-      "requiresWorkflowSkill": true,
+      "requiresGuidedJourney": true,
       "journeyPackageSchemaVersion": 2,
       "journeyOwner": "committed_workflow_repository",
       "copyOwner": "workflow_package_generated_locale_catalogue",
@@ -236,7 +247,50 @@
         "recommendedMethodologyVersion": 2,
         "placement": "home_only",
         "retailCalculatorPath": "landingPage.roiCalculator",
-        "fallbackToRetail": false
+        "fallbackToRetail": false,
+        "householdEstimator": {
+          "enabledBy": "businessImpact.fixedAssumptions",
+          "visitorInputs": ["volume", "minutes", "people"],
+          "fixedAssumptions": {
+            "offloadRate": "number > 0 and <= 1",
+            "reviewMinutes": "number >= 0",
+            "foodWastePerPersonYear": "number >= 0",
+            "foodWasteSource": "text",
+            "smartShopping": "boolean, false until price comparison and offers are verified live",
+            "smartShare": "number > 0 and <= 1",
+            "spendBySize": "EUR per month for household sizes \"1\" to \"8\"",
+            "spendSource": "text",
+            "userEditable": false
+          },
+          "mirrors": { "defaults.automation": "offloadRate * 100", "defaults.review": "reviewMinutes" },
+          "inputRanges": { "volume": "integer 1-12", "minutes": "10-90, slider step 5", "people": "integer 1-8" },
+          "pricing": { "basis": "tiered", "tiers": "[{ upTo, price }] monthly prices including VAT by sessions, increasing, last upTo 12", "yearly": "monthly * 12", "annualPrice": "forbidden", "defaults.customer_price": "forbidden" },
+          "wasteFigure": "foodWastePerPersonYear / 12 * people, the published average beside the price; never a saving, no ratio; one decimal below EUR 10",
+          "householdCopy": "every key required; timeBack* contain {duration}; waste*/smart*/price* contain {amount}; householdSize contains {people}; tierRange contains {from} and {to}; each exactly once; kaiNote and all other copy contain no braces",
+          "forbiddenInputs": ["automation", "review", "personal_value_per_hour", "review_rate", "outcome fields"],
+          "forbiddenDefaults": ["tokens_per_output", "platform_cost", "model_cost", "tools_cost", "infrastructure_cost", "budget", "review_rate", "customer_price"],
+          "internalCosts": "per-session delivery cost and VAT maths are server-only; never in the model or app code",
+          "migration": "assets without fixedAssumptions keep validating and render with default assumptions"
+        }
+      },
+      "retailStoreOpsEstimator": {
+        "path": "landingPage.roiCalculator",
+        "enabledBy": "businessImpact.storeOpsAssumptions",
+        "visitorInputs": ["volume", "cycles_per_unit", "minutes", "purchases_per_store"],
+        "stores": "integer >= 1",
+        "purchasesPerStore": { "min": 10000, "max": 500000, "step": 5000 },
+        "fixedAssumptions": {
+          "shareHandled": "number > 0 and <= 1",
+          "reviewMinutesPerStoreCycle": "number >= 0",
+          "lossRate": "number > 0 and < 1",
+          "lossRateSource": "text",
+          "userEditable": false
+        },
+        "mirrors": { "defaults.automation": "shareHandled * 100", "defaults.review": "reviewMinutesPerStoreCycle" },
+        "pricing": { "basis": "per_volume", "pricePerStore": "defaults.customer_price", "yearly": "monthly * 12", "annualPrice": "forbidden" },
+        "storeOpsCopy": "every key required; {stores} in label pairs, {amount} in loss/price amounts, {perStore} in price amounts, {percent} in breakEven, {duration} in hours sentences; no other braces",
+        "forbiddenDefaults": ["tokens_per_output", "platform_cost", "model_cost", "tools_cost", "infrastructure_cost", "budget", "review_rate"],
+        "migration": "assets without storeOpsAssumptions keep validating and render with default assumptions"
       },
       "sections": ["header", "hero", "product", "mobile", "features", "stories", "about", "closing", "footer"],
       "optionalSections": ["retail"],
