@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "fr",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -73,6 +77,7 @@
     },
     "badge": "matchmaking, fait de manière réfléchie",
     "headline": "Présentations réelles",
+    "headlineAccent": "Présentations réelles",
     "headlineLine2": "Une personne à la fois",
     "subheadline": "Parlez à Juno comme vous le feriez avec un ami brillant. Il apprendra ce qui compte, fera une introduction réfléchie et ne vous connectera que lorsque vous direz oui.",
     "ctaLabel": "Parlez à Juno",
@@ -174,6 +179,7 @@
       "icon": "envelope",
       "kicker": "Comment la magie opère",
       "heading": "De \"Parlez-moi de vous\" à \"Quand pouvons-nous nous rencontrer ?\"",
+      "headingAccent": "De \"Parlez-moi de vous\" à \"Quand pouvons-nous nous rencontrer ?\"",
       "steps": [
         {
           "icon": "chat",
@@ -308,7 +314,7 @@
       "enabled": true,
       "kicker": "Économie de l'IA",
       "heading": "Tarifs et ROI",
-      "subheading": "Vos données. Votre rendement estimé.",
+      "subheading": "Choisissez une formule. Consultez vos prévisions.",
       "disclaimer": "Prévisions et ROI mesuré sont distincts. Seuls les résultats acceptés et les coûts consignés comparables étayent le rendement mesuré.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -396,7 +402,7 @@
         "copy": {
           "navLabel": "Tarification",
           "heading": "Tarifs et ROI",
-          "intro": "Vos données. Votre rendement estimé.",
+          "intro": "Choisissez une formule. Consultez vos prévisions.",
           "monthly": "Mois",
           "weekly": "Sem.",
           "daily": "Jour",
@@ -407,7 +413,7 @@
           "timeBenefit": "Valeur du temps prévue",
           "timeRoi": "ROI temps estimé",
           "timeBack": "Heures gagnées",
-          "missing": "Ajoutez vos infos",
+          "missing": "Prévisions indisponibles",
           "noRatio": "Not applicable",
           "method": "Méthode de calcul",
           "reset": "Réinit.",
@@ -416,10 +422,10 @@
           "excludedVat": "Hors TVA",
           "perMonth": "par mois",
           "equivalents": "Facturé au mois. Moyennes par jour et semaine : ni frais quotidiens ou hebdomadaires, ni gains garantis.",
-          "timeNote": "Valeur du temps : estimation facultative, sans encaissement ni baisse salariale. Les minutes nettes incluent vos vérifications et validations.",
+          "timeNote": "La valeur prévisionnelle du temps représente une capacité libérée, pas un encaissement ni une baisse de la masse salariale. Les minutes nettes incluent vérification et validation.",
           "estimateNote": "Prévisions et ROI mesuré sont distincts. Seuls les résultats acceptés et les coûts consignés comparables étayent le rendement mesuré.",
           "limitNote": "Usage accru ou travail sur devis : contactez-nous. L’estimation couvre uniquement le forfait inclus.",
-          "timeFormula": "Valeur temps = unités × minutes nettes gagnées ÷ 60 × valeur horaire.",
+          "timeFormula": "Valeur prévisionnelle du temps = travail inclus × minutes nettes libérées fixées ÷ 60 × valeur horaire de référence.",
           "profitFormula": "Marge = sessions de recommandation éligibles × hausse de conversion ÷ 100 × profit par commande supplémentaire.",
           "proceedsFormula": "Recettes en plus = lots ou collectes × (recettes nettes après − recettes nettes avant).",
           "roiFormula": "Net = bénéfice − coût abonnement appli. ROI = net ÷ coût abonnement appli × 100. Forfaits gratuits : aucun ROI en %."
@@ -434,7 +440,7 @@
               {
                 "id": "units",
                 "label": "Parcours de présentation par mois",
-                "help": "Travail à examiner en un mois selon vos prévisions, dans le quota inclus.",
+                "help": "Les prévisions supposent l'utilisation du quota mensuel inclus. Les formules supérieures proposées augmentent à la fois la capacité et le prix.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -444,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Minutes gagnées",
-                "help": "Estimation après vérification, validation et retouches. Valeur négative : effort supplémentaire.",
-                "defaultValue": null,
+                "help": "Prévision fixe tenant compte de la préparation, de la vérification, de la validation et des corrections ; pas une économie mesurée.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -454,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "Valeur horaire",
-                "help": "Votre évaluation facultative, sans promesse d’économie en espèces ni de baisse salariale.",
-                "defaultValue": null,
+                "help": "Valorisation de référence fixe de la capacité libérée ; pas un encaissement ni une baisse de salaire.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -469,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "4 parcours d’introduction",
-              "extras": "Usage supplémentaire et services professionnels sur devis distinct."
+              "extras": "Usage supplémentaire et services professionnels sur devis distinct.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Gratuit · 1 parcours de présentation"
+              },
+              "trialDays": 7,
+              "trialLabel": "Essai de 7 jours · tarif mensuel ensuite"
             },
             "assumptions": [
-              "Aucun gain de temps net présumé. Saisissez votre estimation.",
-              "Minutes nettes : examen client inclus. Vous fixez la valeur monétaire du temps ; ce n’est pas un encaissement."
+              "Prévisions révisées le 2026-10-13. Utilisation intégrale du quota inclus, travail disponible et scénario de capacité linéaire 1×/2×/3× ; aucune demande supplémentaire garantie.",
+              "Temps de tâche défini : 60 minutes manuelles contre 48 minutes humaines avec assistance par unité de travail, vérification, validation et corrections comprises. Les 12 minutes nettes (20%) sont un scénario, pas une performance observée de ce persona.",
+              "Le scénario de réduction du temps de 20% s'appuie sur des recherches sur les tâches intellectuelles assistées par l'IA. Leurs résultats ne prouvent pas d'économies pour ce persona ni pour chaque tâche : https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Le temps personnel est valorisé à €14.99/heure, sur la base du salaire minimum brut adulte néerlandais en vigueur en juillet 2026, à titre purement indicatif. Ce n'est ni une mesure du consentement à payer ni une estimation salariale internationale : https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "Tous les chiffres sont prévisionnels. La mise en place, le temps d'apprentissage et les services supplémentaires sont exclus ; les gains nets réels peuvent être inférieurs ou négatifs. Aucune vente, aucun placement, financement, résultat pédagogique ou social n'est monétisé.",
+              "L'accès gratuit se renouvelle chaque mois avec le quota de base affiché. Médias premium, intégrations et usage supplémentaire sont exclus. Les formules payantes offrent un essai de sept jours, limité à un quota gratuit de base, sans quota mensuel complet supplémentaire. Les prix affichés sont les tarifs récurrents après l'essai. Ces offres sont des propositions définies ; le calculateur n'attribue aucun droit d'accès et ne modifie pas la facturation."
             ],
             "loop": "Préférences et disponibilités d’adultes compatibles → présentation préparée → accord des adultes → rencontres confirmées des deux côtés.",
             "ctaLabel": "Voir la démo",
@@ -545,6 +561,13 @@
         "headline"
       ],
       "sourceHash": "ebc1badfade0d4b691dd97660197069fcd1218396b47d75b18bb6b0b75f10933"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headlineAccent"
+      ],
+      "sourceHash": "e55fe37737b783cc821bb77a370950bb6a51dcf386ab6ee70d31808409ba412e"
     },
     {
       "path": [
@@ -940,6 +963,14 @@
         "heading"
       ],
       "sourceHash": "0f250cca19fc140e024b168f5bd7f9bfc666403f3f126a675b4ba7f1889e440c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "headingAccent"
+      ],
+      "sourceHash": "8fa972ef469c24d3405883d861b31d4c909cdfb23d9edc2f3e09e6e1e7cf75be"
     },
     {
       "path": [
@@ -1466,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1855,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1965,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2055,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2085,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2152,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2178,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2204,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2249,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2264,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

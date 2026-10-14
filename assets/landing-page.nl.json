@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "nl",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -111,6 +115,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Dating-apps gaven je iedereen. Juno stelt je aan iemand voor.",
+      "headingAccent": "Dating-apps gaven je iedereen. Juno stelt je aan iemand voor.",
       "body": "Hij leert de details die nooit in een biografie passen, het levenstempo dat je wilt, wat je aan het lachen maakt en de gewone dinsdag die je hoopt te delen.",
       "items": [
         {
@@ -309,7 +314,7 @@
       "enabled": true,
       "kicker": "AI-economie",
       "heading": "Prijzen en ROI",
-      "subheading": "Jouw invoer. Jouw geschatte rendement.",
+      "subheading": "Kies een abonnement. Bekijk je prognose.",
       "disclaimer": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -397,7 +402,7 @@
         "copy": {
           "navLabel": "Prijzen",
           "heading": "Prijzen en ROI",
-          "intro": "Jouw invoer. Jouw geschatte rendement.",
+          "intro": "Kies een abonnement. Bekijk je prognose.",
           "monthly": "Maand",
           "weekly": "Week",
           "daily": "Dag",
@@ -408,7 +413,7 @@
           "timeBenefit": "Geschatte tijdwaarde",
           "timeRoi": "Tijdwaarde-ROI",
           "timeBack": "Hergewonnen uren",
-          "missing": "Voer gegevens in",
+          "missing": "Prognose niet beschikbaar",
           "noRatio": "Niet van toepassing",
           "method": "Berekeningswijze",
           "reset": "Herstel",
@@ -417,10 +422,10 @@
           "excludedVat": "Exclusief btw",
           "perMonth": "per maand",
           "equivalents": "Maandfactuur. Dag- en weekcijfers zijn gemiddelden, geen dag- of weekkosten of gegarandeerd rendement.",
-          "timeNote": "Tijdwaarde is je optionele raming, geen ontvangen geld of lagere loonkosten. Nettominuten omvatten je controle- en goedkeuringstijd.",
+          "timeNote": "De geraamde tijdwaarde is vrijgekomen capaciteit, geen ontvangen geld of lagere loonkosten. Netto minuten zijn inclusief controle en goedkeuring.",
           "estimateNote": "Planramingen staan los van gemeten ROI. Alleen aanvaarde resultaten en vergelijkbare vastgelegde kosten onderbouwen gemeten rendement.",
           "limitNote": "Neem contact op voor meer gebruik of maatwerkoffertes. Deze raming betreft alleen het inbegrepen pakket.",
-          "timeFormula": "Tijdwaarde = eenheden × netto bespaarde minuten ÷ 60 × je uurwaarde.",
+          "timeFormula": "Geraamde tijdwaarde = inbegrepen werk × vaste netto vrijgekomen minuten ÷ 60 × referentiewaarde per uur.",
           "profitFormula": "Dekkingsbijdrage = geldige adviessessies × conversiestijging ÷ 100 × winst per extra bestelling.",
           "proceedsFormula": "Extra opbrengst = partijen of afhalingen × (netto-opbrengst achteraf − netto-opbrengst vooraf).",
           "roiFormula": "Netto = voordeel − appabonnementskosten. ROI = netto ÷ appabonnementskosten × 100. Gratis abonnementen: geen ROI-percentage."
@@ -435,7 +440,7 @@
               {
                 "id": "units",
                 "label": "Kennismakingstrajecten per maand",
-                "help": "Werk dat je in één maand denkt te beoordelen, binnen de inbegrepen limiet.",
+                "help": "De prognose gaat uit van volledig gebruik van het maandtegoed. Hogere voorgestelde niveaus verhogen zowel capaciteit als prijs.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -445,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Bespaarde min.",
-                "help": "Je raming na controle, goedkeuring en herstelwerk. Negatieve waarden betekenen extra werk.",
-                "defaultValue": null,
+                "help": "Vaste prognose na voorbereiding, controle, goedkeuring en herwerk; geen gemeten besparing.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -455,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "Waarde per uur",
-                "help": "Je eigen optionele waardering. Geen beloofde geldbesparing of vermindering van loonkosten.",
-                "defaultValue": null,
+                "help": "Vaste referentiewaarde van vrijgekomen capaciteit; geen ontvangen geld of salarisverlaging.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -470,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "4 kennismakingstrajecten",
-              "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte."
+              "extras": "Extra gebruik en professionele diensten krijgen een aparte offerte.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Gratis · 1 kennismakingstraject"
+              },
+              "trialDays": 7,
+              "trialLabel": "7 dagen op proef · daarna maandprijs"
             },
             "assumptions": [
-              "Geen nettotijdwinst verondersteld. Vul je eigen raming in.",
-              "Nettominuten omvatten klantcontrole. Jij geeft de geldwaarde van tijd op; het is geen ontvangen geld."
+              "Prognoseversie 2026-10-13. Volledig gebruik van het tegoed, beschikbaar werk en een lineair capaciteitsscenario van 1×/2×/3×; extra vraag is niet gegarandeerd.",
+              "Opgestelde taakraming: 60 minuten handmatig tegenover 48 minuten menselijk werk met ondersteuning per werkeenheid, inclusief controle, goedkeuring en herwerk. De 12 netto minuten (20%) zijn een scenario, geen waargenomen prestaties van deze persona.",
+              "Het scenario van 20% tijdsbesparing is gebaseerd op onderzoek naar kennistaken met AI-ondersteuning. De resultaten bewijzen geen besparingen voor deze persona of voor elke taak: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Persoonlijke tijd wordt gewaardeerd op €14.99/uur, met het Nederlandse bruto minimumloon voor volwassenen per juli 2026 uitsluitend als illustratieve referentie. Dit is geen gemeten betalingsbereidheid of internationale loonraming: https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "Alle cijfers zijn prognoses. Opstartwerk, leertijd en aanvullende diensten zijn uitgesloten; het werkelijke nettorendement kan lager of negatief zijn. Verkoop, plaatsing, financiering, leerresultaten en maatschappelijke uitkomsten krijgen geen geldwaarde.",
+              "Gratis toegang wordt maandelijks vernieuwd met het getoonde basistegoed. Premium media, integraties en extra gebruik zijn uitgesloten. Betaalde niveaus hebben een proefperiode van zeven dagen; proefgebruik is beperkt tot één gratis basistegoed, geen extra volledig maandtegoed. Getoonde prijzen zijn terugkerende prijzen na de proefperiode. Dit zijn opgestelde aanbodvoorstellen; de calculator kent geen gebruiksrechten toe en wijzigt de facturering niet."
             ],
             "loop": "Volwassenen met passende voorkeuren en agenda's → introductie voorbereiden → instemming → samen bevestigde ontmoetingen vastleggen.",
             "ctaLabel": "Probeer demo",
@@ -691,6 +706,14 @@
         "heading"
       ],
       "sourceHash": "920975628b0fb640da49680eee2ec12ba3804920884af7ca5b5af09ce5a2e17a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "headingAccent"
+      ],
+      "sourceHash": "d5e508cf155b335cb5fc4fe9a6543cf8b154248071fa280cce812c19b668b308"
     },
     {
       "path": [
@@ -1474,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1863,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1973,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2063,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2093,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2160,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2186,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2212,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2257,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2272,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

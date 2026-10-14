@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "pl",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -73,6 +77,7 @@
     },
     "badge": "Matchmaking, zrobione z przemyślanym",
     "headline": "Prawdziwe wprowadzenie",
+    "headlineAccent": "Prawdziwe wprowadzenie",
     "headlineLine2": "Jedna osoba na raz",
     "subheadline": "Porozmawiaj z Juno tak, jakbyś był genialnym przyjacielem. Dowie się, co się liczy, zrobi jedno przemyślane wprowadzenie i połączy cię tylko wtedy, gdy oboje powiecie tak.",
     "ctaLabel": "Porozmawiaj z Juno",
@@ -110,6 +115,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Aplikacje randkowe dały ci wszystkich. Juno przedstawia cię komuś.",
+      "headingAccent": "Aplikacje randkowe dały ci wszystkich. Juno przedstawia cię komuś.",
       "body": "Poznaje szczegóły, które nigdy nie zmieściły się w biografii, tempo życia, którego pragniesz, co cię śmieszy i zwykły wtorek, który masz nadzieję dzielić.",
       "items": [
         {
@@ -308,7 +314,7 @@
       "enabled": true,
       "kicker": "Ekonomia AI",
       "heading": "Ceny i ROI",
-      "subheading": "Twoje dane. Twój szacowany zwrot.",
+      "subheading": "Wybierz plan. Zobacz prognozę.",
       "disclaimer": "Szacunki planistyczne są odrębne od ROI. Pomiar zwrotu opiera się tylko na uznanych wynikach i porównywalnych zapisanych kosztach.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -396,7 +402,7 @@
         "copy": {
           "navLabel": "Ceny",
           "heading": "Ceny i ROI",
-          "intro": "Twoje dane. Twój szacowany zwrot.",
+          "intro": "Wybierz plan. Zobacz prognozę.",
           "monthly": "Miesiąc",
           "weekly": "Tydz.",
           "daily": "Dzień",
@@ -407,7 +413,7 @@
           "timeBenefit": "Szac. wartość czasu",
           "timeRoi": "ROI czasu",
           "timeBack": "Odzyskane godz.",
-          "missing": "Wpisz swoje dane",
+          "missing": "Prognoza niedostępna",
           "noRatio": "Not applicable",
           "method": "Sposób obliczania",
           "reset": "Resetuj",
@@ -416,10 +422,10 @@
           "excludedVat": "Bez VAT",
           "perMonth": "miesięcznie",
           "equivalents": "Opłata co miesiąc. Kwoty dzienne i tygodniowe to średnie, nie opłaty za te okresy ani gwarantowane zwroty.",
-          "timeNote": "Wartość czasu to Twój opcjonalny szacunek, nie przychód ani spadek kosztów płac. Minuty netto uwzględniają czas kontroli i akceptacji.",
+          "timeNote": "Prognozowana wartość czasu oznacza odzyskane moce przerobowe, a nie otrzymaną gotówkę ani obniżenie kosztów płac. Minuty netto uwzględniają sprawdzanie i zatwierdzanie.",
           "estimateNote": "Szacunki planistyczne są odrębne od ROI. Pomiar zwrotu opiera się tylko na uznanych wynikach i porównywalnych zapisanych kosztach.",
           "limitNote": "Większe zużycie lub osobna wycena prac? Skontaktuj się z nami. Szacunek obejmuje tylko zakres planu.",
-          "timeFormula": "Wartość czasu = jednostki × minuty oszczędzone netto ÷ 60 × stawka.",
+          "timeFormula": "Prognozowana wartość czasu = praca w pakiecie × stała liczba odzyskanych minut netto ÷ 60 × referencyjna wartość godziny.",
           "profitFormula": "Marża pokrycia = kwalifikujące się sesje rekomendacji × wzrost konwersji ÷ 100 × zysk z dodatkowego zamówienia.",
           "proceedsFormula": "Dodatkowe wpływy = partie lub odbiory × (wpływy netto po − wpływy netto przed).",
           "roiFormula": "Netto = korzyść − koszt abonamentu apki. ROI = netto ÷ koszt abonamentu apki × 100. Darmowe plany nie mają ROI %."
@@ -434,7 +440,7 @@
               {
                 "id": "units",
                 "label": "Procesy zapoznawania miesięcznie",
-                "help": "Praca do oceny w ciągu miesiąca, w ramach uwzględnionego limitu.",
+                "help": "Prognoza zakłada wykorzystanie miesięcznego limitu w pakiecie. Wyższe proponowane warianty zwiększają zarówno moce przerobowe, jak i cenę.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -444,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Zyskane minuty",
-                "help": "Twój szacunek po kontroli, akceptacji i poprawkach. Wartości ujemne oznaczają dodatkową pracę.",
-                "defaultValue": null,
+                "help": "Stała prognoza uwzględniająca przygotowanie, sprawdzanie, zatwierdzanie i poprawki; nie jest zmierzoną oszczędnością.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -454,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "Wartość godz.",
-                "help": "Twoja opcjonalna wycena. To nie obietnica oszczędności pieniężnych ani redukcji płac.",
-                "defaultValue": null,
+                "help": "Stała referencyjna wycena odzyskanych mocy przerobowych; nie oznacza otrzymanej gotówki ani obniżenia wynagrodzenia.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -469,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "4 procesy zapoznawania",
-              "extras": "Dodatkowe użycie i usługi profesjonalne wyceniamy osobno."
+              "extras": "Dodatkowe użycie i usługi profesjonalne wyceniamy osobno.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Bezpłatnie · 1 ścieżka zapoznawcza"
+              },
+              "trialDays": 7,
+              "trialLabel": "7-dniowy okres próbny · potem opłata miesięczna"
             },
             "assumptions": [
-              "Nie zakładamy zysku czasu netto. Podaj własny szacunek.",
-              "Minuty netto obejmują kontrolę klienta. Sam podajesz wartość pieniężną czasu; to nie otrzymane pieniądze."
+              "Wersja prognozy 2026-10-13. Pełne wykorzystanie pakietu, dostępna praca i liniowy scenariusz mocy przerobowych 1×/2×/3×; dodatkowy popyt nie jest gwarantowany.",
+              "Autorskie założenie czasu zadania: 60 minut pracy ręcznej wobec 48 minut pracy człowieka ze wsparciem na jednostkę pracy, wraz ze sprawdzaniem, zatwierdzaniem i poprawkami. 12 minut netto (20%) to scenariusz, a nie zaobserwowany wynik tej persony.",
+              "Scenariusz skrócenia czasu o 20% oparto na badaniach zadań umysłowych wspomaganych przez AI. Ich wyniki nie potwierdzają oszczędności dla tej persony ani dla każdego zadania: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Czas prywatny wyceniono na €14.99/godz., przyjmując wyłącznie jako przykład holenderską płacę minimalną brutto dla dorosłych obowiązującą od lipca 2026. Nie jest to zmierzona skłonność do zapłaty ani międzynarodowy szacunek płac: https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "Wszystkie wartości są prognozami. Nie uwzględniają nakładu na konfigurację, czasu nauki ani dodatkowych usług; rzeczywiste korzyści netto mogą być niższe lub ujemne. Sprzedaż, zatrudnienie, finansowanie, efekty nauki i rezultaty społeczne nie są wyceniane pieniężnie.",
+              "Bezpłatny dostęp odnawia się co miesiąc z podanym limitem podstawowym. Media premium, integracje i dodatkowe użycie nie są uwzględnione. Płatne warianty mają siedmiodniowy okres próbny; limit użycia w tym okresie odpowiada jednemu podstawowemu bezpłatnemu pakietowi, a nie dodatkowemu pełnemu pakietowi miesięcznemu. Podane ceny to opłaty cykliczne po okresie próbnym. Są to autorskie propozycje ofert; kalkulator nie nadaje uprawnień ani nie zmienia rozliczeń."
             ],
             "loop": "Zgodne preferencje i terminy dorosłych → przygotowanie kontaktu → zgoda dorosłych → zapis spotkań potwierdzonych przez obie strony.",
             "ctaLabel": "Wypróbuj demo",
@@ -545,6 +561,13 @@
         "headline"
       ],
       "sourceHash": "ebc1badfade0d4b691dd97660197069fcd1218396b47d75b18bb6b0b75f10933"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headlineAccent"
+      ],
+      "sourceHash": "e55fe37737b783cc821bb77a370950bb6a51dcf386ab6ee70d31808409ba412e"
     },
     {
       "path": [
@@ -683,6 +706,14 @@
         "heading"
       ],
       "sourceHash": "920975628b0fb640da49680eee2ec12ba3804920884af7ca5b5af09ce5a2e17a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "headingAccent"
+      ],
+      "sourceHash": "d5e508cf155b335cb5fc4fe9a6543cf8b154248071fa280cce812c19b668b308"
     },
     {
       "path": [
@@ -1466,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1855,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1965,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2055,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2085,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2152,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2178,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2204,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2249,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2264,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

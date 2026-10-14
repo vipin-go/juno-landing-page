@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "ar",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -310,7 +314,7 @@
       "enabled": true,
       "kicker": "اقتصاديات الذكاء الاصطناعي",
       "heading": "السعر وROI",
-      "subheading": "مدخلاتك. عائدك المتوقع.",
+      "subheading": "اختر خطة. اطّلع على توقعاتك.",
       "disclaimer": "تقديرات التخطيط منفصلة عن ROI المقاس، الذي لا تدعمه إلا النتائج المقبولة والتكاليف المسجلة القابلة للمقارنة.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -398,7 +402,7 @@
         "copy": {
           "navLabel": "تقييم الأسعار",
           "heading": "السعر وROI",
-          "intro": "مدخلاتك. عائدك المتوقع.",
+          "intro": "اختر خطة. اطّلع على توقعاتك.",
           "monthly": "شهر",
           "weekly": "أسبوع",
           "daily": "يوم",
@@ -409,7 +413,7 @@
           "timeBenefit": "قيمة الوقت المقدرة",
           "timeRoi": "ROI لقيمة الوقت",
           "timeBack": "الساعات الموفرة",
-          "missing": "أضف مدخلاتك",
+          "missing": "التوقعات غير متاحة",
           "noRatio": "Not applicable",
           "method": "طريقة الحساب",
           "reset": "إعادة",
@@ -418,10 +422,10 @@
           "excludedVat": "دون VAT",
           "perMonth": "شهريا",
           "equivalents": "الفوترة شهرية. الأرقام اليومية والأسبوعية متوسطات، وليست رسوما يومية أو أسبوعية أو عوائد مضمونة.",
-          "timeNote": "قيمة الوقت تقديرك الاختياري، وليست نقدا تتلقاه أو خفضا للأجور. صافي الدقائق يشمل وقت التحقق والموافقة.",
+          "timeNote": "قيمة الوقت المتوقعة تمثل قدرة عمل مستعادة، وليست نقدًا مستلمًا أو خفضًا لتكاليف الرواتب. يشمل صافي الدقائق التحقق والموافقة.",
           "estimateNote": "تقديرات التخطيط منفصلة عن ROI المقاس، الذي لا تدعمه إلا النتائج المقبولة والتكاليف المسجلة القابلة للمقارنة.",
           "limitNote": "لزيادة الاستخدام أو لأعمال بسعر منفصل، تواصل معنا. يقتصر هذا التقدير على الخطة المشمولة.",
-          "timeFormula": "قيمة الوقت = الوحدات × صافي الدقائق الموفرة ÷ 60 × قيمة ساعتك.",
+          "timeFormula": "قيمة الوقت المتوقعة = العمل المشمول × صافي الدقائق المستعادة الثابت ÷ 60 × القيمة المرجعية للساعة.",
           "profitFormula": "ربح المساهمة = جلسات التوصية المؤهلة × زيادة التحويل ÷ 100 × ربح الطلب الإضافي.",
           "proceedsFormula": "الحصيلة الإضافية = الدفعات أو مرات الاستلام × (صافي الحصيلة بعدها − صافي الحصيلة قبلها).",
           "roiFormula": "الصافي = المنفعة − تكلفة الاشتراك. ROI = الصافي ÷ تكلفة الاشتراك × 100. لا نسبة ROI للخطط المجانية."
@@ -436,7 +440,7 @@
               {
                 "id": "units",
                 "label": "مسارات تعارف شهريا",
-                "help": "العمل المتوقع مراجعته في شهر، ضمن الحصة المشمولة.",
+                "help": "تفترض التوقعات استخدام الحصة الشهرية المشمولة. تزيد مستويات الخطط المقترحة الأعلى القدرة والسعر معًا.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -446,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "الدقائق الموفرة",
-                "help": "تقديرك بعد التحقق والموافقة وأي إعادة للعمل. القيم السالبة تعني جهدا إضافيا.",
-                "defaultValue": null,
+                "help": "توقع ثابت بعد احتساب التحضير والتحقق والموافقة وإعادة العمل؛ وليس وفرًا مقاسًا.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -456,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "قيمة الساعة",
-                "help": "تقييمك الاختياري الخاص. ليس وعدا بتوفير نقدي أو خفض للراتب.",
-                "defaultValue": null,
+                "help": "تقييم مرجعي ثابت لقدرة العمل المستعادة؛ وليس نقدًا مستلمًا أو خفضًا للراتب.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -471,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "4 مسارات تعارف",
-              "extras": "الاستخدام الإضافي والخدمات المهنية بأسعار منفصلة."
+              "extras": "الاستخدام الإضافي والخدمات المهنية بأسعار منفصلة.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "مجاني · 1 رحلة تعارف"
+              },
+              "trialDays": 7,
+              "trialLabel": "تجربة لمدة 7 أيام · ثم السعر الشهري"
             },
             "assumptions": [
-              "لا نفترض توفيرا صافيا للوقت. أدخل تقديرك.",
-              "صافي الدقائق يشمل مراجعة العميل. تحدد أنت القيمة النقدية للوقت؛ وهي ليست نقدا تتلقاه."
+              "مراجعة التوقعات 2026-10-13. استخدام كامل للحصة المشمولة، وعمل متاح، وسيناريو قدرة خطي 1×/2×/3×؛ لا ضمان لطلب إضافي.",
+              "تقدير وقت المهمة المُعدّ: 60 دقيقة عمل يدوي مقابل 48 دقيقة عمل بشري بمساعدة لكل وحدة عمل، تشمل التحقق والموافقة وإعادة العمل. صافي الوقت البالغ 12 دقيقة (20%) سيناريو، وليس أداءً مرصودًا لهذه الشخصية.",
+              "يستند سيناريو تقليل الوقت بنسبة 20% إلى أبحاث حول المهام المعرفية بمساعدة الذكاء الاصطناعي. لا تثبت نتائجها تحقيق وفر لهذه الشخصية أو لكل مهمة: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "يُقيّم الوقت الشخصي بمبلغ €14.99/ساعة، باستخدام الحد الأدنى الهولندي للأجر الإجمالي للبالغين الساري في يوليو 2026 كمرجع توضيحي فقط. ليس قياسًا للاستعداد للدفع أو تقديرًا دوليًا للأجور: https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "جميع الأرقام توقعات. لا تشمل جهد الإعداد ووقت التعلم وأي خدمات إضافية؛ وقد تكون العوائد الصافية الفعلية أقل أو سالبة. لا تُحتسب قيمة نقدية لأي بيع أو توظيف أو تمويل أو نتيجة تعليمية أو اجتماعية.",
+              "يتجدد الوصول المجاني شهريًا بالحصة الأساسية المعروضة. لا يشمل الوسائط المميزة أو عمليات التكامل أو الاستخدام الإضافي. تتضمن الخطط المدفوعة تجربة لمدة سبعة أيام؛ ويقتصر استخدامها على حصة مجانية أساسية واحدة، لا حصة شهرية كاملة إضافية. الأسعار المعروضة هي الأسعار المتكررة بعد التجربة. هذه مقترحات عروض مُعدّة؛ ولا تمنح الحاسبة استحقاقات أو تغيّر الفوترة."
             ],
             "loop": "توافق تفضيلات بالغين وتفرغهم ← التحضير لتعارف ← موافقة البالغين ← تسجيل اللقاءات المؤكدة من الطرفين.",
             "ctaLabel": "جرّب العرض",
@@ -1483,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1872,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1982,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2072,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2102,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2169,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2195,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2221,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2266,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2281,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

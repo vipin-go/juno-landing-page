@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "sv",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -310,7 +314,7 @@
       "enabled": true,
       "kicker": "AI-ekonomi",
       "heading": "Priser och ROI",
-      "subheading": "Dina värden. Din väntade avkastning.",
+      "subheading": "Välj ett abonnemang. Se din prognos.",
       "disclaimer": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -398,7 +402,7 @@
         "copy": {
           "navLabel": "Prissättning",
           "heading": "Priser och ROI",
-          "intro": "Dina värden. Din väntade avkastning.",
+          "intro": "Välj ett abonnemang. Se din prognos.",
           "monthly": "Månad",
           "weekly": "Vecka",
           "daily": "Dag",
@@ -409,7 +413,7 @@
           "timeBenefit": "Uppskattat tidsvärde",
           "timeRoi": "Tidsvärdes-ROI",
           "timeBack": "Återvunna timmar",
-          "missing": "Ange dina värden",
+          "missing": "Prognosen är inte tillgänglig",
           "noRatio": "Not applicable",
           "method": "Så beräknas det",
           "reset": "Nolla",
@@ -418,10 +422,10 @@
           "excludedVat": "Exklusive VAT",
           "perMonth": "per månad",
           "equivalents": "Faktureras månadsvis. Dags- och veckotal är snitt, inte dags- eller veckoavgifter eller garanterad avkastning.",
-          "timeNote": "Tidsvärdet är ditt valfria estimat, inte mottagna pengar eller sänkt lön. Nettominuterna inkluderar din tid för kontroll och godkännande.",
+          "timeNote": "Prognosens tidsvärde är frigjord kapacitet, inte utbetalda pengar eller sänkta lönekostnader. Nettominuterna inkluderar granskning och godkännande.",
           "estimateNote": "Planeringsestimat är skilda från uppmätt ROI. Bara godtagna utfall och jämförbara bokförda kostnader stöder uppmätt avkastning.",
           "limitNote": "Kontakta oss för mer användning eller separat offert. Kalkylen gäller endast det som ingår i planen.",
-          "timeFormula": "Tidsvärde = enheter × sparade nettominuter ÷ 60 × ditt timvärde.",
+          "timeFormula": "Prognosens tidsvärde = inkluderat arbete × fasta frigjorda nettominuter ÷ 60 × referensvärde per timme.",
           "profitFormula": "Täckningsbidrag = kvalificerade rekommendationstillfällen × konverteringsökning ÷ 100 × vinst per extra order.",
           "proceedsFormula": "Merintäkter = partier eller hämtningar × (nettointäkt efter − nettointäkt före).",
           "roiFormula": "Netto = nytta − appabonnemang. ROI = netto ÷ appabonnemang × 100. Gratisplaner saknar ROI-procent."
@@ -436,7 +440,7 @@
               {
                 "id": "units",
                 "label": "Kontaktprocesser per månad",
-                "help": "Arbete du tänker granska under en månad, inom den inkluderade kvoten.",
+                "help": "Prognosen förutsätter att den inkluderade månadskvoten används. Högre föreslagna nivåer ökar både kapacitet och pris.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -446,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Sparade minuter",
-                "help": "Ditt estimat efter kontroll, godkännande och omarbete. Negativa värden betyder extra arbete.",
-                "defaultValue": null,
+                "help": "Fast prognos efter förberedelse, granskning, godkännande och omarbete; ingen uppmätt besparing.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -456,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "Timvärde",
-                "help": "Din egen valfria värdering. Ingen utlovad kontantbesparing eller löneminskning.",
-                "defaultValue": null,
+                "help": "Fast referensvärdering av frigjord kapacitet; inte utbetalda pengar eller sänkt lön.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -471,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "4 kontaktprocesser",
-              "extras": "Extra användning och experttjänster offereras separat."
+              "extras": "Extra användning och experttjänster offereras separat.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Gratis · 1 introduktionsresa"
+              },
+              "trialDays": 7,
+              "trialLabel": "7 dagars provperiod · därefter månadspris"
             },
             "assumptions": [
-              "Ingen nettotidsvinst antas. Ange din egen uppskattning.",
-              "Nettominuterna inkluderar kundens granskning. Du anger tidsvärdet i pengar; det är inte mottagna pengar."
+              "Prognosversion 2026-10-13. Full användning av inkluderad kvot, tillgängligt arbete och ett linjärt kapacitetsscenario på 1×/2×/3×; ingen extra efterfrågan garanteras.",
+              "Antagen tidsbudget: 60 manuella minuter jämfört med 48 minuter mänskligt arbete med assistans per arbetsenhet, inklusive granskning, godkännande och omarbete. De 12 nettominuterna (20%) är ett scenario, inte observerad prestation för personan.",
+              "Scenariot med 20% kortare arbetstid bygger på forskning om AI-assisterat kunskapsarbete. Resultaten fastställer inga besparingar för denna persona eller varje uppgift: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Privat tid värderas till €14.99/timme, med Nederländernas bruttominimilön för vuxna från juli 2026 enbart som illustrativ referens. Det är ingen uppmätt betalningsvilja eller internationell löneuppskattning: https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "Alla siffror är prognoser. Startarbete, inlärningstid och eventuella tilläggstjänster ingår inte; det faktiska nettoutbytet kan bli lägre eller negativt. Försäljning, tillsättningar, finansiering, läranderesultat och sociala utfall ges inget penningvärde.",
+              "Gratisåtkomsten förnyas varje månad med den visade baskvoten. Premiummedia, integrationer och extra användning ingår inte. Betalnivåer har sju dagars provperiod; användningen under provperioden begränsas till en baskvot för gratisnivån, inte en extra hel månadskvot. Priserna som visas är återkommande priser efter provperioden. Detta är utformade erbjudandeförslag; kalkylatorn tilldelar inte åtkomsträttigheter eller ändrar fakturering."
             ],
             "loop": "Vuxnas önskemål och lediga tider matchar → förbered kontakt → de vuxna samtycker → registrera ömsesidigt bekräftade möten.",
             "ctaLabel": "Testa demon",
@@ -1483,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1872,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1982,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2072,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2102,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2169,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2195,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2221,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2266,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2281,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

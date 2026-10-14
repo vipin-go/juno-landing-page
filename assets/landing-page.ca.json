@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "ca",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -73,6 +77,7 @@
     },
     "badge": "Intermediació feta amb cura",
     "headline": "Introduccions reals",
+    "headlineAccent": "Introduccions reals",
     "headlineLine2": "Una persona a la vegada",
     "subheadline": "Parleu amb en Juno com ho faríeu amb un amic brillant. Ell aprendrà què és important, farà una introducció acurada i només us connectarà quan ambdós digueu que sí.",
     "ctaLabel": "Parleu amb en Juno",
@@ -174,6 +179,7 @@
       "icon": "envelope",
       "kicker": "Com passa la màgia",
       "heading": "De \"explica'm sobre tu\" a \"quan podem reunir-nos?\"",
+      "headingAccent": "De \"explica'm sobre tu\" a \"quan podem reunir-nos?\"",
       "steps": [
         {
           "icon": "chat",
@@ -308,7 +314,7 @@
       "enabled": true,
       "kicker": "Economia de la IA",
       "heading": "Preus i ROI",
-      "subheading": "Les teves dades. El retorn estimat.",
+      "subheading": "Tria un pla. Consulta la previsió.",
       "disclaimer": "Estimar no és mesurar el ROI. Només els resultats acceptats i els costos registrats comparables avalen els retorns mesurats.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -396,7 +402,7 @@
         "copy": {
           "navLabel": "Preus",
           "heading": "Preus i ROI",
-          "intro": "Les teves dades. El retorn estimat.",
+          "intro": "Tria un pla. Consulta la previsió.",
           "monthly": "Mes",
           "weekly": "Setm.",
           "daily": "Dia",
@@ -407,7 +413,7 @@
           "timeBenefit": "Valor estimat de temps",
           "timeRoi": "ROI del temps",
           "timeBack": "Hores guanyades",
-          "missing": "Afegeix les dades",
+          "missing": "Previsió no disponible",
           "noRatio": "Not applicable",
           "method": "Com es calcula",
           "reset": "Reinici",
@@ -416,10 +422,10 @@
           "excludedVat": "IVA exclòs",
           "perMonth": "al mes",
           "equivalents": "Cobrament mensual. Les xifres diàries i setmanals són mitjanes, no cobraments ni retorns garantits.",
-          "timeNote": "El valor del temps és una estimació opcional, no diners rebuts ni estalvi salarial. Els minuts nets inclouen la revisió i aprovació.",
+          "timeNote": "El valor previst del temps és capacitat recuperada, no diners rebuts ni una reducció de la despesa salarial. Els minuts nets inclouen la revisió i l'aprovació.",
           "estimateNote": "Estimar no és mesurar el ROI. Només els resultats acceptats i els costos registrats comparables avalen els retorns mesurats.",
           "limitNote": "Per a més ús o feines amb pressupost a part, contacta'ns. L'estimació només cobreix el pla inclòs.",
-          "timeFormula": "Valor del temps = unitats × minuts nets estalviats ÷ 60 × valor/hora.",
+          "timeFormula": "Valor previst del temps = feina inclosa × minuts nets fixos recuperats ÷ 60 × valor horari de referència.",
           "profitFormula": "Marge = sessions de recomanació aptes × augment de conversió ÷ 100 × benefici per comanda addicional.",
           "proceedsFormula": "Ingressos addicionals = lots o recollides × (ingressos nets posteriors − ingressos nets previs).",
           "roiFormula": "Net = benefici − quota de l'app. ROI = net ÷ quota de l'app × 100. Els plans gratuïts no tenen percentatge de ROI."
@@ -434,7 +440,7 @@
               {
                 "id": "units",
                 "label": "Processos de presentació al mes",
-                "help": "Feina que preveus revisar en un mes, dins del límit inclòs.",
+                "help": "La previsió assumeix que s'utilitza tota la quota mensual inclosa. Els nivells superiors proposats augmenten alhora la capacitat i el preu.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -444,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Minuts guanyats",
-                "help": "Estimació després de revisar, aprovar i corregir. Els valors negatius indiquen esforç addicional.",
-                "defaultValue": null,
+                "help": "Previsió fixa un cop descomptades la preparació, la revisió, l'aprovació i les correccions; no és un estalvi mesurat.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -454,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "Valor per hora",
-                "help": "Valoració pròpia opcional. No és cap promesa d'estalvi en efectiu ni de reducció salarial.",
-                "defaultValue": null,
+                "help": "Valoració fixa de referència de la capacitat recuperada; no són diners rebuts ni una reducció salarial.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -469,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "4 rutes d’introducció",
-              "extras": "L'ús extra i els serveis professionals es pressuposten a part."
+              "extras": "L'ús extra i els serveis professionals es pressuposten a part.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Gratuït · 1 itinerari de presentació"
+              },
+              "trialDays": 7,
+              "trialLabel": "Prova de 7 dies · després, preu mensual"
             },
             "assumptions": [
-              "No s’assumeix estalvi net de temps. Fes la teva estimació.",
-              "Els minuts nets inclouen la revisió del client. Tu fixes el valor monetari del temps; no són diners rebuts."
+              "Revisió de la previsió: 2026-10-13. Ús íntegre de la quota inclosa, feina disponible i un escenari de capacitat lineal d'1×/2×/3×; no es garanteix demanda addicional.",
+              "Temps de tasca proposat: 60 minuts manuals davant de 48 minuts humans amb assistència per unitat de treball, incloent-hi revisió, aprovació i correccions. Els 12 minuts nets (20%) són un escenari, no un rendiment observat d'aquesta persona.",
+              "L'escenari de reducció del temps del 20% es basa en estudis sobre tasques de coneixement amb assistència d'IA. Els resultats no demostren estalvis per a aquesta persona ni per a cada tasca: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "El temps personal es valora en €14.99/hora, prenent el salari mínim brut per a adults dels Països Baixos vigent des del juliol de 2026 només com a referència il·lustrativa. No és una mesura de la disposició a pagar ni una estimació salarial internacional: https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "Totes les xifres són previsions. Se n'exclouen l'esforç de configuració, el temps d'aprenentatge i els serveis addicionals; els rendiments nets reals poden ser inferiors o negatius. No es monetitza cap venda, inserció laboral, finançament, resultat d'aprenentatge ni resultat social.",
+              "L'accés gratuït es renova mensualment amb la quota bàsica indicada. Se n'exclouen els continguts multimèdia prèmium, les integracions i l'ús addicional. Els nivells de pagament tenen una prova de set dies; l'ús durant la prova es limita a una quota bàsica gratuïta, sense afegir-hi una quota mensual completa. Els preus indicats són recurrents després de la prova. Són propostes d'oferta redactades; la calculadora no activa drets d'accés ni modifica la facturació."
             ],
             "loop": "Preferències i horaris d'adults compatibles → preparar presentació → adults consenten → registrar trobades confirmades per ambdues parts.",
             "ctaLabel": "Prova la demo",
@@ -545,6 +561,13 @@
         "headline"
       ],
       "sourceHash": "ebc1badfade0d4b691dd97660197069fcd1218396b47d75b18bb6b0b75f10933"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headlineAccent"
+      ],
+      "sourceHash": "e55fe37737b783cc821bb77a370950bb6a51dcf386ab6ee70d31808409ba412e"
     },
     {
       "path": [
@@ -940,6 +963,14 @@
         "heading"
       ],
       "sourceHash": "0f250cca19fc140e024b168f5bd7f9bfc666403f3f126a675b4ba7f1889e440c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "headingAccent"
+      ],
+      "sourceHash": "8fa972ef469c24d3405883d861b31d4c909cdfb23d9edc2f3e09e6e1e7cf75be"
     },
     {
       "path": [
@@ -1466,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1855,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1965,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2055,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2085,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2152,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2178,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2204,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2249,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2264,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

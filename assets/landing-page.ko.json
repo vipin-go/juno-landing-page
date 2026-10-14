@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "ko",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -73,6 +77,7 @@
     },
     "badge": "매치메이킹, 신중하게 완료",
     "headline": "실제 소개",
+    "headlineAccent": "실제 소개",
     "headlineLine2": "한 번에 한 사람",
     "subheadline": "당신이 훌륭한 친구처럼 Juno에게 이야기하십시오. 그는 중요한 것을 배우고, 사려 깊은 소개를 하고, 둘 다 예라고 말할 때만 당신을 연결할 것입니다.",
     "ctaLabel": "주노와 대화하십시오",
@@ -110,6 +115,7 @@
     "gallery": {
       "icon": "users",
       "heading": "데이트 앱은 당신에게 모든 사람을 주었습니다. Juno가 누군가를 소개합니다.",
+      "headingAccent": "데이트 앱은 당신에게 모든 사람을 주었습니다. Juno가 누군가를 소개합니다.",
       "body": "그는 이력서에 담을 수 없는 세부 사항, 원하는 삶의 속도, 당신을 웃게 만드는 것, 그리고 함께 나누고 싶은 평범한 화요일을 배웁니다.",
       "items": [
         {
@@ -173,6 +179,7 @@
       "icon": "envelope",
       "kicker": "마법이 어떻게 일어나는지",
       "heading": "\"당신에 대해 말해주세요\"에서 \"언제 만날 수 있나요?\"까지",
+      "headingAccent": "\"당신에 대해 말해주세요\"에서 \"언제 만날 수 있나요?\"까지",
       "steps": [
         {
           "icon": "chat",
@@ -307,7 +314,7 @@
       "enabled": true,
       "kicker": "AI 경제학",
       "heading": "요금 및 ROI",
-      "subheading": "직접 입력하고 예상 수익을 확인하세요.",
+      "subheading": "요금제를 선택하고 예상치를 확인하세요.",
       "disclaimer": "계획 추정치는 측정된 ROI와 별개예요. 승인된 결과와 비교 가능한 기록 비용만 측정 수익의 근거가 돼요.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -395,7 +402,7 @@
         "copy": {
           "navLabel": "가격",
           "heading": "요금 및 ROI",
-          "intro": "직접 입력하고 예상 수익을 확인하세요.",
+          "intro": "요금제를 선택하고 예상치를 확인하세요.",
           "monthly": "월",
           "weekly": "주",
           "daily": "일",
@@ -406,7 +413,7 @@
           "timeBenefit": "예상 시간 가치",
           "timeRoi": "시간 가치 ROI",
           "timeBack": "확보된 시간",
-          "missing": "값 입력",
+          "missing": "예상치 제공 불가",
           "noRatio": "Not applicable",
           "method": "계산 방법",
           "reset": "초기화",
@@ -415,10 +422,10 @@
           "excludedVat": "VAT 별도",
           "perMonth": "월 기준",
           "equivalents": "매월 청구돼요. 일·주 단위 수치는 평균이며, 일·주 단위 요금이나 보장 수익이 아니에요.",
-          "timeNote": "시간 가치는 선택적으로 입력하는 추정치이며, 실제 수입이나 인건비 절감액이 아니에요. 순시간에는 확인·승인 시간도 반영돼요.",
+          "timeNote": "예상 시간 가치는 확보되는 여유 역량이며, 현금 수입이나 인건비 절감액이 아닙니다. 순절약 시간에는 검토와 승인 시간이 반영됩니다.",
           "estimateNote": "계획 추정치는 측정된 ROI와 별개예요. 승인된 결과와 비교 가능한 기록 비용만 측정 수익의 근거가 돼요.",
           "limitNote": "추가 사용이나 별도 견적 작업은 문의하세요. 이 추정치는 포함된 요금제에만 적용돼요.",
-          "timeFormula": "시간 가치 = 단위 수 × 순절약 시간(분) ÷ 60 × 시간당 가치.",
+          "timeFormula": "예상 시간 가치 = 포함 작업량 × 고정 순절약 시간(분) ÷ 60 × 기준 시간당 가치.",
           "profitFormula": "공헌이익 = 적격 추천 세션 수 × 전환율 증가분 ÷ 100 × 추가 주문당 이익.",
           "proceedsFormula": "추가 수익 = 물량 또는 수거 건수 × (이후 순수익 − 이전 순수익).",
           "roiFormula": "순편익 = 편익 − 앱 구독 비용. ROI = 순편익 ÷ 앱 구독 비용 × 100. 무료 요금제에는 ROI 비율이 없어요."
@@ -433,7 +440,7 @@
               {
                 "id": "units",
                 "label": "월간 소개 진행 건수",
-                "help": "포함된 한도 내에서 한 달 동안 검토할 것으로 예상하는 작업량이에요.",
+                "help": "예상치는 포함된 월간 제공량을 모두 사용한다고 가정합니다. 제안된 상위 요금제는 처리량과 가격이 함께 증가합니다.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -443,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "절약 시간(분)",
-                "help": "확인, 승인, 재작업을 반영한 추정치예요. 음수는 추가 노력을 뜻해요.",
-                "defaultValue": null,
+                "help": "준비, 검토, 승인, 재작업을 반영한 고정 예상치이며, 측정된 절감량이 아닙니다.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -453,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "시간당 가치",
-                "help": "직접 입력하는 선택적 평가액이에요. 현금 절약이나 급여 절감의 약속이 아니에요.",
-                "defaultValue": null,
+                "help": "확보되는 여유 역량에 적용한 고정 기준 가치이며, 현금 수입이나 급여 절감액이 아닙니다.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -468,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "소개 진행 4건",
-              "extras": "추가 사용량과 전문 서비스는 별도 견적입니다."
+              "extras": "추가 사용량과 전문 서비스는 별도 견적입니다.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "무료 · 소개 여정 1회"
+              },
+              "trialDays": 7,
+              "trialLabel": "7일 체험 · 이후 월 요금 적용"
             },
             "assumptions": [
-              "순시간 절약을 가정하지 않아요. 직접 추정치를 입력하세요.",
-              "순시간에는 고객 검토도 반영돼요. 시간의 금전적 가치는 직접 입력하며 실제 수입이 아니에요."
+              "예상치 개정일 2026-10-13. 포함 제공량의 전량 사용, 수행 가능한 작업, 선형 1×/2×/3× 처리량 시나리오를 가정하며, 추가 수요는 보장되지 않습니다.",
+              "설정된 작업 소요 시간: 작업 단위당 수작업 60분, 보조 도구 사용 시 사람의 작업 48분이며 검토, 승인, 재작업을 포함합니다. 순절약 시간 12분(20%)은 시나리오이며, 관측된 페르소나 성과가 아닙니다.",
+              "20% 시간 단축 시나리오는 AI 보조 지식 작업 연구를 참고했습니다. 이 연구 결과가 해당 페르소나나 모든 작업의 시간 절감을 입증하지는 않습니다: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "개인 시간의 가치는 €14.99/시간으로 산정하며, 2026년 7월 시행된 네덜란드 성인 세전 최저임금을 예시 기준으로만 사용합니다. 측정된 지불 의향이나 국제 임금 추정치가 아닙니다: https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "모든 수치는 예상치입니다. 설정 작업, 학습 시간, 추가 서비스는 제외되며 실제 순편익은 더 낮거나 음수일 수 있습니다. 판매, 취업 알선, 자금 조달, 학습 결과, 사회적 성과는 금전 가치로 환산하지 않습니다.",
+              "무료 이용은 표시된 기본 제공량으로 매월 갱신됩니다. 프리미엄 미디어, 연동, 추가 사용량은 제외됩니다. 유료 요금제에는 7일 체험이 제공되며, 체험 한도는 기본 무료 제공량 1회분입니다. 월간 제공량 전체가 추가로 제공되지는 않습니다. 표시 가격은 체험 후 적용되는 정기 요금입니다. 이는 작성된 상품 제안이며, 계산기는 이용 권한을 부여하거나 청구를 변경하지 않습니다."
             ],
             "loop": "성인 간 선호 및 일정 일치 → 소개 준비 → 성인 당사자 동의 → 상호 확인된 만남 기록",
             "ctaLabel": "데모 체험",
@@ -544,6 +561,13 @@
         "headline"
       ],
       "sourceHash": "ebc1badfade0d4b691dd97660197069fcd1218396b47d75b18bb6b0b75f10933"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headlineAccent"
+      ],
+      "sourceHash": "e55fe37737b783cc821bb77a370950bb6a51dcf386ab6ee70d31808409ba412e"
     },
     {
       "path": [
@@ -682,6 +706,14 @@
         "heading"
       ],
       "sourceHash": "920975628b0fb640da49680eee2ec12ba3804920884af7ca5b5af09ce5a2e17a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "headingAccent"
+      ],
+      "sourceHash": "d5e508cf155b335cb5fc4fe9a6543cf8b154248071fa280cce812c19b668b308"
     },
     {
       "path": [
@@ -931,6 +963,14 @@
         "heading"
       ],
       "sourceHash": "0f250cca19fc140e024b168f5bd7f9bfc666403f3f126a675b4ba7f1889e440c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "headingAccent"
+      ],
+      "sourceHash": "8fa972ef469c24d3405883d861b31d4c909cdfb23d9edc2f3e09e6e1e7cf75be"
     },
     {
       "path": [
@@ -1457,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1846,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1956,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2046,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2076,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2143,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2169,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2195,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2240,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2255,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [

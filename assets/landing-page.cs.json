@@ -2,8 +2,12 @@
   "schemaVersion": 2,
   "language": "cs",
   "regionKey": null,
-  "sourceRevision": "b17467f10b03c117a0189dd94d0fefa9e2d2695d340a4a76b391c613a98f3184",
+  "sourceRevision": "a8df4dd86f059de491ea755ccd7f54ef1dae28fb114c48c2de7f431b9fbc0f02",
   "landingPage": {
+    "capabilityPreview": {
+      "enabled": true,
+      "commandId": "register"
+    },
     "design": {
       "variant": "signature",
       "defaultThemeMode": "light",
@@ -73,6 +77,7 @@
     },
     "badge": "Matchmaking, provedeno promyšleně",
     "headline": "Skutečné úvody",
+    "headlineAccent": "Skutečné úvody",
     "headlineLine2": "Jedna osoba po druhé",
     "subheadline": "Mluvte s Juno jako skvělý přítel. Naučí se, na čem záleží, udělá jeden promyšlený úvod a spojí vás pouze tehdy, když oba řeknete ano.",
     "ctaLabel": "Promluvte si s Juno",
@@ -110,6 +115,7 @@
     "gallery": {
       "icon": "users",
       "heading": "Seznamovací aplikace vám daly všechny. Juno vás s někým seznámí.",
+      "headingAccent": "Seznamovací aplikace vám daly všechny. Juno vás s někým seznámí.",
       "body": "Pozná detaily, které se nikdy nevejdou do životopisu, tempo života, které si přejete, co vás rozesměje a obyčejné úterý, které doufáte sdílet.",
       "items": [
         {
@@ -173,6 +179,7 @@
       "icon": "envelope",
       "kicker": "Jak se kouzlo děje",
       "heading": "Od \"Řekni mi o sobě\" po \"Kdy se můžeme potkat?\"",
+      "headingAccent": "Od \"Řekni mi o sobě\" po \"Kdy se můžeme potkat?\"",
       "steps": [
         {
           "icon": "chat",
@@ -307,7 +314,7 @@
       "enabled": true,
       "kicker": "Ekonomika AI",
       "heading": "Ceny a ROI",
-      "subheading": "Vaše údaje. Váš odhadovaný výnos.",
+      "subheading": "Vyberte si tarif. Zobrazte si prognózu.",
       "disclaimer": "Plánovací odhady nejsou měřené ROI. Měřenou návratnost dokládají jen přijaté výsledky a srovnatelné zaznamenané náklady.",
       "currency": "EUR",
       "locale": "en-GB",
@@ -395,7 +402,7 @@
         "copy": {
           "navLabel": "Ceny",
           "heading": "Ceny a ROI",
-          "intro": "Vaše údaje. Váš odhadovaný výnos.",
+          "intro": "Vyberte si tarif. Zobrazte si prognózu.",
           "monthly": "Měsíc",
           "weekly": "Týden",
           "daily": "Den",
@@ -406,7 +413,7 @@
           "timeBenefit": "Odhad hodnoty času",
           "timeRoi": "ROI hodnoty času",
           "timeBack": "Ušetřené hodiny",
-          "missing": "Zadejte údaje",
+          "missing": "Prognóza není dostupná",
           "noRatio": "Not applicable",
           "method": "Způsob výpočtu",
           "reset": "Obnovit",
@@ -415,10 +422,10 @@
           "excludedVat": "Bez DPH",
           "perMonth": "měsíčně",
           "equivalents": "Účtováno měsíčně. Denní a týdenní údaje jsou průměry, ne poplatky za den či týden ani zaručené výnosy.",
-          "timeNote": "Hodnota času je váš volitelný odhad, ne příjem ani úspora mezd. Čisté minuty zahrnují i čas na kontrolu a schválení.",
+          "timeNote": "Hodnota času v prognóze představuje uvolněnou kapacitu, nikoli příjem peněz či snížení mzdových nákladů. Čisté minuty zohledňují kontrolu a schvalování.",
           "estimateNote": "Plánovací odhady nejsou měřené ROI. Měřenou návratnost dokládají jen přijaté výsledky a srovnatelné zaznamenané náklady.",
           "limitNote": "Pro vyšší využití či zvlášť naceněné práce nás kontaktujte. Odhad platí jen pro zahrnutý tarif.",
-          "timeFormula": "Hodnota času = jednotky × čisté ušetřené minuty ÷ 60 × hodnota hodiny.",
+          "timeFormula": "Hodnota času v prognóze = zahrnutý objem práce × pevný počet čistých ušetřených minut ÷ 60 × referenční hodinová hodnota.",
           "profitFormula": "Příspěvek na zisk = způsobilé relace doporučení × nárůst konverze ÷ 100 × zisk z objednávky navíc.",
           "proceedsFormula": "Přírůstek výnosu = dávky či svozy × (čistý výnos poté − čistý výnos předtím).",
           "roiFormula": "Čistý přínos = přínos − předplatné. ROI = čistý přínos ÷ předplatné × 100. Bezplatné tarify nemají procentní ROI."
@@ -433,7 +440,7 @@
               {
                 "id": "units",
                 "label": "Seznamovací procesy za měsíc",
-                "help": "Práce, kterou za měsíc hodláte zkontrolovat v rámci zahrnutého limitu.",
+                "help": "Prognóza předpokládá využití zahrnutého měsíčního limitu. Vyšší navržené tarify zvyšují kapacitu i cenu.",
                 "defaultValue": 4,
                 "min": 0,
                 "max": 4,
@@ -443,8 +450,8 @@
               {
                 "id": "minutes_saved",
                 "label": "Ušetřené minuty",
-                "help": "Váš odhad po kontrole, schválení a úpravách. Záporné hodnoty znamenají práci navíc.",
-                "defaultValue": null,
+                "help": "Pevná prognóza po započtení přípravy, kontroly, schvalování a přepracování; nejde o naměřenou úsporu.",
+                "defaultValue": 12,
                 "min": -1440,
                 "max": 1440,
                 "step": 0.1,
@@ -453,8 +460,8 @@
               {
                 "id": "hourly_value",
                 "label": "Hodinová sazba",
-                "help": "Vaše vlastní volitelné ocenění. Nejde o slíbenou finanční úsporu ani snížení mezd.",
-                "defaultValue": null,
+                "help": "Pevné referenční ocenění uvolněné kapacity; nejde o příjem peněz ani snížení mzdy.",
+                "defaultValue": 14.99,
                 "min": 0,
                 "max": 1000,
                 "step": 0.01,
@@ -468,11 +475,21 @@
               "vatIncluded": true,
               "includedUnits": 4,
               "allowance": "4 seznamovací procesy",
-              "extras": "Vyšší využití a odborné služby se naceňují zvlášť."
+              "extras": "Vyšší využití a odborné služby se naceňují zvlášť.",
+              "free": {
+                "includedUnits": 1,
+                "allowance": "Zdarma · 1 proces seznámení"
+              },
+              "trialDays": 7,
+              "trialLabel": "Zkouška na 7 dní · poté měsíční cena"
             },
             "assumptions": [
-              "Čistou úsporu času nepředpokládáme. Zadejte vlastní odhad.",
-              "Čisté minuty zahrnují kontrolu zákazníkem. Peněžní hodnotu času určujete vy; nejde o skutečný příjem."
+              "Revize prognózy 2026-10-13. Plné využití zahrnutého limitu, dostupná práce a lineární scénář kapacity 1×/2×/3×; vyšší poptávka není zaručena.",
+              "Navržený časový rozpočet: 60 minut ruční práce oproti 48 minutám lidské práce s asistencí na jednotku práce, včetně kontroly, schvalování a přepracování. Čistá úspora 12 minut (20%) je scénář, nikoli pozorovaný výkon persony.",
+              "Scénář zkrácení času o 20% vychází z výzkumu znalostních úloh s asistencí AI. Jeho výsledky nedokládají úspory u této persony ani u každé úlohy: https://aiinstitute.hbs.edu/navigating-the-jagged-technological-frontier/",
+              "Osobní čas je oceněn na €14.99 za hodinu; pouze jako ilustrativní reference slouží nizozemská hrubá minimální mzda pro dospělé platná od července 2026. Nejde o naměřenou ochotu platit ani mezinárodní odhad mezd: https://www.government.nl/themes/work/minimum-wage/minimum-wage-amounts",
+              "Všechny údaje jsou prognózy. Nezahrnují úsilí na nastavení, čas na osvojení ani další služby; skutečné čisté přínosy mohou být nižší či záporné. Prodej, obsazení pozic, financování ani vzdělávací či společenské výsledky nejsou peněžně oceňovány.",
+              "Bezplatný přístup se obnovuje měsíčně s uvedeným základním limitem. Nezahrnuje prémiová média, integrace ani využití nad limit. Placené tarify mají sedmidenní zkušební dobu; využití během ní je omezeno na jeden základní bezplatný limit, nikoli další plný měsíční limit. Uvedené ceny jsou opakované platby po zkušební době. Jde o autorské návrhy nabídek; kalkulačka nepřiděluje oprávnění ani nemění fakturaci."
             ],
             "loop": "Soulad preferencí a času dospělých → příprava seznámení → souhlas dospělých → záznam oboustranně potvrzených schůzek.",
             "ctaLabel": "Vyzkoušet demo",
@@ -544,6 +561,13 @@
         "headline"
       ],
       "sourceHash": "ebc1badfade0d4b691dd97660197069fcd1218396b47d75b18bb6b0b75f10933"
+    },
+    {
+      "path": [
+        "landingPage",
+        "headlineAccent"
+      ],
+      "sourceHash": "e55fe37737b783cc821bb77a370950bb6a51dcf386ab6ee70d31808409ba412e"
     },
     {
       "path": [
@@ -682,6 +706,14 @@
         "heading"
       ],
       "sourceHash": "920975628b0fb640da49680eee2ec12ba3804920884af7ca5b5af09ce5a2e17a"
+    },
+    {
+      "path": [
+        "landingPage",
+        "gallery",
+        "headingAccent"
+      ],
+      "sourceHash": "d5e508cf155b335cb5fc4fe9a6543cf8b154248071fa280cce812c19b668b308"
     },
     {
       "path": [
@@ -931,6 +963,14 @@
         "heading"
       ],
       "sourceHash": "0f250cca19fc140e024b168f5bd7f9bfc666403f3f126a675b4ba7f1889e440c"
+    },
+    {
+      "path": [
+        "landingPage",
+        "howItWorks",
+        "headingAccent"
+      ],
+      "sourceHash": "8fa972ef469c24d3405883d861b31d4c909cdfb23d9edc2f3e09e6e1e7cf75be"
     },
     {
       "path": [
@@ -1457,7 +1497,7 @@
         "roiCalculator",
         "subheading"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1846,7 +1886,7 @@
         "copy",
         "intro"
       ],
-      "sourceHash": "22fd8ffe8dbddd46f41fb690f262f66466bb343bae0b359e4c64dfd2f2f127a5"
+      "sourceHash": "7e0335f15435324d6c9561bc41d72ac01fac940e282a3812a2a08f88ca4dd0d8"
     },
     {
       "path": [
@@ -1956,7 +1996,7 @@
         "copy",
         "missing"
       ],
-      "sourceHash": "4b11bc702fcdb172c2f88f4af465a9d05ac206b7f7e6304fcded04eb92cccde6"
+      "sourceHash": "31f441cdeb7260c189ff3872cc0cf5eafa1389efb13fdc53bd705ae8851f9e24"
     },
     {
       "path": [
@@ -2046,7 +2086,7 @@
         "copy",
         "timeNote"
       ],
-      "sourceHash": "d7c17f23c52c1d9cf5be7fcb5a537017a0a09529bfde38e6b692afa2ecbf453f"
+      "sourceHash": "b2b5695beb66ae51219045b8b89a8c8203c74f556f2b14252fb6b3f4f201d4c7"
     },
     {
       "path": [
@@ -2076,7 +2116,7 @@
         "copy",
         "timeFormula"
       ],
-      "sourceHash": "4cf3d8fcb0fa4b9c36d9869e709ba0cbabcd41083c7ff8cf77e9fe32066eacdb"
+      "sourceHash": "7a72bb01ee78a5c39b77c2529b7e8a7cc72544f4034c6b52caa8cbcffc9d487d"
     },
     {
       "path": [
@@ -2143,7 +2183,7 @@
         0,
         "help"
       ],
-      "sourceHash": "a8cff02d43e6c0371644e73ec0de532d8ac6ae2eb169301a6e3605e3cb010ab0"
+      "sourceHash": "6081b0b981fb170b4a06ecb33199787e85f172ff8e778e8aec6b3241045cc6ff"
     },
     {
       "path": [
@@ -2169,7 +2209,7 @@
         1,
         "help"
       ],
-      "sourceHash": "d99a99ab817eea4a3a70ded599d0744a02fe8de95ab0b7c6a0fc9d5cb72c400d"
+      "sourceHash": "7c28dd88f074ddbd0a8b4aa2f439957660aa7eac68736cfe1b2a65e27204ee93"
     },
     {
       "path": [
@@ -2195,7 +2235,7 @@
         2,
         "help"
       ],
-      "sourceHash": "310e52c988a868b67de05d75913bc83fea7f2ff3d06b15cb07adf6c22d1f94f1"
+      "sourceHash": "33750d80c52f18680269d5e6b913abeb0f2a0f1a550c24e09a031f8732097c97"
     },
     {
       "path": [
@@ -2240,10 +2280,35 @@
         "compact",
         "profiles",
         0,
+        "offer",
+        "free",
+        "allowance"
+      ],
+      "sourceHash": "3250c92532400e384d51b0d685ec6915e0814a1b7b05b6fd6ead3cbd7b3fe010"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "offer",
+        "trialLabel"
+      ],
+      "sourceHash": "baa96265c9efe648589a6be0a7e489d2afb6ce4aeab71ffc2e67b53cefcdb97b"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
         "assumptions",
         0
       ],
-      "sourceHash": "896a22a861f33f7e15e23cdebec8ca253a8547f0e2003b7fd55d97f166feb529"
+      "sourceHash": "fda1ac9a57ab4191beebef559208e63a82d97ba0a74c030f2eb4658f776a8d6d"
     },
     {
       "path": [
@@ -2255,7 +2320,55 @@
         "assumptions",
         1
       ],
-      "sourceHash": "989a9fcc887e91c895fb2d3cdee45f5d8279d36705594e66f19d87e172656e0e"
+      "sourceHash": "e8490c487803beb2a4f93e4cbea78f378407b6b86ec60ea4419b977d1aaaf0a5"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        2
+      ],
+      "sourceHash": "490d4e3b3e91d2a741133ae4ba19dc41e2444a57992c8d9ea5208eeb94e0aa07"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        3
+      ],
+      "sourceHash": "33210a0dd6d031bfaef8b406372f39077550ec19a5beebfb9f107569d93853e1"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        4
+      ],
+      "sourceHash": "5ec19ed8b04acf63c229e10b9a11a54f571fd18e6059561fb67523472a5cee50"
+    },
+    {
+      "path": [
+        "landingPage",
+        "roiCalculator",
+        "compact",
+        "profiles",
+        0,
+        "assumptions",
+        5
+      ],
+      "sourceHash": "9bbe0ab3486f8b9872cce1c65b3561bfaab7782beffd18708e43b4340813cd7d"
     },
     {
       "path": [
